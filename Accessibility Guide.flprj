@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProject Version="1" xml:lang="en-us" SourceControlBound="false" MasterToc="/Project/TOCs/AccessibilityGuide_PDF_TOC.fltoc" IncludePattern="*.*" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="true" DeleteUnreferenced="true" AutoSync="true" LastImport="2015-11-18T12:20:01.6507787-05:00">
+<CatapultProject Version="1" xml:lang="en-us" SourceControlBound="true" MasterToc="/Project/TOCs/AccessibilityGuide_PDF_TOC.fltoc" IncludePattern="*.*" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="true" DeleteUnreferenced="true" AutoSync="true" LastImport="2015-11-18T12:20:01.6507787-05:00" SourceControlDatabase="C:\Users\sspicher\Documents\Uploaded_Projects\93812Accessibility Guide\.git" SourceControlProviderType="Git" ProjectGuid="7f2fb646-5d36-417a-966a-aa1e44275766" SourceControlDatabaseRoot="C:\Users\sspicher\Documents\Uploaded_Projects\93812Accessibility Guide">
     <Files>
         <Url Source="file:///C:/Users/mmercer/Documents/My Projects/LiberaGlobal/LiberaGlobal.flprj" AbsoluteSource="file:///C:/Users/mmercer/Documents/My Projects/LiberaGlobal/LiberaGlobal.flprj" />
     </Files>
