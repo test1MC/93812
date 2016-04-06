@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="117" MadCap:lastWidth="1026">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Is Payment based on the # of Persons Served per Payment Interval?</span> – When a service is picked on an authorization where the contract is based on the number of clients served, it becomes a "Referral" (the title changes). The <span class="LIB_Bold">Account #</span>, <span class="LIB_Bold">Quantity</span>, <span class="LIB_Bold">Unit</span>, <span class="LIB_Bold">Unit Price</span>, <span class="LIB_Bold">Total Cost</span> and signature lines disappear. The <span class="LIB_Bold">Ready for Approval</span> field changes to <span class="LIB_Bold">Completed</span>. As soon as you enter the Completed date, the authorization is considered approved. If there are two services where one is based on number of clients served and the other is not, the authorization will appear as normal but the line item for the former will still not display the account and amount fields.</p>
+    </body>
+</html>

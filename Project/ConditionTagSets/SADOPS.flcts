@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    BackgroundColor="#6b8e23"
+    Name="SADOPS_Include"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#fffacd"
+    Name="SADOPS_Exclude"
+    Comment="" />
+</CatapultConditionTagSet>

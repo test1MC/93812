@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/Libera Global Content/CH00 - System Overview/00 System Navigation.htm"
+  MasterToc="/Project/TOCs/S7-45-TOC.fltoc"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  InsertMOTW="true"
+  PartialWordSearch="true"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  SearchFilterSet="/Project/Advanced/LiberaGlobalFilterSet.flsfs"
+  MasterStylesheet="/Content/Resources/Stylesheets/LiberaGlobalStyleSheet.css"
+  ConditionTagExpression="exclude[General.Hold] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

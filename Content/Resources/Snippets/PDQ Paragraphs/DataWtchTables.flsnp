@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="131" MadCap:lastWidth="1085">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Tables</span>  - This lists all data tables used by the application. If this parameter is set, the results will only include actions affecting the selected tables. You can select more than one table at a time.</p>
+        <p>This can be done in two different ways. You may manually type the name of each table, separating each name with a comma. You may also select each table name from the lookup individually. Using this second method, you will need to open the lookup each time you want to add a table to the list.</p>
+        <p>Commas will automatically be added to the list when adding more choices through the lookup.</p>
+    </body>
+</html>

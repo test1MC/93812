@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="124" MadCap:lastWidth="1054">
+    <head>
+    </head>
+    <body>
+        <MadCap:snippetBlock src="PDQ_Gen_Param.flsnp" />
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="PDQStartEndParams.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="PDQAllParamsOptional.flsnp" />
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="49" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Age</span> – Displays the <MadCap:variable name="Terminology.client_lc" />'s age as of today. The calculation is today's date minus the <span class="LIB_Bold">Date of Birth</span>.</p>
+    </body>
+</html>

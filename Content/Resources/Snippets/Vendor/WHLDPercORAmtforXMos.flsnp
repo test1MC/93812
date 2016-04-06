@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="786" MadCap:lastWidth="1087">
+    <head>
+    </head>
+    <body>
+        <p>These three fields work together:</p>
+        <ul>
+            <li><span class="LIB_Bold">Withhold ___% until closed in VR status 26</span>
+            </li>
+            <li><span class="LIB_Bold">Withhold $___ until closed in VR status 26</span>
+            </li>
+            <li class="LIB_Bold"><span class="LIB_Bold">Withhold for ___ months until closed in VR status 26</span>
+            </li>
+        </ul>
+        <p class="LIB_Bold">Note:</p>
+        <ul>
+            <li>Values entered in these fields populate the <span class="LIB_Bold">Withhold ___% or $___ for ___ months until closed in VR status 26</span> field that is located below the <span class="LIB_Italic">Current Rates from Events</span> section of the <MadCap:variable name="FormNames.401" class="LIB_Italic" />] form. Authorizations only look at this field, this is why the values from the individual fields populate this field.</li>
+            <li>You may provide a percentage or a dollar amount, but not both.</li>
+        </ul>
+        <p><span class="LIB_Bold">Additional Information and Examples</span>
+        </p>
+        <p>For VR authorizations, if both the percentage and the number of months are filled in, then users will be able to pay up to 100 minus the specified percentage of the total amount authorized. For example, if the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form says to withhold 15% and the authorization was for $100.00, then the maximum that could be paid (in total) would be $85.00.</p>
+        <p>If a user tries to enter a current payment amount that would push the total paid over this limit, then it will automatically adjust it and a message will pop-up informing the user.</p>
+        <p>Additionally, when paying a progress note for VR (via the <span class="LIB_Italic">Services Provided Ready for Payment</span> PDQ*), clicking the "Pay Services" button will pay 100 - the percentage to withhold of the total amount of the progress note. *Not all Agencies use this PDQ.</p>
+        <p>When closing a VR case, it will not consider authorizations with withheld amounts as open authorizations. If the case closes in status 26, it will search for any authorizations or progress notes with amounts withheld. If the date they are withheld until is on or after the date of closure then it will automatically create a payment approval for the remaining balance. If there are two or more eligible authorizations or progress notes, it will pay the one with the latest withheld date.</p>
+        <p>This functionality is controlled by a status change editcheck. To enable/disable this, go to the System Administration module. Select the <span class="LIB_Bold">Status Edit Checks Administration</span> option in the <span class="LIB_Italic">Data Tree</span>. This loads the table into the ECF. Filter the EditCheck ID column by the ID number 99010007. This brings up all of the options for <span class="LIB_Italic">Automatically Pay/Liquidate Withheld Amounts</span>. There are multiple records for this edit check, one for each closure status. Editing is done directly in the grid. To enable the edit check for a closure status, select the <span class="LIB_Bold">Enabled</span> check box. To disable the edit check for a closure status, clear the <span class="LIB_Bold">Enabled</span> check box.</p>
+        <p>The withheld date is determined by adding the number of months to withhold on the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form to the <span class="LIB_Bold">Date Rendered</span> for the payment approval.</p>
+        <p>If a Payment Approval is re-opened and the payment amount is lowered, the system will no longer consider there to be a withheld payment. For authorizations, this means it will be considered an outstanding authorization and someone will need to be pay it in full or cancel the remaining balance. For progress notes, the progress note is still considered paid (so the case can close) but the remaining amount will not be paid when closing in status 26.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note: </span>Progress notes are not eligible for this automatic payment unless the <span class="LIB_Bold">Counselor Evaluation</span> field on the progress note is set to "Successful" or "Not Successful - Approved for Payment" or if the service is not outcome based (i.e. the "<span class="LIB_Bold">Outcome-based Contract?</span>" field on the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form is set to Y).</p>
+        <p>Regardless of whether an extra payment is made, the remaining balance of any additional authorizations with withheld amounts is automatically canceled. This occurs no matter what status the case closes in.</p>
+    </body>
+</html>

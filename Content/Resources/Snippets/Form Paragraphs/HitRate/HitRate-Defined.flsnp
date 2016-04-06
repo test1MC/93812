@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="774" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Hit Rate</span>
+        </p>
+        <p class="LIB_Img">
+            <img src="../../../../LIB_Images/Core/45_SearchForMatches.png" title="Search For Matches results." alt="Search For Matches results." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">Search For Matches results.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The Hit Rate percentage that appears in the <span class="LIB_Italic">Search for Matches</span> grid is calculated based on the data entered into the section. All data entered is weighted, those weights are used in the Hit Rate calculation. The higher the Hit Rate, the more likely the person is a match for the data you entered.</p>
+        <p>&#160;</p>
+        <p>Starting weights are as follows:</p>
+        <ul>
+            <li>First Name = 15</li>
+            <li>Middle Initial = 1</li>
+            <li>Last Name = 30</li>
+            <li>Gender = 5</li>
+            <li>SSN Area Number (first three digits) = 15</li>
+            <li>SSN Group Number (middle two digits) = 10</li>
+            <li>SSN Serial Number (last four digits) = 20</li>
+            <li>Birthday Month = 6</li>
+            <li>Birthday Day = 2</li>
+            <li>Birthday Year = 12</li>
+            <li>All other fields = 10</li>
+        </ul>
+        <p>The weights are configured by your System Administrator.</p>
+    </body>
+</html>

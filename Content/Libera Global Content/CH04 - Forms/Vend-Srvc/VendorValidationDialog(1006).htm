@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="900" MadCap:lastWidth="624">
+    <head><title></title>
+        <meta name="description" content="The Vendor Validation Dialog is used to search for vendors and to add new vendors to the system." />
+    </head>
+    <body>
+        <h1>Vendor Validation Dialog<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Core/VendValid.png" title="Vendor Validation Dialog." alt="Vendor Validation Dialog." MadCap:conditions="General.DotNet35" />
+            <br /><span class="LIB_Caption">Vendor Validation Dialog.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <span class="LIB_Italic">Vendor Validation Dialog</span> is used to search for vendors and to add new vendors to the system. The <span class="LIB_Italic">Vendor Validation Dialog</span> is the first step in adding a new Vendor to the system. The <span class="LIB_Italic">Vendor Validation Dialog</span> is opened by activating the <span class="LIB_Bold">Search / Add Vendor</span> button at the bottom of the <span class="LIB_Italic">Data Tree</span> when viewing vendors. This button is available via vendor PDQs as configured by your Agency. Use your mouse to select the button or press CTRL+SHIFT+B to jump down to the buttons, then press the DOWN ARROW key to move to the <span class="LIB_Bold">Search / Add Vendor</span> button. When cursor focus is on the button, press ENTER.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Form Fields</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When adding a new vendor, all fields entered below will appear on the  <MadCap:xref href="VendInfo(400).htm">Vendor Information</MadCap:xref> form.</p>
+                <p>&#160;</p>
+                <ul>
+                    <li><span class="LIB_Bold">Name</span> - Type the name of the vendor you want to find or add to the vendor list. The name you enter is searched against existing data in the system (Vendor Legal Name, Search By, Doing Business As Name, First Name, Last Name all on the <MadCap:variable name="FormNames.400" class="LIB_Italic" /> form. The search results displayed in the grid may display vendor names that do not match what you entered in the <span class="LIB_Bold">Name</span> field of the <span class="LIB_Italic">Vendor Validation Dialog</span> as a result. To find out why a vendor appears in the list, scroll or RIGHT ARROW to view all of the columns available.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">T.I.N</span> - Tax payer Identification Number. This is the identification number used by the Internal Revenue Service (IRS). A TIN may be the Social Security Number of the sole proprietor or the Employer Identification Number (EIN). To add a new vendor you must include a TIN. Both numbers are nine digits, but they are formatted slightly differently: Example EIN:   ##-####### or Example SSN: ###-##-####. If you enter a number that does not meet the formatting requirements, the system displays a message letting you know. If you get this message, reenter the number and try again.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Phone</span> - Phone number fields are formatted to include the area code. Always include the area code when entering a phone number.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Street </span>- First line of the vendors street address. Type the building number and street name.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Zip</span> - You can type the Zip Code or use the lookup to select from a list. Regardless of how you add the Zip Code, adding it also adds the city name associated with it. In some instances, you will find that one zip code may have many city names associated with it. When this happens the lookup will open, filtered to show you all of the names associated with the zip code you entered. Select one of the city names from the lookup by double-clicking or using the DOWN ARROW key to move to it and then press ENTER.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">City</span> - This field automatically populated with selection of Zip. However, you may edit it if necessary.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Search for All Possible Matches</span> and/or <span class="LIB_Bold">Search for Exact Matches</span> – Use these buttons to start the search process. There are two search buttons available. By default all users see the <span class="LIB_Bold">Search for All Possible Matches</span> button. System Administrators also see the <span class="LIB_Bold">Search for Exact Matches</span> button. Your Agency may choose to have <span class="LIB_Bold">Search for Exact Matches</span> displayed for all users. System Administrators have the ability to display the second button. Possible Matches are Vendors that match at least one of the fields. Exact Matches must match all fields that aren't left blank.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Display the Search for Exact Matches Button</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Log on with System Administrator rights.</li>
+                    <li>Select <span class="LIB_Bold">System Administration</span> from the <span class="LIB_Italic">Application Home Page</span>.</li>
+                    <li>In <span class="LIB_Bold">Group: General</span> select <span class="LIB_Bold">Application Settings</span>. Press ENTER to load the <span class="LIB_Italic">Electronic Case Folder</span> (ECF) with the <span class="LIB_Italic">Application Setting</span>s grid. Then press CTRL+SHIFT+T to move cursor focus to the Filter Row.</li>
+                    <li>In the <span class="LIB_Bold">Name</span> cell of the <span class="LIB_Italic">Filter Row</span> type the word <span class="LIB_Bold">search</span> and then press ENTER.</li>
+                    <li>The filter results will show one option: <span class="LIB_Bold">Show the Search for Exact Match button on Client Validation based on Roles</span>. Note: This works with the <span class="LIB_Italic">Vendor Validation Dialog</span> as well.</li>
+                    <li>Select the option to open the <MadCap:xref href="../../../AdminModule Chapters/01 General/02 Application Setting Form.htm">Application Setting Form</MadCap:xref>.</li>
+                    <li>Show the <span class="LIB_Bold">Search for Exact Match button on Client Validation based on Roles</span> – this is the only field on the form. Type Role ID numbers in a comma separated list that are allowed to see the <span class="LIB_Bold">Exact Match</span> button. You have three options for editing.<ol><li><span class="LIB_Bold">All users can see the Exact Match button</span> – Clear the existing value (24) from the cell.</li><li><span class="LIB_Bold">Only select users can see the Exact Match button</span> – Enter the Role ID numbers (found in Role Administration under Group: Security) of the roles that are allowed to see the button in the cell. Type the numbers separated by commas, no spaces and do not end with a comma. It is not necessary to list them in numeric order. For example: 24,2,3,1000,6.</li><li><span class="LIB_Bold">No users can see the Exact Match button</span> – Enter <span class="LIB_Bold">!0</span> in the cell.</li></ol></li>
+                    <li>After editing the user roles allowed to see the <span class="LIB_Bold">Exact Match</span> button, close the form.</li>
+                </ol>
+                <p>To see your change, log on with one of the user roles you added (or have another user with one of the roles specified). Load a PDQ that allows you to add a new client or a new vendor. Then select the Search / Add Client/Vendor button at the bottom of the <span class="LIB_Italic">Data Tree</span>. The <span class="LIB_Italic">Client</span> or <span class="LIB_Italic">Vendor Validation Dialog</span> opens displaying both search buttons.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Results Grid</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once you have filled out at least the minimum amount of fields and select a search button, if any existing vendor in the system matches any of the data entered, that vendor (or vendors) is shown in the grid portion of the Vendor Validation Dialog.</p>
+                <p>The grid here works exactly the same as grids throughout the system with one notable exception. Normally you can use the TAB and SHIFT+TAB keys to move to the right and left in grids. In the results grid this will not work, tabbing will move you to the next field on the form. Instead use the RIGHT and LEFT ARROW keys to move right and left in the grid.</p>
+                <ul>
+                    <li>Utilizing the check box next to the selected vendor opens the <MadCap:xref href="VendInfo(400).htm">Vendor Information</MadCap:xref> form.</li>
+                    <li>Double clicking on the selected vendor without a check mark, opens to the <span class="LIB_Italic">View Vendor</span> PDQ in the <span class="LIB_Italic">Data Tree</span>.</li>
+                    <li>Refer to <MadCap:xref href="../../CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref> for information on working with grids.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Adding a New Vendor</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li><span class="LIB_Bold">Add a new Location for an existing Vendor (Optional)?</span> - When you use this option, you are not required to fill in any of the fields on the <span class="LIB_Italic">Vendor Validation Dialog</span>. Use this field to link a new location to an existing vendor. Good examples for this include national and local chains.<ol style="list-style-type: lower-alpha;"><li>Click the blue pull down arrow or press ALT+F1 to open the lookup.</li><li>The lookup window shows all of the existing vendors in the system. Use the Filter Row to quickly search the list for the vendor you want. Then double-click the vendor name, or press the DOWN ARROW key until you reach the name and then press the ENTER key. This action closes the lookup window and displays your selection in the field.</li><li>Click or TAB to and press ENTER on the <span class="LIB_Bold">Add as a new Location</span> button. This closes the <span class="LIB_Italic">Vendor Validation Dialog</span> and opens the Vendor Information form. The form is preloaded with some of the data from the existing vendor such as Vendor Legal Name and TIN. You will need to fill in information specific to the new location.</li></ol></li>
+                    <li><span class="LIB_Bold">Add as New Vendor</span> - Single-click or press the SPACEBAR to activate this button. This action closes the <span class="LIB_Italic">Vendor Validation Dialog</span> and opens a new <MadCap:xref href="VendInfo(400).htm">Vendor Information</MadCap:xref> form. The <MadCap:variable name="FormNames.400" class="LIB_Italic" /> form will be blank with the exception of the fields you entered on the <span class="LIB_Italic">Vendor Validation Dialog</span>. Note: You will not be able to add a new vendor without a unique TIN. The button will remain inactive until a TIN is added and the <span class="LIB_Bold">Search</span> button clicked. If the search finds existing vendors with that TIN, the <span class="LIB_Bold">Add as New Vendor</span> button will remain locked. If not, it will unlock</li>
+                    <li><span class="LIB_Bold">Cancel</span> - Press the SPACEBAR or single-click the cancel button to close the <span class="LIB_Italic">Vendor Validation Dialog</span> without adding a new vendor.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+    </body>
+</html>

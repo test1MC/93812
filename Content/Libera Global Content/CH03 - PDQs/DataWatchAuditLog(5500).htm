@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3209" MadCap:lastWidth="968">
+    <head>
+        <meta name="description" content="The Data Watch Audit Log helps you see activity that has occurred in the system. This has many uses. For example, it may be used for tracking user activity or restoring data." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="PDQ" />Data Watch Audit Log</h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/PDQs/DataWatchAuditLog.png" title="Data Watch Audit Log PDQ." alt="Data Watch Audit Log PDQ." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/DataWatchAudLog.png" title="Data Watch Audit Log PDQ." alt="Data Watch Audit Log PDQ." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Data Watch Audit Log PDQ.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <span class="LIB_Italic">Data Watch Audit Log</span> helps you see activity that has occurred in the system. This has many uses. For example, it may be used for tracking user activity or restoring data. The <span class="LIB_Italic">Data Watch Audit Log</span> opens in a new window.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>PDQ Parameters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQ_Gen_Param.flsnp" />
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/PDQs/DataWatchAuditLog_Params.png" title="Parameters for the Data Watch Audit Log PDQ." alt="Parameters for the Data Watch Audit Log PDQ." MadCap:conditions="General.DotNet35" />
+                    <br />
+                    <img src="../../LIB_Images/45/DataWatchAudLogParam.png" title="Parameters for the Data Watch Audit Log PDQ." alt="Parameters for the Data Watch Audit Log PDQ." MadCap:conditions="General.DotNet45" />
+                    <br /><span class="LIB_Caption">Parameters for the Data Watch Audit Log PDQ.</span>
+                </p>
+                <p>&#160;</p>
+                <ul>
+                    <li><span class="LIB_Bold">Start Date</span> and <span class="LIB_Bold">End Date</span> - These are the only required parameters, all others are optional. The PDQ will return records for all actions taken within the system within this range. Because the <span class="LIB_Italic">Data Watch Audit Log</span> is constantly collecting new records, these inputs also collect the time to the second.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">User</span> - This lists all employees with logins for the application. If one is selected, the results will only include actions taken by the selected User. Only one User can be selected at a time.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold"><MadCap:variable name="Terminology.Client_UC" /> SSN</span> - This is the SSN of the <MadCap:variable name="Terminology.client_lc" /> (if applicable) affected by the action. If it is set, the results will only include actions affecting that <MadCap:variable name="Terminology.client_lc" />. Only one <MadCap:variable name="Terminology.client_lc" /> SSN can be accepted at a time.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/DataWtchTables.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Last X Records</span> - By default, this PDQ displays 200 records at a time from most to least recent. To change this, enter the number of records you want the PDQ to load here. This number is capped at 10,000 in order to prevent using excess bandwidth.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Include System Events</span> - By default, the results will NOT include system events such as launching forms with the LForm.GetLForm action. To include such events, set this parameter to 'Y'</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>PDQ Results</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li><span class="LIB_Bold">Date/Time</span> - By default, the results are ordered from most recent (that is, closest to the given End Date) to least recent.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Action</span> - The action taken by System 7 at the given Date/Time. Possible values include LForm.SaveField (when changes to a form are saved) and Audit.Write.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/DataWtchFlags.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Table</span> - This is the data table affected by the action.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Column</span> - This is the specific column in the <span class="LIB_Bold">Table</span> mentioned above affected by the action.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Old Value</span> - If the action changed an existing value in the <span class="LIB_Bold">Table</span>, then the old value will be recorded here. This column is useful if you need to undo a change or restore a deleted case note.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Value</span> - This is the new value in the <span class="LIB_Bold">Table</span> and <span class="LIB_Bold">Column</span> that was caused by the action. Examples: A <MadCap:variable name="Terminology.client_lc" />'s new status, a name change or any value entered into a blank form.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Primary Key</span> and <span class="LIB_Bold">Primary Key #</span> - A primary key can be a number or a string of text. Whichever type of primary key is used for this action, it will be recorded in the appropriate column.Sometimes the Primary Key may not be the same as the primary key of the data table. The Primary Key in the PDQ may be other useful information, such as the user name used to logon.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold"><MadCap:variable name="Terminology.Client_UC" /> #</span> and <span class="LIB_Bold">Client Name</span> - This is the SSN and name of the <MadCap:variable name="Terminology.client_lc" /> (if applicable) affected by the action. For example, the action could be an update to a form in their ECF.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">User #</span> and <span class="LIB_Bold">User Name</span> - This is the ID Number and name of the user who performed the action as it is appears on their <span class="LIB_Italic">Employee Information</span> form, not their login. Filtering with this column is useful to confirm whether or not a given user edited a field.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Component Name</span>, <span class="LIB_Bold">Component Type</span> and <span class="LIB_Bold">Component #</span> - These identify the component that the action was performed through. If, for example, the action is a change to a <MadCap:variable name="Terminology.client_lc" />'s address on the <MadCap:variable name="FormNames.1" class="LIB_Italic" /> form, these fields will identify the <MadCap:variable name="FormNames.1" class="LIB_Italic" /> form.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Transaction</span> - Each time a user sends information, whether by updating a field or asking to view a form, they are making a transaction. This number can be used to identify a transaction. Several actions may be the result of the same transaction if they occurred during the same server event. For example, changing the <span class="LIB_Bold">ZIP Code</span> on a form may cause the <span class="LIB_Bold">City</span> and <span class="LIB_Bold">State</span> fields to update as well with a single transaction.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Profile</span> - This is the name of the database containing the table that was changed as a result of the action. This may not be recorded for events with the <span class="LIB_Bold">SEC</span> (security event) flag.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFilterGroupAndSort.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/ECFNotUsed.flsnp" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Making the Most of the PDQ Results</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The information returned can be further filtered just like any PDQ. Use appropriate filtering as your situation requires.</p>
+                <blockquote>
+                    <p>For example: </p>
+                    <p>You may be looking for a deleted case note so it may be restored. To find the case note among the hundreds of actions, try narrowing the <span class="LIB_Bold">Start</span> and <span class="LIB_Bold">End Date/Time</span> range as much as possible.</p>
+                    <p>Next, filter for the <MadCap:variable name="Terminology.client_lc" /> who should have the case note on file, the <span class="LIB_Bold">Component Name</span> or <span class="LIB_Bold">Component Number</span> of the form on which the case note is located and the <span class="LIB_Bold">User</span> who accidentally deleted the note.</p>
+                    <p>If you also know the <span class="LIB_Bold">Tables</span> and <span class="LIB_Bold">Flags</span> values that the action of deleting a case note would have, then you could filter using those as well.</p>
+                </blockquote>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

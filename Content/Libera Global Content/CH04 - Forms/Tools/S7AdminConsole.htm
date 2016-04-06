@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3177" MadCap:lastWidth="987" MadCap:conditions="General.DotNet45">
+    <head>
+        <meta name="description" content="This tool gives you access to the following: Database Console, Edit Check Console, Memory Utilization Report, and Network Speed Test." />
+    </head>
+    <body>
+        <h1>System 7 Administration Console<MadCap:concept term="Tool" /></h1>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Tools</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Sys7 4.5/AccessingTools.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> The <span class="LIB_Italic">System Administration Console</span> is accessible via the <span class="LIB_Italic">System 7 Log Viewer</span> or <span class="LIB_Italic">System 7 Active User List</span> tool.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Database Console</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/45/S7AC-DBConsole.png" title="System 7 Database Console." alt="System 7 Database Console." />
+                    <br /><span class="LIB_Caption">System 7 Database Console.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Knowledge of SQL, system tables, and column names is required to successfully use the <span class="LIB_Italic">Database Console</span>. Designated users, such as System Administrators, use it to inves tigate data issues. It allows you to verify data at the database table level but not change any data. There may be times when Libera will provide information for you to use with the <span class="LIB_Italic">Database Console</span>.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Database Profile</span> - A connection to a specific database and schema combination. The available profiles vary by agency. Several of the common profiles are described below:<ul><li><span class="LIB_Bold">sys7db</span> - This is the default profile. It's the main database for storing system data.</li><li><span class="LIB_Bold">sys7dict-direct</span> - Dictionary database</li><li><span class="LIB_Bold">sys7rcc-data</span> - Report Control Center table administration.</li><li><span class="LIB_Bold">sys7db-archive</span> - Stores archived data.</li></ul></li>
+                    <li><span class="LIB_Bold">Command Type</span>
+                        <ul>
+                            <li><span class="LIB_Bold">Select</span> - Used anytime you want to run a SQL query.</li>
+                            <li><span class="LIB_Bold">DataCommands</span> - Allow you to run a script provided by Libera. It's in Libera's LForm proprietary language.</li>
+                        </ul>
+                    </li>
+                    <li><span class="LIB_Bold">Output Format</span>
+                        <ul>
+                            <li><span class="LIB_Bold">Interactive Grid</span> - Results are displayed in a  grid.</li>
+                            <li><span class="LIB_Bold">Excel CSV, HTML, XML</span> - Opens the results in a file in the specified format.</li>
+                        </ul>
+                    </li>
+                    <li><span class="LIB_Bold">Timeout</span> - The number of seconds after which the command will automatically fail if it hasn't completed within the specified timeframe.</li>
+                    <li><span class="LIB_Bold">Enter your Commands</span> - This is where you enter the SQL query or the data command script.</li>
+                    <li><span class="LIB_Bold">Submit</span> - Runs the instructions in the Enter your commands field.</li>
+                    <li><span class="LIB_Bold">Results</span> - Where the grid is displayed or if you're running data commands it displays the results of the script and any related messages.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Edit Check Console</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/45/S7AC-EChkConsole.png" title="System 7 Edit Check Console." alt="System 7 Edit Check Console." />
+                    <br /><span class="LIB_Caption">System 7 Edit Check Console.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Allows you to run a function within the system. Edit checks can do anything from displaying information to making changes in the system. However, you have to have an existing <span class="LIB_Bold">Edit Check ID</span>.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Memory Utilization Report</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/45/S7AC-MemUtilRpt.png" title="System 7 Memory Utilization Report." alt="System 7 Memory Utilization Report." />
+                    <br /><span class="LIB_Caption">System 7 Memory Utilization Report.</span>
+                </p>
+                <p>&#160;</p>
+                <p>The <span class="LIB_Italic">Memory Utilization Report</span> is an advanced administration tool to be used at the direction of Libera. It provides visibility into memory utilization of the web and application tiers. Shows information on caching data and system components.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Network Speed Test</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/45/S7AC-NtwkSpdTest.png" title="System 7 Network Speed Test." alt="System 7 Network Speed Test." />
+                    <br /><span class="LIB_Caption">System 7 Network Speed Test.</span>
+                </p>
+                <p>&#160;</p>
+                <p>The <span class="LIB_Italic">Network Speed Test</span> measures the network connection speed from your computer to the System 7 servers. </p>
+                <ul>
+                    <li><span class="LIB_Bold">HTTP Latency</span> - The time it takes for a single request to be sent to System 7 and back again regardless of how much data is sent/received. The longer the time, the slower all pages and images will load in System 7.</li>
+                    <li><span class="LIB_Bold">Download Speed </span>- How fast data can be downloaded from System 7 to your browser. The speed is reported in MB/s (megabytes per second) or KB/s (kilobytes persecond). The higher the number, the better.</li>
+                    <li><span class="LIB_Bold">Upload Speed</span> - How fast data can be uploaded (sent) from your PC/browser to the System 7 servers. The speed is reported in MB/s (megabytes per second) or KB/s (kilobytes per second). The higher the number, the better. If it says "Very Fast," it means that it was too fast to measure.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="S7LogVwr.htm">System 7 Log Viewer</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="S7ActiveUserList.htm">System 7 Active User List</MadCap:xref>
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="263" MadCap:lastWidth="930">
+    <head>
+    </head>
+    <body>
+        <h4>Voucher Section</h4>
+        <p>The voucher section appears after the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form is submitted. It provides status information as the payment approval moves through the fiscal process for your Agency.</p>
+        <ul>
+            <li><span class="LIB_Bold">Voucher Status</span> - Displays the current voucher status of the payment. It's updated as the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form moves through the fiscal process.</li>
+            <li><span class="LIB_Bold">Effective Date</span> - Displays the <span class="LIB_Italic"><MadCap:variable name="FormNames.1000"></MadCap:variable>'s</span> effective date. This date is used when the scheduled task for batching payments is run. It picks up any approved payments where the Effective Date is on or before the current date.</li>
+            <li><span class="LIB_Bold">Warrant #</span> - Displays the unique ID&#160;number for the warrant that the payment is part of. It helps fiscal staff research payment issues.</li>
+            <li><span class="LIB_Bold">Batch Date</span> - This is the date the payment was batched and sent to the fiscal system.</li>
+        </ul>
+    </body>
+</html>

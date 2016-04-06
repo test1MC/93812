@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1603" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Role Specifiers: Combination, Explicit, Exclusion, Minimum, Role Range" />
+    </head>
+    <body>
+        <h1>Role Specifiers</h1>
+        <h3>Combination Role Specifier</h3>
+        <p>The Combination Role Specifier allows you to require users to have two User Roles. The user must have both roles to pass this check. This comes in handy if you have multipier tiers or top level groupings (think divisions or departments) of users. </p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/RoleSpecifier-Combination.png" title="Example of multiple Combination Role Specifiers in use." alt="Example of multiple Combination Role Specifiers in use." />
+            <br /><span class="LIB_Caption">Example of multiple Combination Role Specifiers in use.</span>
+        </p>
+        <h3>Explicit Role Specifier</h3>
+        <p>The Explicit Role Specifier is just a number specifying the exact role identifier that is allowed. The user must have the specified role to pass this check.</p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/RoleSpecifier-Explicit.png" title="Example of an Explicit Role Specifier." alt="Example of an Explicit Role Specifier." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/ExplicitRolSpec.png" title="Example of an Explicit Role Specifier." alt="Example of an Explicit Role Specifier." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Example of an Explicit Role Specifier.</span>
+        </p>
+        <p>&#160;</p>
+        <p>For example, if a PDQ has only one Role, then only users with that role will have access to the PDQ. Adding only one role to a Role or ACL field automatically excludes users with all other roles.</p>
+        <h3>Exclusion Role Specifier</h3>
+        <p>The Exclusion Role Specifier is an exclamation point followed by a number specifying the exact role identifier that is NOT allowed. If the user does not have the specified role, they will pass the check. Some caution should be used with this specifier. It can get confusing to think about because the role specifier list is checked as “OR” logic. The exclusion specifier is an immediately failing check (i.e.: if an exclusion check fails – the next specifier is NOT checked and the ACL will return false meaning the user won't have access). For example:</p>
+        <ul>
+            <li>If the user roles are “1,3,5,7”, an ACL of “!5” will prevent access because the user is has role 5.</li>
+            <li>If the user roles are “1,3,5,7”, an ACL of “!5,1,3” will still prevent access because the user has role 5.</li>
+        </ul>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/RoleSpecifier-Exclusion.png" title="Example of an Exclusion Role Specifier." alt="Example of an Exclusion Role Specifier." />
+            <br /><span class="LIB_Caption">Example of an Exclusion Role Specifier.</span>
+        </p>
+        <p>&#160;</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> When you see !0 in an ACL list it means that no users have access to the component or functionality. All users inherently have User Role 0. As a result when you exclude User Role 0 you exclude all users.</p>
+        <h3>Minimum Role Specifier</h3>
+        <p>The Minimum Role Specifier is just a number followed by a plus sign (+) specifying the minimum role identifier that is allowed. The user must have a role greater than or equal to the numeric role to pass the check. This specifier only makes sense when role identifiers are set up in monotonically increasing numbers by security level (i.e., 0 = no access; 1 = some access; 2 = all access, etc.).</p>
+        <h3>Role Range Specifier</h3>
+        <p>The Role Range Specifier is two numbers separated by a dash (-) to identify the starting role identifier to ending role identifier that is allowed. The user must have a role within this range to pass the check. This specifier only makes sense when role identifiers are set up clustered by security level. For example, if roles 6,7,8,9, and 10 are all supervisory roles, you could use the range 6-10 to include all roles within the range.</p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/RoleSpecifier-Range.png" title="Example of a Role Range Specifier." alt="Example of a Role Range Specifier." />
+            <br /><span class="LIB_Caption">Example of a Role Range Specifier.</span>
+        </p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>When creating an ACL, it's a good idea to include the System Administrator role (24) to an ACL. Otherwise, System Administrators won't have access to the component or functionality.</li>
+            <li>The exclamation point is often referred to as a "bang." For example, !0 is read as "bang zero."</li>
+            <li>Spaces are not required within the ACL, but it does break it up for easier reading and allows the text in the field (when in a form) to word wrap. Spaces can also help if you export grid data to a spreadsheet because the data won't be confused as one really long number.</li>
+        </ul>
+    </body>
+</html>

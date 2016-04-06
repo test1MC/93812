@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3035" MadCap:lastWidth="994" MadCap:conditions="General.AdminMod">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="System Admins use Pre/Post Dating Administration to configure Pre and Post dating rules for their Agency." />
+    </head>
+    <body>
+        <h1>Pre/Post Dating Administration Form<MadCap:concept term="Form" /></h1>
+        <p>The <span class="LIB_Italic">Pre/Post Dating Administration</span> form is divided into two pages:</p>
+        <ol>
+            <li>The rule section (first page)</li>
+            <li>Pre/Post Test Page (second page)</li>
+        </ol>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Rule Section (first page)</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/PrePostDatingFrmPg1.png" title="The first page of the Pre Post Dating Administration form." alt="The first page of the Pre Post Dating Administration form." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/PrePostDtgFrm1stPg.png" title="The first page of the Pre Post Dating Administration form" alt="The first page of the Pre Post Dating Administration form" MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">The first page of the Pre Post Dating Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The first page is the information related to the rule. Each field corresponds to the column descriptions in the <span class="LIB_Italic">PDQ Results</span> section above. Values entered into the fields appear in the grid. The form fields have the following rules (the same rules apply to the test page):</p>
+        <ul>
+            <li>If the program field is not filled in, then <span class="LIB_Bold">Status From / In</span> and <span class="LIB_Bold">Status</span> are not editable and are blank.</li>
+            <li>If the program field is filled in, then <span class="LIB_Bold">Status From / In</span> is editable.</li>
+            <li>When the <span class="LIB_Bold">Check Type</span> is a non status change, <span class="LIB_Bold">Status To</span> is not editable and is blank.</li>
+            <li>When the <span class="LIB_Bold">Check Type</span> is All or Status Change, <span class="LIB_Bold">Status To</span> is editable.</li>
+            <li>In order to enable the rule each of the following fields must be filled in:<ul><li>Role</li><li>Order</li><li>Check Type</li><li>Maximum # of Days Ahead</li><li>Maximum # of Days Back</li></ul></li>
+            <li>Leaving any of the <span class="LIB_Bold"># of days in Quarter X Grace Period</span> fields blank results in the <span class="LIB_Bold">Maximum # of days ahead</span> and <span class="LIB_Bold">Maximum # of days back</span> rules being applied.</li>
+            <li>The form fields only display the configuration of the selected rule. The <span class="LIB_Italic">Pre / Post Dating Administration with Order</span> PDQ is displayed within the form. It shows the current rules in the PDQ so you can see the other rule configurations. Any modifications to the selected rule won't show in the grid until the grid is refreshed.</li>
+        </ul>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Pre / Post Test Page (second page)</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/PrePostDatingFrmPg2.png" title="The second page of the Pre/Post Dating Administration form." alt="The second page of the Pre/Post Dating Administration form." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/PrePostDtgFrm2ndPg.png" title="The second page of the Pre Post Dating Administration form." alt="The second page of the Pre Post Dating Administration form." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">The second page of the Pre Post Dating Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p>This page allows you to test new rules to see the number of days back / forward / quarter a user or a list of roles will have when using the system.</p>
+        <ul>
+            <li><span class="LIB_Bold">User</span> - You'll be testing the selected user's pre / post dating ability based on their roles and the <span class="LIB_Bold">Check Type</span> you select.</li>
+            <li><span class="LIB_Bold">List of Roles</span> - This populates with the selection of the User. You can edit this field if desired. This allows you to test different scenarios for the user.</li>
+            <li><span class="LIB_Bold">Check Type</span> - This is where you determine if the test is for status changes, non status changes or both.</li>
+            <li><span class="LIB_Bold">Program</span> - Making a selection from the lookup allows you to test the rules for a specific program. Leaving it blank tests all of the global rules (rules not associated with a program).</li>
+            <li><span class="LIB_Bold">Status From / In</span> - If you're testing status changes, enter the status the case is currently in and will be moving from.</li>
+            <li><span class="LIB_Bold">Status To</span> - This is the status the case is moving to.</li>
+            <li><span class="LIB_Bold">Date to check</span> - This is the date you are either pre or post dating to. The rules always run for today's date.</li>
+            <li><span class="LIB_Bold">Show Pre Post Dating Rules for Test</span> - This button performs the test and returns the information as to what the number of days back / forward / quarter will be for both methods for the options selected in the test.</li>
+            <li>The <span class="LIB_Italic">Pre/Post Dating with Order</span> section displays the rule that applies to the test criteria entered. The grid highlights the first rule found that meets the criteria (<span class="LIB_Bold">Rule ID</span> will be filled in). If <span class="LIB_Bold">Rule ID</span> is not filled in, then the system settings will be used. The specifics of the highlighted record appear in the fields below the section header.</li>
+            <li MadCap:conditions="CO-CICMS.CO-CICMS_Exclude">The <span class="LIB_Italic">Pre/Post Dating by Maximum amount of Rules</span> section can be hidden based on the application setting, <span class="LIB_Italic">Whether to show the Pre/Post Dating by Maximum amount of all Rules Section on the Pre Post Dating Form</span>. This setting is set to true (on) by default and should be left on until after the ordering method is turned on and you are confident that the rules setup in the ordering are sufficiently tested.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="08 PrePost Dating Administration with Order.htm">Pre/Post Dating Administration with Order</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

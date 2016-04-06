@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3338" MadCap:lastWidth="985">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Grouped data is displayed differently in the grid. Data is collapsed under column header groupings. These are called grouped rows." />
+    </head>
+    <body>
+        <h1>Working with Grouped Data</h1>
+        <h3>Grouped Rows</h3>
+        <p>Grouped data is displayed differently in the grid. Data is collapsed under column header groupings. These are called grouped rows. Each grouped row is initially displayed collapsed and the title of the row is preceded by a plus sign ( + ). For example.</p>
+        <p style="text-indent: 0.5in;"><span class="LIB_Bold">[+] [Column Header title] [Data Title]</span>
+        </p>
+        <p>Data Title - If, for example, you grouped data by City, this would be the name of the city.</p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/Core/LIB_GridDataGroupedByCity.png" title="Grid data grouped by city." alt="Grid data grouped by city." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/GrpdGrd.png" title="Grid data grouped by city." alt="Grid data grouped by city." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Grid data grouped by city.</span>
+        </p>
+        <p>&#160;</p>
+        <p>To expand or collapse a grouped row select  the plus/minus sign. When the grouped row is expanded the plus sign changes to a minus sign. Think of this as showing more or less data. Alternatively, use the ARROW keys to navigate to the grouped row and then press the SPACEBAR.</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/Core/LIB_GridExpandedCollapsed.png" title="Grid with expanded and collapsed grouped rows." alt="Grid with expanded and collapsed grouped rows." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/ExpCollaps.png" title="Grid with expanded and collapsed grouped rows." alt="Grid with expanded and collapsed grouped rows." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Grid with expanded and collapsed grouped rows.</span>
+        </p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Expanding Multiple Grouped Rows</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Core/LIB_GridExpandAll.png" title="Grouped row context menu opened with the Expand All option circled." alt="Grouped row context menu opened with the Expand All option circled." MadCap:conditions="General.DotNet35" />
+                    <br />
+                    <img src="../../LIB_Images/45/ExpAll.png" title="Grouped row context menu opened with the Expand All option circled." alt="Grouped row context menu opened with the Expand All option circled." MadCap:conditions="General.DotNet45" />
+                    <br /><span class="LIB_Caption">Grouped row context menu opened with the Expand All option circled.</span>
+                </p>
+                <p>When you have grouped data by multiple columns there will be grouped rows under grouped rows. When the first level is expanded, you'll see one or more grouped rows. This repeats for as many columns as the data is grouped.</p>
+                <p>A fast way to expand all grouped rows is to right-click to open the grouped row context menu and then select the <span class="LIB_Bold">Expand All</span> option. This will expand the currently selected row and all rows beneath it. Alternatively, press F4 to open the grouped row context menu. Repeat this for each level of grouped rows.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Collapsing Multiple Grouped Rows</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Core/LIB_GridCollapseAll.png" title="Grouped row context menu opened with the Collapse All option circled." alt="Grouped row context menu opened with the Collapse All option circled." MadCap:conditions="General.DotNet35" />
+                    <br />
+                    <img src="../../LIB_Images/45/CollAll.png" title="Grouped row context menu opened with the Collapse All option circled." alt="Grouped row context menu opened with the Collapse All option circled." MadCap:conditions="General.DotNet45" />
+                    <br /><span class="LIB_Caption">Grouped row context menu opened with the Collapse All option circled.</span>
+                </p>
+                <p>After expanding the grouped rows, you may collapse the grouped rows. Right-click to open the cell context menu and then select the Collapse All option. This will collapse the currently selected row and all rows beneath it. Alternatively, press F4 to open the cell context menu. Repeat this for each level of grouped rows.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Grids with Total Calculations or Counted Data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Core/LIB_GridGroupedCountedCalculated.png" title="Grouped grid with row counts and calculations in the groupings." alt="Grouped grid with row counts and calculations in the groupings." MadCap:conditions="General.DotNet35" />
+                    <br />
+                    <img src="../../LIB_Images/45/GrdStatRw.png" title="Grouped grid with row counts and calculations in the groupings" alt="Grouped grid with row counts and calculations in the groupings" MadCap:conditions="General.DotNet45" />
+                    <br /><span class="LIB_Caption">Grouped grid with row counts and calculations in the groupings.</span>
+                </p>
+                <p>Some grids may total or count data in select columns. This is common in grids that contain financial data. The totals appear in the <span class="LIB_Italic">Grid Status</span> row at the bottom of the grid. If the grid settings allow, when the data is grouped the grid will display sub-totals for each grouping.</p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Not all grids have this option.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

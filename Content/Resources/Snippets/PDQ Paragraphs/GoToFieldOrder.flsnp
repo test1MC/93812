@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="113" MadCap:lastWidth="1010">
+    <head>
+    </head>
+    <body>
+        <p>The <span class="LIB_Bold">Order</span> column displays the numerical value for the field as displayed on the form. Users can choose the default order for the field list data to appear via the User Preference, <span class="LIB_Italic">Goto Field Sort Order</span>.
+
+
+</p>
+        <p>Regardless of the default order, users can always change the order by sorting the column. Please refer to <MadCap:xref href="../../../Libera Global Content/CH01 - Grid Functionality/Sorting Data in Grids.htm">Sorting Data in Grids</MadCap:xref> for additional information.
+</p>
+    </body>
+</html>

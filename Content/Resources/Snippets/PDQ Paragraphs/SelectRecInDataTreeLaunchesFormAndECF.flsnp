@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="226" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <p>Selecting a record in the <span class="LIB_Italic">Data Tree</span> does two things:
+</p>
+        <ol>
+            <li>
+
+Opens the form related to the PDQ.
+
+</li>
+            <li>Opens the ECF.
+</li>
+        </ol>
+        <p>
+The order of these events may vary slightly, but both will happen. Selecting the record in the <span class="LIB_Italic">Data Tree</span> is defined as follows:
+
+
+</p>
+        <ul>
+            <li>Single-click the record once to load the ECF. Double-click the record to open the form.
+
+</li>
+            <li>Placing cursor focus on the record, then press ENTER once to load the ECF. Press ENTER twice quickly to open the form.
+
+</li>
+        </ul>
+        <p>The user preference setting <span class="LIB_Bold">Open electronic case folder automatically?</span> affects this functionality. If you have this setting set to <span class="LIB_Bold">No</span>, the functionality will differ slightly, but you'll still be able to open the form and the ECF.
+</p>
+    </body>
+</html>

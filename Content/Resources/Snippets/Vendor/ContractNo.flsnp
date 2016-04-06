@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="1026">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Contract No</span>. – Enter the contract number. The contract number appears in grids referencing contracts by contract number. When the <span class="LIB_Bold">Service Begin Date</span> is entered on the Authorization, the <span class="LIB_Bold">Contract No</span>. populates the <span class="LIB_Bold">Contract #</span> field on the Authorization form. If there are multiple contracts available for the given <span class="LIB_Bold">Service Begin Date</span>, a message opens prompting the user to select the rate they wish to use. Otherwise, the system automatically selects the rate.</p>
+    </body>
+</html>

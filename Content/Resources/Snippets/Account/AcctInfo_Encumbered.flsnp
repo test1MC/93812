@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Encumbered" class="LIB_Bold"></MadCap:variable></span> – This is the total dollar amount written against the account. This is different from Authorized because it includes the <MadCap:variable name="Terminology.Rtn_to_Budget" /> amount and Authorized does not.</p>
+    </body>
+</html>

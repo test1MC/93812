@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4921" MadCap:lastWidth="968" MadCap:conditions="CO-CICMS.CO-CICMS_Exclude">
+    <head>
+        <meta name="description" content="Services associated with a vendor via the Vendor’s Services form cannot be used in the system until they are both activated and approved. " />
+    </head>
+    <body>
+        <h1>Vendor Service Events<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/VendSrvc_Events.png" title="Events section." alt="Events section." />
+            <br /><span class="LIB_Caption">Events section.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>Services associated with a vendor via the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form cannot be used in the system until they are both activated and approved. To prevent a service associated with a vendor from being used you may either deactivate or un-approve the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Summary</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Text appears notifying you if the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form is activated and/or approved or not. When it is activated and approved, the text is <span style="color: #228b22;" class="LIB_Bold">green</span>. When it isn't activated and approved, the text is <span style="color: #ff0000;" class="LIB_Bold">red</span> and tells you how to activate and/or approve the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>True for All Tabs</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Selecting a record in the grid shows the values in the fields below the grid. You can add a <span class="LIB_Bold">Start Date</span> and <span class="LIB_Bold">Comments</span> in the fields provided. As records are added to the grid the number displayed in the tab changes to reflect the number of events.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Approved</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Shows a grid of Approval events. When approving a <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form, select the <span class="LIB_Italic">Action Row</span> where it says, "Please click here to add a new record..." Doing so adds a record to the grid with today's date in the <span class="LIB_Bold">Added On</span> column.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Budget</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section is provided for informational purposes only. Data entered has no fiscal functionality.</p>
+                <ul>
+                    <li>Period No. - Type the number of payment periods.</li>
+                </ul>
+                <ul>
+                    <li>Budget Amount – Type the dollar amount allocated for the service.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Contract Amendment</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Contract amendments do not replace previous iterations of that contract. A contract or contract amendment is still valid during the date range of that event even if there is a subsequent contract amendment.</p>
+                <p>For example, there is a contract running from 01/01/20xx to 03/31/20xx and there is an amendment that extends that contract from 04/01/20xx to 06/30/20xx. The user writes an authorization and enters a <span class="LIB_Bold">Service Start Date</span> in February. This will use the original contract whereas a date in May would use the amendment.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Contract Reactivate</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To reactivate a previously terminated contract for the specified vendor’s service, complete the following fields.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Contract No</span>. – Press ALT+F1 to open the lookup list. Use the ARROW keys to scroll through the options. Press ENTER to select an option. Alternatively, you may click the blue pull down arrow and then double-click an option in the list to select.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Contract Terminated</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To terminate a contract select the Action Row, where it says "Please click here to add a new record..." This starts a new record with the fields showing below the Contract Terminated Events grid. In the Contract No. field select the contract to be terminated.</p>
+                <ul>
+                    <li>Terminating a contract prevents users from authorizing the contracted service.</li>
+                </ul>
+                <ul>
+                    <li>Terminated contracts appear in the <span class="LIB_Italic">View Contracts by Vendor</span> PDQ.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Current Rates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Rates added on the <span class="LIB_Italic">Current Rates</span> event tab appear in the <span class="LIB_Italic">Current Rates from Events</span> section of the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form. They add to and/or override any rates that populated the section from the <MadCap:xref href="SrvcInfo(405).htm">Service Information</MadCap:xref>  form. They are specific to this Vendor / Service combination and do not change the <span class="LIB_Italic">Current Rates</span> on the <MadCap:variable name="FormNames.405" class="LIB_Italic" /> form.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/MaxUnit.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/MaxRate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NormRate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/UnitType.flsnp" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Deactivate</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Deactivate event to deactivate the service for this vendor. The <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form must be both approved and activated before it can be used. Deactivating the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form prevents the vendor/service combination from being planned or authorized.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>New Contract - Long Form</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To add a new contract for the specified vendor’s service, complete the following fields.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/ContractNo.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/SolicNo.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotContAmt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/ContBal.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/SrvcAlloc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotAlloc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotAdminAmt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/MaxUnit.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/MaxRate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NormRate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/UnitType.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Vendor has approved providing service for no payment when contract line item has been exhausted?</span> - When set to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), users are allowed to continue services through a CRP even if the contract has run out. This allows users to refer and continue moving a <MadCap:variable name="Terminology.client_lc" /> through the step process or approve <MadCap:variable name="FormNames.6" />s in the stand alone process if the contract amount has been met. A <span class="LIB_Italic">Payment Approval</span> is not created when this scenario happens.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Pending Contract Amount </span>- Use to add a pending amount for authorized contracts that are awaiting an increase in funds. Payments against this pending amount are queued in the <span class="LIB_Italic">Services Provided Ready for Payment</span> PDQ and paid once the increase in funds is authorized. Payments awaiting the pending amount are highlighted yellow in the PDQ.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/FixdPymtAmtPerPeriod.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotPersSrvd.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/PayVendWks.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/PymtBasedPersSrvd.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/AcctNumforPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/UseNxtAvailAcct.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NxtAvailAcctContReached.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/RecXMoOfCont.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/RecClntSrvdXWKofCont.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/OutcomeBsdCont.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Counselor Approval Required for Payment</span> - Used in the Community Rehabilitation Program/Provider (CRP) process. When a service is paid by Progress Note or Milestone and the CRP selects the outcome, if this field is selected, the counselor must approve the outcome before it can be paid.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/OrigEndDate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NotiryContExceedXPerc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/WHLDPercORAmtforXMos.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Pay Set Fee Per Completed Service on Progress Reports</span> - Used in the Community Rehabilitation Program/Providers (CRP) process. When selected service is paid by the set fee regardless of how many hours are applied to the service.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>New Contract - Short Form</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Similar to the New Contract - Long Form section but with less fields.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/ContractNo.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/SolicNo.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotContAmt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/ContBal.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/SrvcAlloc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/TotAlloc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/PymtBasedPersSrvd.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/AcctNumforPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/UseNxtAvailAcct.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NxtAvailAcctContReached.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/OrigEndDate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Vendor/NotiryContExceedXPerc.flsnp" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Unapproved</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Unapproved event to unapprove the service for this vendor. The <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form must be both approved and activated before it can be used. Unapproving the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form prevents the vendor/service combination from being planned or authorized.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+    </body>
+</html>

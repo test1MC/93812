@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="S7 UG for the 3.5 version"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/S7-35-TOC.fltoc"
+  ConditionTagExpression="exclude[CO-CICMS.CO-CICMS_Exclude or CO-CICMS.CO-CICMS_Include or General.DotNet45 or General.Hold or General.Online or GenWAP.GenWAP_Exclude or GenWAP.GenWAP_Include or JKTC.JKTC_Exclude or JKTC.JKTC_Include or KEEM.KEEM-Exclude or KEEM.KEEM-Include or SADOPS.SADOPS_Exclude or SADOPS.SADOPS_Include or Sys7UserGuide.Sys7UserGuide_Exclude] "
+  MasterStylesheet="/Content/Resources/Stylesheets/LiberaGlobalStyleSheet.css"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="FormNames/1">Demographic Information</Variable>
+    <Variable
+      Name="FormNames/1000">Payment Approval</Variable>
+    <Variable
+      Name="FormNames/1003">Client Validation Dialog</Variable>
+    <Variable
+      Name="FormNames/1406">3 Bid Form</Variable>
+    <Variable
+      Name="LiberaCompanyInfo/Year">2016</Variable>
+  </Variables>
+  <PDF
+    Tagged="true" />
+  <DocumentProperties
+    Title="System 7 User Guide"
+    Subject="System 7 Core Functionality" />
+</CatapultTarget>

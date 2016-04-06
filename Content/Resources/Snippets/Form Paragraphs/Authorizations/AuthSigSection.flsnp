@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="409" MadCap:lastWidth="878">
+    <head>
+    </head>
+    <body>
+        <h4>Signature Section</h4>
+        <ul>
+            <li><span class="LIB_Bold">Ready for Approval</span> - This date reflects when the authorization was ready to be approved by the required staff. Field locks after filling in and cursor focus leaves the field.</li>
+            <li><span class="LIB_Bold">Approved?</span> - Only editable by the person whose name follows <span class="LIB_Bold">Authorized By:</span> under the signature line. This field is associated with the <span class="LIB_Bold">Approval Date</span> field. This field is used to approve or reject the <span class="LIB_Italic">Authorization</span> at all signature levels.</li>
+            <li>If the <span class="LIB_Bold">Approved?</span> field is <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>), the <span class="LIB_Italic">Authorization</span> is zeroed out and the associated account is updated accordingly. </li>
+            <li>You must provide a <span class="LIB_Bold">Disapproval Reason</span> when disapproving an <span class="LIB_Italic">Authorization</span>. You may select a reason from the lookup or type one of your own into the field. This is required before you can enter a date into the <span class="LIB_Bold">Approval Date</span> field.</li>
+            <li><span class="LIB_Bold">Approval Date</span> -  You may enter an approval date if your name appears under the signature line.  The form cannot be signed until all the Agency requirements have been met. Warning messages appear informing you of what actions are required before the date can be filled in.</li>
+            <li><span class="LIB_Bold">Authorized By: Name</span> - Displays the name of the person who is filling out the form. This information appears with all signature lines.</li>
+        </ul>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> If a <span class="LIB_Bold">Delegate</span> has been set up on the <span class="LIB_Italic">Employee Information</span> form, that person may also sign forms for the user. When this is the case, the signature line will include the words "On behalf of:"</p>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">Libera, Inc.</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">716-665-2800</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress">1509 Buffalo St. Ext.</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName">System 7</Variable>
+  <Variable
+    Name="Fax"
+    Comment=""
+    OriginalName="Fax">Fax 716-665-4004</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text">Jamestown, NY 14701</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment="">Preparing Your Computer for System 7</Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot">1.0</Variable>
+  <Variable
+    Name="Year"
+    OriginalName="Year">2015</Variable>
+</CatapultVariableSet>

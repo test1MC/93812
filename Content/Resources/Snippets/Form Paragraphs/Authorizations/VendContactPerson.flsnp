@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="904">
+    <head>
+    </head>
+    <body>
+        <p>The <span class="LIB_Bold">Vendor's Contact Person</span> field automatically displays the <MadCap:variable name="Terminology.vendor_LC" />'s contact person (if provided on the <span class="LIB_Italic"><MadCap:variable name="FormNames.400" class="LIB_Italic" /></span> form). You may update this information if necessary. Changing it in the <span class="LIB_Italic">Authorization</span> form does not change it on the <MadCap:variable name="FormNames.400" class="LIB_Italic" /> form.</p>
+    </body>
+</html>

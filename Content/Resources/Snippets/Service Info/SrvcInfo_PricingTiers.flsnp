@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="172" MadCap:lastWidth="1040" MadCap:conditions="KEEM.KEEM-Exclude,JKTC.JKTC_Exclude,SADOPS.SADOPS_Exclude">
+    <head>
+    </head>
+    <body>
+        <p>Pricing Tiers allows your Agency to set a variety of pricing options for the service. For example, you could set up different prices for different counties.</p>
+        <p>The costs affect the default and maximum values for the service on authorizations. The selected program determines what authorizations are associated with a service.</p>
+        <p>When filled in this data flows into the <span class="LIB_Italic">Vendor Service Events</span> section of the <span class="LIB_Italic">Vendor's Services</span> form. You can add as many pricing tiers as necessary. Refer to <MadCap:xref href="../../../Libera Global Content/CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</p>
+        <p>&#160;</p>
+    </body>
+</html>

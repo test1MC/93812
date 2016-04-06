@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1140" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_Purple.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="System Admins use Role Adminsitration to manage user roles for their Agency." />
+    </head>
+    <body>
+        <h1>Role Administration Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/RoleAdministrationFrm.png" title="Role Administration form." alt="Role Administration form." />
+            <br /><span class="LIB_Caption">Role Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The <span class="LIB_Italic">Role Administration</span> form allows you to create and modify roles. All data entered on the form appears in the <span class="LIB_Italic">Role Administration</span> grid as follows:</p>
+        <p>&#160;</p>
+        <table style="mc-table-style: url('../../Resources/Stylesheets/TableStyles/Table_Purple.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table_Purple" cellspacing="0" summary="This table maps the form field names to the table columns.">
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Purple-Head-Header1">
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1" style="text-align: center;">Form Field</th>
+                    <th class="TableStyle-Table_Purple-HeadD-Column1-Header1" style="text-align: center;">Table Column</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;">Number</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1" style="text-align: center;">ID</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2" style="text-align: center;">Short Description</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2" style="text-align: center;">Name</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;">Long Description</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1" style="text-align: center;">Description</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2" style="text-align: center;">Program</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2" style="text-align: center;">Program</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1" style="text-align: center;">Roles That Can Assign</td>
+                    <td class="TableStyle-Table_Purple-BodyA-Column1-Body1" style="text-align: center;">Roles That Can Assign</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Form Fields</p>
+        <ul>
+            <li><span class="LIB_Bold">Number</span> - this is the unique ID number of the role. When you add a new role to the system it must have a number higher than 1000 and be unique.</li>
+            <li><span class="LIB_Bold">Short Description</span> - This is the short description of the role. It must be 20 characters or less.</li>
+            <li><span class="LIB_Bold">Long Description</span> - This is the long description of the role. Use it to be more descriptive of the intent for the role. It must be 100 characters or less.</li>
+            <li><span class="LIB_Bold">Program</span> - Optional. You may associate the role with a specific program with the system. Select the program from the lookup. If the role is intended to be used across multiple programs, leave this field blank.</li>
+            <li><span class="LIB_Bold">Roles That Can Assign</span> - You may restrict who can assign this role to others if desired. This is commonly used when you have outside agencies working in your system. </li>
+        </ul>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Why Add a New Role?</p>
+        <p>Ideally, all necessary roles are created when the application is initially developed. However, changing agency needs may require additional roles. You can add new roles and modify existing roles in <span class="LIB_Italic">Role Administration</span> located in the <span class="LIB_Italic">System Administration</span> module.</p>
+        <p>For example, let's start with a basic program X counselor role (where X represents a particular program). All counselors that work with program X are assigned this role. Now let's assume that some counselors have additional duties that require they have access to additional functionality, forms, and so on within System 7™ that the other program X counselors do not need to access.</p>
+        <p>If you only want to give these special rights to some but not all program X counselors, you would create a new role that gives access to the additional functionality and then you would apply it only to the program X counselors that need it. This gives you finite control over what users have access to in System 7™.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="10 Role Administration.htm">Role Administration</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="04 Employee Role Assignments.htm">Employee Role Assignments</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="05 Employees Per Role.htm">Employees Per Role</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

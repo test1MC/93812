@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="946" MadCap:lastWidth="946">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Type to Find allows you to quickly jump to a record (cell) by starting to type text (alphanumeric characters) when cursor focus is in the grid." />
+    </head>
+    <body>
+        <h1>Type to Find</h1>
+        <p><span class="LIB_Bold">Type to Find</span> allows you to quickly jump to a record (cell) by starting to type text (alphanumeric characters) when cursor focus is in the grid. Alphanumeric characters are A-Z, 0-9, and the number pad digits. Use the Filter Row to search for special characters such as an ampersand (&amp;) or pound sign (#).</p>
+        <h2>Search Behavior</h2>
+        <ul>
+            <li>Searches the column from the current cursor location to the last loaded record, then loops back to the top of the table.</li>
+            <li>Searches by the cell values starting with the typed alphanumeric characters. For example, as you type "tes", it first jumps to a cell starting with t, then tries to find one starting with "te", then one starting with "test", if one exists.</li>
+            <li>If you pause too long between characters (more than one second), the search assumes you wanted to start over and resets the search string. For example, if you type "t (pause) e (pause) s", it first jumps to a cell starting with t, then one starting with e, then one starting with s.</li>
+            <li>Repeatedly pressing the same character, for example "zz" or "zzz" etc., the search assumes you want to jump between cells beginning with the letter z, not the word "zzz".</li>
+            <li>If you mistype a character in a search string, pause a moment and begin typing again.</li>
+            <li>Search check box columns by typing Y, 1, X, or T to jump between selected cells. Type N, 0, or F to jump between clear cells.</li>
+            <li>You can use the <span class="LIB_Italic">Filter Row</span> and <span class="LIB_Bold">Type to Find</span> together. This is especially helpful if you're working with a grid that has hundreds of records.</li>
+            <li>If a cell value contains punctuation or symbols intermixed with alphanumeric characters, just type the alphanumeric characters to find a cell. For example, if a cell value is "03/06/2015", just start typing "0306" etc. to find the date. Don't type the slashes or other punctuation. The grid searches without the punctuations.</li>
+        </ul>
+        <h2>Grid Structures Supported</h2>
+        <p>When grids are grouped by one or more columns, the search goes through all groupings. It automatically expands collapsed groupings when it finds a matching cell.</p>
+        <p>When searching within a grid that has parent and child tables such as the <span class="LIB_Italic">Vendor/Service List</span>, the search stays within the table that has focus. For example, if cursor focus is in the parent table, searching jumps from parent table record to parent table record. If cursor focus is in a child table, it stays within the child table (it doesn't jump from child table to child table).</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> If you are in an editable cell/column, typing an alphanumeric character starts editing the cell. It will <span class="LIB_Bold">NOT</span> start a <span class="LIB_Bold">Type to Find</span> search. For example when you're setting up user preferences or if you're working in the System Administration module.</p>
+        <h2>Limitations</h2>
+        <p><span class="LIB_Bold">Type to Find</span> only searches loaded records. To search all records in a PDQ, use the <span class="LIB_Italic">Filter Row</span>.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>When searching within the <span class="LIB_Italic">Data Tree</span>, performance will be slower if your user preference for <span class="LIB_Italic">Open electronic case folder automatically?</span> is <span class="LIB_Bold">Yes</span>. When it's set to yes, the system attempts to load the ECF as cursor focus jumps from cell to cell within the column. If this is problematic for you, consider changing the setting from <span class="LIB_Bold">Yes</span> to <span class="LIB_Bold">No</span>.</li>
+        </ul>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

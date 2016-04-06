@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="6420" MadCap:lastWidth="1128" MadCap:conditions="GenWAP.GenWAP_Exclude,JKTC.JKTC_Exclude,SADOPS.SADOPS_Exclude,CO-CICMS.CO-CICMS_Exclude">
+    <head>
+        <link href="../../../Resources/Stylesheets/TableStyles/Table_Purple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="The Account Information form shows information about budget accts used to charge and pay for goods and services. Agencies track funds allocated to various programs via budget accts." />
+    </head>
+    <body>
+        <h1>Account Information<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Core/AcctInfo.png" title="Top section of the Account Information form." alt="Top section of the Account Information form." />
+            <br /><span class="LIB_Caption">Top section of the Account Information form.</span>
+        </p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form shows information about budget accounts used to charge and pay for goods and services. Agencies track funds allocated to various programs via budget accounts. This form is available when the <MadCap:variable name="PDQNames.51007" class="LIB_Italic" /> PDQ is run and you selects the <span class="LIB_Bold">Create Account</span> button or by selecting an existing account record in the <span class="LIB_Italic">Data Tree</span>.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p><span class="LIB_Bold">Form Fields</span>
+        </p>
+        <p>Many of the form fields and related data located in the top section of the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form are copied into the various <MadCap:variable name="Terminology.Sub_Account" />s associated with the account. The ability to edit a field varies on the section in which it appears.</p>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AcctType.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li MadCap:conditions="KEEM.KEEM-Exclude">
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_DistrictRegionField.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li MadCap:conditions="Sys7UserGuide.Sys7UserGuide_Exclude,CO-CICMS.CO-CICMS_Exclude">
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AgencyField_KEEM.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Office*</span> – Shows the name of the office where the account is assigned. This field is editable for level three <MadCap:variable name="Terminology.Sub_Account" />s or if your Agency is not using <MadCap:variable name="Terminology.Sub_Account" />s. The numeric code for the office becomes part of the account number.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Fiscal Year*</span> – This value becomes part of the account number. <MadCap:snippetText src="../../../Resources/Snippets/Account/DataFlowstoAllSubChildAccts.flsnp" /></li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_SegOfYear.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AccountIdentifier.flsnp" MadCap:conditions="KEEM.KEEM-Exclude" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AccountIdentifier_KEEM.flsnp" MadCap:conditions="Sys7UserGuide.Sys7UserGuide_Exclude,SADOPS.SADOPS_Exclude,JKTC.JKTC_Exclude,GenWAP.GenWAP_Exclude,CO-CICMS.CO-CICMS_Exclude" />
+            </li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Account Name</span> – The account name entered here appears in lookups/picklists and forms.</li>
+        </ul>
+        <ul>
+            <li MadCap:conditions="KEEM.KEEM-Exclude"><span class="LIB_Bold">Account Identifier Group</span> – Shows the title of the Account Identity Group associated with the Account Identifier. <MadCap:snippetText src="../../../Resources/Snippets/Account/DataFlowstoAllSubChildAccts.flsnp" /></li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Program</span> – This associates the account with an agency program. <MadCap:snippetText src="../../../Resources/Snippets/Account/DataFlowstoAllSubChildAccts.flsnp" /></li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">County </span>-This associates the account with a county. <MadCap:snippetText src="../../../Resources/Snippets/Account/DataFlowstoAllSubChildAccts.flsnp" /></li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_BgnEndDate.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_DTExpPymts.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_TurnAcctOff.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AlsoOffAuth.flsnp" />
+            </li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctNumberCreationCounty.flsnp" />
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Account Ranking</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/AcctInfo_AccountRanking.png" title="Account Ranking section." alt="Account Ranking section." />
+                    <br /><span class="LIB_Caption">Account Ranking section.</span>
+                </p>
+                <p>This section appears when the <span class="LIB_Bold">Account Type</span> is <span class="LIB_Italic">Authorization</span> or <span class="LIB_Italic">Upper Level Accoun</span>t. It shows information about special target groups that apply to the account. This section is only editable for first level accounts. You can select multiple <span class="LIB_Bold">Special Project</span> choices at one time.</p>
+                <p>When authorizing services for <MadCap:variable name="Terminology.client_lc" />s authorizations will select accounts where the Special Project (on the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form) matches the <MadCap:variable name="Terminology.client_lc" />’s Special Project (on the Application and Intake form) or the Default Project Description for the <MadCap:variable name="Terminology.client_lc" />’s program. Default Project Descriptions are set for programs in the Dictionary Table Administration module, specifically the<span class="LIB_Italic"> Account Special Project Codes</span> table.</p>
+                <p>When multiple accounts match, then the account is selected in <span class="LIB_Bold">Rank</span> order (from 1 to infinity). If a value is not entered for Rank, the account's rank is assumed to be 100. In that event, it will be the last account used for authorizations.</p>
+                <p>Special Project and Rank are not considered if the vendor’s service is contracted and an account is specified for that contract or when processing Agency authorizations.</p>
+                <p>Use the <span class="LIB_Bold">Only available if the service specifies this Account Identifier or Account Number?</span> field to further control when this account can be used. When this field is selected this account can only be used when the <span class="LIB_Bold">Account Identifier</span> or <span class="LIB_Bold">Account Number</span> matches the requirements for the service being provided.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Budget Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/AcctInfo_BudgetInfo.png" title="Budget Information section." alt="Budget Information section." />
+                    <br /><span class="LIB_Caption">Budget Information section.</span>
+                </p>
+                <p>This section shows budget information for the account. All of the fields in this section, with the exception of the <MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /> and <span class="LIB_Bold">Payments Not to Exceed</span> fields, are automatically updated with authorization transactions.</p>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Allocated.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_BalToAuth.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Encumbered.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_RtnToBudget.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Authorized.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Projected.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_TotPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_OutstandingPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_ActAmtExp.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_PymtInProc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_SubAcctTot.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Balance Left to Allocate</span> – This is the amount remaining to allocate to sub accounts. Calculation: <span class="LIB_Bold"><MadCap:variable name="Terminology.Allocated" class="LIB_Bold"></MadCap:variable></span> less <MadCap:variable name="Terminology.Sub_Account" class="LIB_Bold" /> Total.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_PymtNotExceed.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AvailPymtBal.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="KEEM.KEEM-Exclude"><span class="LIB_Bold">Income</span> - Automatically populated when the Agency receives a Subrogation Reimbursement. The amount shown in this field increases the <MadCap:variable name="Terminology.Bal_to_Auth" /> and the <MadCap:variable name="Terminology.AvailPymtBal" />.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><MadCap:variable name="Terminology.Sub_Account" /> Overview</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/AcctInfo_SubAccts.png" title="Sub Accounts section of the Account Information form." alt="Sub Accounts section of the Account Information form." />
+                    <br /><span class="LIB_Caption">Sub Accounts section of the Account Information form.</span>
+                </p>
+                <p>When you set up a budget account you have the ability to create a hierarchy of accounts. Think of <MadCap:variable name="Terminology.Sub_Account" />s as a way to subdivide money between organizational units. Total funds are added to the Level 1 account, then allocated as desired to all related <MadCap:variable name="Terminology.Sub_Account" />s. Although account activity is tracked at the authorization account level, the <MadCap:variable name="Terminology.ParentAcct" />s show the totals of all of their <MadCap:variable name="Terminology.Sub_Account" />s.</p>
+                <p>The hierarchy can have up to three levels. Each level may have multiple accounts. For example:</p>
+                <p style="text-indent: 0.5in;">Level 1 = <MadCap:variable name="Terminology.ParentAcct" />, ie. Agency wide funds.</p>
+                <p style="text-indent: 0.5in;">Level 2 = Child Account, ie. <MadCap:variable name="Terminology.Region/District_UC" /> funds, create one for each <MadCap:variable name="Terminology.Region/District_UC" />.</p>
+                <p style="text-indent: 0.5in;">Level 3 = Grandchild Account, ie. Office funds, create one for each Office in the <MadCap:variable name="Terminology.Region/District_UC" />.</p>
+                <p><MadCap:variable name="Terminology.Sub_Account" />s are created one of two ways. They can be created via the <MadCap:variable name="Terminology.Sub_Account" class="LIB_Italic" /> section of the Level 1 or 2 account or, you can select Level 1 or 2 account in the <span class="LIB_Italic">Data Tree</span>, then select the <span class="LIB_Bold">Create <MadCap:variable name="Terminology.Sub_Account"></MadCap:variable></span> button.</p>
+                <p><span class="LIB_Bold">Other Miscellaneous Information about <MadCap:variable name="Terminology.Sub_Account"></MadCap:variable>s</span>
+                </p>
+                <ul>
+                    <li>Agencies are not required to use <MadCap:variable name="Terminology.Sub_Account" />s.</li>
+                </ul>
+                <ul>
+                    <li><MadCap:variable name="Terminology.Sub_Account" />s are displayed in the <span class="LIB_Italic">Data Tree</span> grouped under the Level 1 account.</li>
+                </ul>
+                <ul>
+                    <li>You may need to refresh the <span class="LIB_Italic">Data Tree</span> to see newly added accounts of all levels.</li>
+                </ul>
+                <ul>
+                    <li>When you create a <MadCap:variable name="Terminology.Sub_Account" />s, the majority of the fields are populated from the Level 1 account.</li>
+                </ul>
+                <ul>
+                    <li>You can select a <MadCap:variable name="Terminology.Region/District_UC" /> at Level 2.</li>
+                </ul>
+                <ul>
+                    <li>You can select an Office at Level 3.</li>
+                </ul>
+                <ul>
+                    <li>If your Agency uses counties you can select one at Level 3.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Steps to Create Accounts with <MadCap:variable name="Terminology.Sub_Account" />s From the Ground Up!</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <p><span class="LIB_Bold">Adding the Upper Level Account</span>
+                </p>
+                <ol>
+                    <li>Run the <MadCap:variable name="PDQNames.51007" /> PDQ.</li>
+                    <li>In the <span class="LIB_Italic">Data Tree</span>, select the <span class="LIB_Bold">Create an Account</span> button. Use your mouse, or with cursor focus in the <span class="LIB_Italic">Data Tree</span>, press CTRL+SHIFT+B to jump to the buttons at the bottom of the <span class="LIB_Italic">Data Tree</span>. This opens the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form.</li>
+                    <li>In the form for the <span class="LIB_Bold">Account Type</span> field, select <span class="LIB_Bold">Upper Level Account</span> from the lookup.</li>
+                    <li>Enter the <span class="LIB_Bold">Fiscal Year</span> (FY). This becomes part of the Account Number.</li>
+                    <li>Add the <span class="LIB_Bold">Segment of Year</span>. This becomes part of the Account Number.</li>
+                    <li>Select the <span class="LIB_Bold">Program</span>. This causes the Account Identifier to populate which in turn becomes part of the Account Number.</li>
+                    <li>Enter a <span class="LIB_Bold">Begin</span> and <span class="LIB_Bold">End Date</span> for the account. Usually these correspond with the FY you are using. For example if your FY is 2016 and you are using the Federal FY the Begin Date would be 10/01/2015 and the End Date would be 09/30/2016.</li>
+                    <li>Set the <span class="LIB_Bold">Turn Account Off?</span> field to <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>). Otherwise no one will be able to use the account and all related <MadCap:variable name="Terminology.Sub_Account" />s.</li>
+                    <li>Select the <span class="LIB_Bold">Special Project</span> for the account.</li>
+                    <li>Enter a number (1-99) for the <span class="LIB_Bold">Rank</span>. The higher the number means that the account will be used more frequently. If left blank, the account's rank is assumed to be 100. It will be the absolutely last account ever used.</li>
+                    <li>Enter the <MadCap:variable name="Terminology.Allocated" /> amount. Now you're ready to add a Level 2 <MadCap:variable name="Terminology.Sub_Account" />.</li>
+                </ol>
+                <p>&#160;</p>
+                <p><span class="LIB_Bold">Adding a Level 2 <MadCap:variable name="FormNames.406" /></span>
+                </p>
+                <p>The <MadCap:variable name="Terminology.Sub_Account" />s section of this form is used to create Level 2 <MadCap:variable name="Terminology.Sub_Account" />s.</p>
+                <ol>
+                    <li>You have two options for <span class="LIB_Bold">Account Type</span> in the <MadCap:variable name="Terminology.Sub_Account" />s section.<ul><li>Select <span class="LIB_Italic">Upper Level Account</span> again if you intend to add a Level 3 account or,</li><li>Select <span class="LIB_Italic">Authorization Account</span> if you are stopping at Level 2.</li></ul></li>
+                    <li>Fill out the following information:<ul><li><MadCap:variable name="Terminology.Region/District_UC" class="LIB_Bold" /></li><li><span class="LIB_Bold">Account Name</span></li><li><span class="LIB_Bold"><MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /></span> - This can be the full amount from the Level 1 account or a partial amount if you intend to intend to split the funds between multiple Level 2 accounts.</li><li><span class="LIB_Bold"><MadCap:variable name="Terminology.Pymt_Limit" class="LIB_Bold" /></span> - this is optional.</li></ul></li>
+                </ol>
+                <p>If you are not creating a Level 3 account, stop now. If you are creating a Level 3 account continue on to <span class="LIB_Italic">Adding a Level 3 Account</span> below.</p>
+                <p>&#160;</p>
+                <p><span class="LIB_Bold">Adding a Level 3 Account</span>
+                </p>
+                <ol>
+                    <li>Close the Level 1 <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form that has the Level 2 <MadCap:variable name="Terminology.Sub_Account" /> that you just added.</li>
+                    <li>When the <span class="LIB_Italic">Data Tree</span> refreshes you will see your newly created Level 1 account listed with a plus sign to the left of the <span class="LIB_Bold">Account Name</span>. Select the account and expand the row. Single-click the plus sign, or with cursor focus on the row press the SPACE bar to expand the row.</li>
+                    <li>When the row expands you will see the Level 2 account(s) listed under the Level 1 account. Select the Level 2 account you just created to open its own <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form.</li>
+                    <li>Navigate to the <MadCap:variable name="Terminology.Sub_Account" />s section. Filling in this section creates a Level 3 account. Fill in the following information:<ul><li><span class="LIB_Bold">Account Type</span> - Select Authorization Account.</li><li><span class="LIB_Bold">Office</span></li><li><span class="LIB_Bold">Account Name</span></li><li><span class="LIB_Bold"><MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /></span> - This can be the full amount from the Level 2 account or a partial amount if you intend to intend to split the funds between multiple Level 3 accounts.</li><li><span class="LIB_Bold"><MadCap:variable name="Terminology.Pymt_Limit" class="LIB_Bold" /></span> - this is optional.</li></ul></li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <p><span class="LIB_Bold">General</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="Account Selection Checklist.htm">Account Selection Checklist</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../Tools/Copy Budget Accounts to New Year.htm">Copy Budget Accounts to New Year</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li MadCap:conditions="General.DotNet45">
+                <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections 4.5.htm">Multiple-Section Sections</MadCap:xref>
+            </li>
+            <li MadCap:conditions="General.DotNet35">
+                <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../Tools/Transfer Authorizations Tool.htm">Transfer Authorizations Tool</MadCap:xref>
+            </li>
+        </ul>
+        <p><span class="LIB_Bold">Application Settings</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Enable the Forms to Include section of the Account Info form.htm">Enable the Forms to Include section of the Account Information form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Max level of account that is editable.htm">Max level of account that is editable</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Notify staff when an account balance drops below X percent.htm">Notify staff when an account balance drops below X percent</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Fund field on Account Information.htm">Show Fund field on Account Information</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the Account Code field on the Account Info form.htm">Show the Account Code field on the Account Information form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the Order Number on the Account form.htm">Show the Order Number on the Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the Original Allocation field on Account Form.htm">Show the Original Allocation field on Account Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the Parent Account on Account form.htm">Show the Parent Account on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the WBS Element on the Account form.htm">Show the WBS Element on the Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Actual Amount Expended field on Account form.htm">Term for 'Actual Amount Expended' field on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Allocated field on Account form.htm">Term for Allocated field on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Encumbered field on Account form.htm">Term for Encumbered field on Account form </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Outstanding Payments field on Account form.htm">Term for 'Outstanding Payments' field on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Payments in Process field on Account form.htm">Term for 'Payments in Process' field on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Term for Return to Budget field on Account form.htm">Term for 'Return to Budget' field on Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for Account Balance.htm">Terminology for Account Balance</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for Account Code.htm">Terminology for Account Code</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for Total Payments.htm">Terminology for Total Payments</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology used for the Appropriation Code on Accounts.htm">Terminology used for the Appropriation Code on Accounts</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology used for the Fund Code on Accounts.htm">Terminology used for the Fund Code on Accounts</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The list of roles that can add remove Accounts.htm">The list of roles that can add/remove Accounts</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The term used for Region on the Account form.htm">The term used for Region on the Account form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The Terminology for the ORGN Field on the Account Info Form.htm">The Terminology for the ORGN Field on the Account information Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The Terminology for the RPTG Field on the Account info Form.htm">The Terminology for the RPTG Field on the Account information Form </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The Terminology to use for Accounts.htm">The Terminology to use for Accounts</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The Terminology used for Child Account on the Account Infor Form.htm">The Terminology used for Child Account on the Account Information Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/The Terminology used for Parent Account on the Account Info Form.htm">The Terminology used for Parent Account on the Account Information Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Whether to show the APPR Field on the Account Form.htm">Whether to show the APPR Field on the Account Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Whether to show the ORGN Field on the Account Form.htm">Whether to show the ORGN Field on the Account Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Whether to show the RPTG Field on the Account Form.htm">Whether to show the RPTG Field on the Account Form</MadCap:xref>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

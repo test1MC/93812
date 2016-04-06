@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="49" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Bal_to_Auth" class="LIB_Bold" /></span> – This is the amount available to authorize. Calculation: <MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /> less <span class="LIB_Bold">Authorized</span>.</p>
+    </body>
+</html>

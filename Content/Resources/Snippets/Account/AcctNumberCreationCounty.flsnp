@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="548" MadCap:lastWidth="1033">
+    <head>
+        <link href="../../Stylesheets/TableStyles/Table_Purple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h4>How the Account Number is Created 
+</h4>
+        <p>When you first add an account, the <span class="LIB_Bold">Account Number</span> is displayed as Xs. As you fill out the form, the Xs are replaced with numeric values. The Account Number is not valid until all the Xs are replaced with numbers. </p>
+        <p><span class="LIB_Bold">Account Number Format:</span> X-XX-XXXX-XXX-XXX</p>
+        <table style="mc-table-style: url('../../Stylesheets/TableStyles/Table_Purple.css');caption-side: bottom;" class="TableStyle-Table_Purple" cellspacing="0">
+            <caption><span class="LIB_Caption">Account Number Broken Down by Segments</span>
+            </caption>
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Purple-Head-Header1">
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1"><MadCap:variable name="Terminology.Region/District_UC" />
+                    </th>
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1">Office</th>
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1">Fiscal Year</th>
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1">Account Identifier &amp; Segment of the Year</th>
+                    <th class="TableStyle-Table_Purple-HeadD-Column1-Header1">County</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1" style="text-align: center;">X</td>
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1" style="text-align: center;">XX</td>
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1" style="text-align: center;">XXXX</td>
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1" style="text-align: center;">xxx</td>
+                    <td class="TableStyle-Table_Purple-BodyA-Column1-Body1" style="text-align: center;">xxx</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li>
+The single-digit number relates to the <MadCap:variable name="Terminology.Region/District_UC" class="LIB_Bold" /> selected for the account.
+</li>
+            <li>
+
+The two-digit number relates to the <span class="LIB_Bold">Office</span> selected for the account.
+
+
+</li>
+            <li>The four-digit number relates to the <span class="LIB_Bold">Fiscal Year</span> entered for the account.
+
+
+</li>
+            <li>The three-digit number relates to the <span class="LIB_Bold">Account Identifier</span> and the <span class="LIB_Bold">Segment of the Year</span> for the account.
+</li>
+            <li>The last three-digit number relates to the <span class="LIB_Bold">County</span> for the account.
+
+</li>
+        </ol>
+        <p>You may not change information in the related fields that contributed to the creation of the Account Number once it is valid. If you attempt to change any of the related fields the following message appears:
+
+
+</p>
+        <blockquote>
+            <p>--------------------------- 
+</p>
+            <p>Windows Internet Explorer </p>
+            <p>
+--------------------------- 
+</p>
+            <p>The [field name] cannot be removed once the Account Number has been Completed. </p>
+            <p>
+--------------------------- 
+</p>
+            <p>OK</p>
+            <p>
+---------------------------
+
+</p>
+        </blockquote>
+    </body>
+</html>

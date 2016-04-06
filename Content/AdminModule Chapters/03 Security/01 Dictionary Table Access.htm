@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1523" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="System Admins use Dictionary Table Access to control which users can see and administer which tables." />
+    </head>
+    <body>
+        <h1>Dictionary Table Access<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/DictTblAccess.png" title="Dictionary Table Access." alt="Dictionary Table Access." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/DictTblAcc.png" title="Dictionary Table Access." alt="Dictionary Table Access." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Dictionary Table Access.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> Grid</p>
+        <p><span class="LIB_Bold">Description:</span> The<span class="LIB_Bold"> Dictionary Table Access</span> option allows  Administrators to control which <span class="LIB_Italic">Dictionary Administration</span> tables are visible and editable and to which user ID roles. This option is edited directly on the grid. The columns that  Administrators can edit are <span class="LIB_Bold">Description</span>, <span class="LIB_Bold">Read ACL</span>, and <span class="LIB_Bold">Write ACL</span>. </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Column Definitions</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Table</span> - The table name within the data base. This is managed by Libera. Administrators may not change table names.</li>
+            <li><span class="LIB_Bold">Description</span> - Additional information provided to help you identify where or how the dictionary table is used.</li>
+            <li><span class="LIB_Bold">Read ACL </span>- Controls who can see the dictionary table within <span class="LIB_Italic">Dictionary Administration</span>.</li>
+            <li><span class="LIB_Bold">Write ACL</span> - Controls who can edit the dictionary table within <span class="LIB_Italic">Dictionary Administration</span>.</li>
+        </ul>
+        <h3>Modifying Dictionary Table Access</h3>
+        <ol>
+            <li>Open (right-click or press F4) the cell context menu in the cell that you will be changing. Select the <span class="LIB_Bold">Edit </span>otpion. This opens the cell up for editing.</li>
+            <li>Change the contents of the cell as desired.</li>
+        </ol>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>The <span class="LIB_Bold">ACL</span> columns take a list of comma separated User Roles. There is no lookup for these fields, it's best if you have the User Roles on hand before editing.</li>
+            <li>Leaving an <span class="LIB_Bold">ACL</span> cell blank means that all users with access to <span class="LIB_Italic">Dictionary Administration</span> can see and/or edit the contents of the cell.</li>
+            <li>Placing an exclamation point (!) directly in front of a User Role means that users with that User Role cannot see and/or edit the Dictionary table.</li>
+            <li>You can allow non-System Administrators to edit Dictionary tables by giving them the <span class="LIB_Italic">Dictionary Administration</span> role, 1100. This allows them  to edit Dictionary tables via the <span class="LIB_Italic">Dictionary Administration</span> PDQ. </li>
+            <li>The <span class="LIB_Bold">Read</span> and <span class="LIB_Bold">Write ACLs</span> do not have to be set identical. You can allow users to see Dictionary tables without giving them the ability to edit them. </li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../01 General/03 Dictionary Administration.htm">Dictionary Administration</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

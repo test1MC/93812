@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Accessibility Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterStylesheet="/Content/Resources/Stylesheets/LiberaGlobalStyleSheet.css"
+  ConditionTagExpression="exclude[General.DotNet45 or General.Hold or General.Online or General.LIB_SysAdmContent] "
+  MasterToc="/Project/TOCs/AccessibilityGuide_PDF_TOC.fltoc"
+  PatchHeadingLevels="true"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
+  DisableAutoSync="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <PDF
+    Tagged="true"
+    CropAndRegistrationMarks="false" />
+  <DocumentProperties
+    Title="Accessibility Guide" />
+  <Glossaries />
+</CatapultTarget>

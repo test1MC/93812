@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="300" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <p>When you enter a full <span class="LIB_Bold">Birth Date</span>, the search results return results that individually match the month, day, and year. For example, when you enter 10/17/1962, the search results include <MadCap:variable name="Terminology.client_lc" />s born in October, or on the 17th day of the month, or in 1962. It will also show <MadCap:variable name="Terminology.client_lc" />s whose birthdate matches your search criteria. <MadCap:variable name="Terminology.Client_UC" />s with matching birthdates have a higher <span class="LIB_Bold">Hit Rate</span> percentage.</p>
+        <p>Alternatively, you can specify a month, date, or year by zero-filling the other portions of the date. For example, if you only want to see <MadCap:variable name="Terminology.client_lc" />s born in 1962, enter 00/00/1962. For <MadCap:variable name="Terminology.client_lc" />s born in October, enter 10/00/0000.</p>
+        <p>This comes in handy if you have a client with a common name and all you can remember is the year they were born. For example, search on the following:</p>
+        <ul>
+            <li>Last Name - Smith</li>
+            <li>First Name - John</li>
+            <li>Birth Date - 00/00/1962</li>
+        </ul>
+        <p>The search results returns <MadCap:variable name="Terminology.client_lc" />s with the last name of Smith, with the first names starting with J or Jo, and those with the birth year of 1962. The closer the data matches the search criteria the higher the <span class="LIB_Bold">Hit Rate</span> percentage.</p>
+    </body>
+</html>

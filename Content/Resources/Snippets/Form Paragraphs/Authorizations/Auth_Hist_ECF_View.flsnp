@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="253" MadCap:lastWidth="877">
+    <head>
+    </head>
+    <body>
+        <h4>Changing the ECF View to Authorization History</h4>
+        <ol>
+            <li>With a <MadCap:variable name="Terminology.case_lc" /> selected in the <span class="LIB_Italic">Data Tree</span>,  open the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li>Select the <span class="LIB_Italic">Views</span> tab.</li>
+            <li>Filter for the word <span class="LIB_Bold">authorization</span>, or arrow down to one of the <span class="LIB_Italic">Authorization History</span> view options and press ENTER.</li>
+            <li>The ECF updates to the selected View.</li>
+        </ol>
+        <p>While it is the active View, the ECF&#160;for all records in the <span class="LIB_Italic">Data Tree</span> will display it.</p>
+        <p>To see the ECF as before, you will have to be sure to change the active View back to its original setting from the <span class="LIB_Italic">File Drawer</span>. Your default View is marked by two asterisks, for example,<span class="LIB_Bold"> Running Log**</span>.</p>
+    </body>
+</html>

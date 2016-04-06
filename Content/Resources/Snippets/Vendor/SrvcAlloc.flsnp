@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1026">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Service Allocation</span> - Optional. It indicates how much is allowed to be authorized for the Vendor. This differs from the <span class="LIB_Bold">Total Contract Amt</span> which represents the entire amount of the contract for all services. If filled in, the system prevents Authorizations for that specific contracted vendor's service from exceeding that amount.</p>
+    </body>
+</html>

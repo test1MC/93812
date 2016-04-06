@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="127" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">How to open the Change Client Social Security Number Tool</span>
+        </p>
+        <ol>
+            <li>Select an <MadCap:variable name="Terminology.client_lc"></MadCap:variable> in the <span class="LIB_Italic">Data Tree</span>.</li>
+            <li>Open the <span class="LIB_Italic">File Drawer</span> to the <span class="LIB_Italic">Tools </span>tab.</li>
+            <li>Filter the <span class="LIB_Bold">Tool Name</span> column by the word <span class="LIB_Bold">social</span>. Select the <span class="LIB_Bold">Change Client Social Security Number</span> option.</li>
+        </ol>
+    </body>
+</html>

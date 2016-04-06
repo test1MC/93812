@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="81" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.AvailPymtBal" class="LIB_Bold" /></span> – Calculation: <span class="LIB_Bold"><MadCap:variable name="Terminology.Pymt_Limit" class="LIB_Bold"></MadCap:variable></span> less <MadCap:variable name="Terminology.Tot_Pymts" class="LIB_Bold" />. If, <span class="LIB_Bold"><MadCap:variable name="Terminology.Pymt_Limit" class="LIB_Bold"></MadCap:variable></span>is blank, then the calculation is: <MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /> less <MadCap:variable name="Terminology.Tot_Pymts" class="LIB_Bold" />.</p>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="363" MadCap:lastWidth="1072">
+    <head><title></title>
+        <meta name="description" content="This application setting controls account splitting for authorizations and payments." />
+    </head>
+    <body>
+        <h1>Enable authorizations and payments to automatically split the amount between accounts<MadCap:concept term="App Setting" /></h1>
+        <p><span class="LIB_Bold">(App.AccountSelection.SplittingAccounts.Enabled)</span>
+        </p>
+        <p>&#160;</p>
+        <p>When set to true, <span class="LIB_Italic">Authorization</span> and <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> forms will try to use the most appropriate account first even if it does not have a high enough balance. It will then assign the remaining dollar amount to the next account (and, if that does not have enough, it will keep splitting until the total amount is accounted for).</p>
+        <p>When set to false, it will only see accounts as valid if they have enough for the entire amount. It still allows individual increases and payments to use their own account, it just requires that the entire amount of that increase or payment use that account.</p>
+        <p>If application setting <MadCap:xref href="Force Payments and Increases to Use the Same Account.htm">Force payments and increases to use the same account as the authorization</MadCap:xref> is set to true, splitting accounts will be disabled even if the above setting is true.</p>
+        <p>Additionally, regardless of the above setting, when manually changing the account on an authorization, it moves the entire unpaid amount to that account including increases and any extra encumbrances tied to a payment.</p>
+        <p>This application setting also controls the appearance of the <span class="LIB_Italic">Account Splitting</span> section in the documentation of the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form.</p>
+    </body>
+</html>

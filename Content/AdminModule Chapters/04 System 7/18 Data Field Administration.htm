@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod,SADOPS.SADOPS_Exclude,KEEM.KEEM-Exclude" MadCap:lastBlockDepth="7" MadCap:lastHeight="1615" MadCap:lastWidth="1007">
+    <head><title></title>
+        <meta name="description" content="The Data Field Administration option allows Libera Developers to create special access rules for specific data" />
+    </head>
+    <body>
+        <h1>Data Field Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/DataFieldAdmin.png" title="Data Field Administration." alt="Data Field Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/DataFieldAdmn.png" title="Data Field Administration." alt="Data Field Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Data Field Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> No editing</p>
+        <p><span class="LIB_Bold">Description:</span> The <span class="LIB_Bold">Data Field Administration</span> option allows Libera Developers to create special access rules for specific data. Reading and writing (including the initial write) can be limited to specific user roles and/or edit checks. Some functionality in the System 7™ application needs to load and save data from a specific column in a specific database record. Using the data in this grid, System 7™ can read and write the data to the specific database record. The grid shows a list of all data fields with special access rules, including information identifying the field within the application database and a list of roles with access.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Important: </span>This functionality requires knowledge of the underlying database and the profile used to access it. While the grid columns are editable, Libera recommends that Administrators do not make changes to this grid.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF&#160;Grid Columns</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">ID</span> – ID number for the new data field.</li>
+            <li><span class="LIB_Bold">DbProfile</span> – Database profile name.</li>
+            <li><span class="LIB_Bold">DbTable</span> – Name of the database table.</li>
+            <li><span class="LIB_Bold">Key Column</span> – Name of the primary key column for this table.</li>
+            <li><span class="LIB_Bold">Data Column</span> – Name of the data column for this table.</li>
+            <li><span class="LIB_Bold">Data Format</span> – Format of the data column.</li>
+            <li><span class="LIB_Bold">Description</span> – Description of the data field.</li>
+            <li><span class="LIB_Bold">Read ACL</span> – ID numbers for roles that can view the data field.</li>
+            <li><span class="LIB_Bold">Write ACL</span> – ID numbers for roles that can write information to the data field.</li>
+            <li><span class="LIB_Bold">WriteFirst ACL</span> – ID numbers for roles that can write information to the data field for the first time (if original value was empty).</li>
+            <li><span class="LIB_Bold">Remove ACL</span> – ID numbers for roles that can remove a data field value (currently only applies to Document Management attachments).</li>
+            <li><span class="LIB_Bold">Flags</span> - Developer notes.</li>
+            <li><span class="LIB_Bold">Read EditCheck</span> – ID numbers for roles that can view Edit Check.</li>
+            <li><span class="LIB_Bold">Write EditCheck</span> – EditCheck ID to call when the data field value is about to be written (Development Use Only).</li>
+            <li><span class="LIB_Bold">Document Storage Tier</span> – The server tier where the attachment is stored. Attachments are currently stored in the Web Server or the Application Server. For database storage, the Application Server tier is used.</li>
+            <li><span class="LIB_Bold">Document WebServer Storage Path</span> – The path where documents are stored when Web Server is specified as the storage tier.</li>
+            <li><span class="LIB_Bold">Document AppServer Storage Path</span> – The path where documents are stored when Application Server is specified as the storage tier.</li>
+            <li><span class="LIB_Bold">Allowed Document Mime Type</span> – Zero (0) or more Mime Types that may be stored in this data field.</li>
+            <li><span class="LIB_Bold">GetDoc Web EC</span> – The EditCheck ID to call when getting a document in the Web tier.</li>
+            <li><span class="LIB_Bold">GetDoc App EC</span> – The EditCheck ID to call when getting a document in the Application tier.</li>
+            <li><span class="LIB_Bold">SaveDoc Web EC</span> – The EditCheck ID to call when saving a document in the Web tier.</li>
+            <li><span class="LIB_Bold">SaveDoc App EC</span> – The EditCheck ID to call when saving a document in the Application tier.</li>
+            <li><span class="LIB_Bold">RemoveDoc Web EC</span> – The EditCheck ID to call when removing a document in the Web tier.</li>
+            <li><span class="LIB_Bold">RemoveDoc App EC</span> – The EditCheck ID to call when removing a document in the Application tier.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

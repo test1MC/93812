@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Sys7UserGuide_Include"
+    BackgroundColor="#db7093" />
+  <ConditionTag
+    Comment=""
+    Name="Sys7UserGuide_Exclude"
+    BackgroundColor="#696969" />
+</CatapultConditionTagSet>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod" MadCap:lastBlockDepth="7" MadCap:lastHeight="1433" MadCap:lastWidth="1007">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="System Admins use Status Edit Checks Administration to view which edit checks are in effect." />
+    </head>
+    <body>
+        <h1>Status Edit Checks Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/StatusECAdmin.png" title="Status Edit Checks Administration." alt="Status Edit Checks Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/StatECAdmn.png" title="Status Edit Checks Administration." alt="Status Edit Checks Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Status Edit Checks Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> No editing</p>
+        <p><span class="LIB_Bold">Description:</span> The <span class="LIB_Bold">Status Edit Checks Administration</span> option allows  Libera Developers to manage the edit checks executed when a status change occurs. Each edit check is listed in the grid.</p>
+        <p>Libera recommends that only Libera Developers maintain this list, as errors in the configuration can lead to application errors and permit invalid data. <span class="LIB_Italic">Important:</span> Entering invalid data can result in reporting errors. If you have any questions about how status edit checks work with your application, please contact your Supervisor or Libera Client Support.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Columns</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Program</span> - Program with which the status edit check is associated. Note: one status edit check can be associated with many programs.</li>
+            <li><span class="LIB_Bold">Status From</span> - Current status. If you filter by Program and then by Status From you'll see all possible edit checks that can run when moving out of the selected status and program.<br /></li>
+            <li><span class="LIB_Bold">Status To</span> - Destination status from the Current Status in the same row.</li>
+            <li><span class="LIB_Bold">EditCheck&#160;Description</span> - Name of the edit check. It often refers to the field which is impacted by the edit check or describes the main topic of the edit check.</li>
+            <li><span class="LIB_Bold">EditCheck ID</span> - Unique identification number associated with the edit check.</li>
+            <li><span class="LIB_Bold">Order</span> - It's possible for one status change to trigger multiple edit checks. The value in this column indicates the order in which the edit checks run.</li>
+            <li><span class="LIB_Bold">Group #</span> - Controls the order in which the edit check is run. There are two options. All ECIDs with 2001 are run before those with 9901.</li>
+            <li><span class="LIB_Bold">Enabled</span> - Check box indicating if the edit check is enabled for your Agency or not. Note: Disabling any edit check could result in disastrous consequences for your Agency's data. If you would like an edit check enabled or disabled, please contact your Supervisor or Libera Client Support.</li>
+            <li><span class="LIB_Bold">Confirm</span> - Displays confirmation message for the edit check.</li>
+            <li><span class="LIB_Bold">Entity Type</span> - Indicates the entity to which the edit check is associated. For example, client, unit, building, etc.</li>
+        </ul>
+        <p MadCap:conditions="">&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../05 CSMS WAP Status Edit Checks/00 Status Edit Checks.htm">Status Edit Checks</MadCap:xref>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>Filter or group by Program to see edit checks by Program.</li>
+        </ul>
+    </body>
+</html>

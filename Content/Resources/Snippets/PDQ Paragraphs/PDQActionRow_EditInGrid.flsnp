@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="94" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p>Use the <span class="LIB_Italic">Action Row</span> to add new records to this grid. The <span class="LIB_Italic">Action Row</span> is the first row below the <span class="LIB_Italic">Filter Row</span>, it's the light blue row with the text starting with "Please click here to..." When activated, the cells in the <span class="LIB_Italic">Action Row</span> open for editing directly in row. Fill in the information, then press SHIFT+ENTER or, single-click into another row in the grid to save your new entry</p>
+    </body>
+</html>

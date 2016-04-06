@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="175" MadCap:lastWidth="956">
+    <head>
+    </head>
+    <body>
+        <h4>Changing Default Account</h4>
+        <p>When making a payment on a service, the default account can be changed by designated users. If you have rights to change the account the <span class="LIB_Bold">Account</span> field is open for editing, otherwise it is locked against editing.</p>
+        <p>Available accounts must meet the required criteria and the <span class="LIB_Bold">Date Received</span> on the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form for the specified service must be between (inclusive) the <span class="LIB_Bold">Begin</span> and <span class="LIB_Bold">End</span> dates of the account. The actual date the payment is made or edited (i.e. today) must be before the <span class="LIB_Bold">Date Expired (Payments)</span> on the <span class="LIB_Italic"><MadCap:variable name="FormNames.406" class="LIB_Italic" /></span> form.</p>
+    </body>
+</html>

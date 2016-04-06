@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="297" MadCap:lastWidth="1072">
+    <head><title></title>
+        <meta name="description" content="Application setting enforces Date Expired on accounts on Payment Approval forms." />
+    </head>
+    <body>
+        <h1>Enforce Date Expired for account selection on Payment Approvals <MadCap:concept term="App Setting" /></h1>
+        <p><span class="LIB_Bold">(App.PaymentApproval.Account.EnforceDateExpired)</span>
+        </p>
+        <p>&#160;</p>
+        <p>If true, the <span class="LIB_Bold">Date Expired (Payments)</span> field on an account must be in the future for it to be valid for the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form. If false, the field is ignored when determining valid accounts.</p>
+        <p>User Role<span class="LIB_Italic"> Able to make payments using expired accounts</span> (30012100) can be used to allow specific users to use expired accounts if this application setting is set to false.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> The service rendered/provided date still has to be within the date range of the account. The exception to this is if the application setting <MadCap:xref href="Force Payments and Increases to Use the Same Account.htm">Force payments and increases to use the same account as the authorization</MadCap:xref> is set to true, in which case it will use the account on the authorization regardless of the date entered on the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form.</p>
+    </body>
+</html>

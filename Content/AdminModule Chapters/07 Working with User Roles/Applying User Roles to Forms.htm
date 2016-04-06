@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod" MadCap:lastBlockDepth="7" MadCap:lastHeight="878" MadCap:lastWidth="624">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="You have the ability to control which users can add a new form, edit a form, or even see the form in the Electronic Case Folder (ECF).  You do this via the Form Administration grid in the System Administration module." />
+    </head>
+    <body>
+        <h1>Applying User Roles to Forms</h1>
+        <p>You have the ability to control which users can add a new form, edit a form, or even see the form in the <span class="LIB_Italic">Electronic Case Folder</span> (ECF).  You do this via the <span class="LIB_Italic">Form Administration</span> grid in the <span class="LIB_Italic">System Administration</span> module.</p>
+        <p>Though many of the details of <span class="LIB_Italic">Form Administration</span> are best left to the application developers, other fields are of importance to the agency application administrators. In particular, the <span class="LIB_Bold">Create ACL</span>, <span class="LIB_Bold">Read ACL</span>, and <span class="LIB_Bold">Write ACL</span> fields may need to be updated whenever a new role is added to the system.</p>
+        <ul>
+            <li><span class="LIB_Bold">Create ACL</span> - This setting controls which users have the ability to add a new form to the ECF.  If left blank all users can add this form from the list of new forms provided all other form prerequisites have been met. If one or more User Roles exist, then only users with those roles can see the form in the list of new forms provided all other form prerequisites have been met. If a role allows a user to add a new form to the ECF, then they may edit the form.  Additional roles may apply to editing the form.</li>
+            <li><span class="LIB_Bold">Read ACL</span> - This setting controls which users have access to the form in the ECF.  If left blank all users can see the form in the ECF and open it for viewing.  If one or more User Roles exist, then only users with those roles will see the form in the ECF.</li>
+            <li><span class="LIB_Bold">Write ACL</span> - This setting controls which users can edit (enter or edit data) on an existing form in the ECF. If left blank all users can open the form and edit it.  If one or more User Roles exist, then only users with those roles can edit the form.  </li>
+        </ul>
+        <blockquote>
+            <p><span class="LIB_Bold">Example of how to correctly enter User Roles:</span>
+            </p>
+            <p>Create ACL: 		23,24,1000-1010</p>
+            <p>This allows users with roles 23, 24, and 1000 through 1010 to add this form to the ECF.</p>
+            <p>Read ACL: 		!5</p>
+            <p>This allows all users except users with role 5 to see the form in the ECF.</p>
+            <p>Write ACL: 		23,24,1000-1010,9888</p>
+            <p>This allows users with roles 23, 24,1000 through 1010, and 9888  to open this form from the ECF and edit it.</p>
+        </blockquote>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span>  You will find report titles included in the <span class="LIB_Italic">Form Administration</span> grid.  Typically, you do not need to edit ACL data for reports here.  ACLs get applied to reports in the <span class="LIB_Italic">Report Administration</span> grid.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Important:</span> Libera must be notified of all System Administration changes in a timely fashion to ensure a future update does not overwrite or erase the changes you have made.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>User Roles do not have to be listed in numeric order, but it does make it easier to view and compare.</li>
+            <li>
+                <p>If an ACL field is blank it means that all users have the ability to perform that particular function i.e. create (add a new blank form to the ECF), read, or write (enter or edit data on a form).  Once an ACL has one or more User Roles listed then only users with those roles have the ability to create, read or write.</p>
+            </li>
+            <li>
+                <p>Once you start an ACL you must include all possible roles that should have access to that functionality that you are working on.  It's a good idea to always include the System Administrator role:</p>
+            </li>
+            <li>Do not leave two commas together, delete any extra commas.</li>
+            <li>Do not leave a comma at the end of the text.</li>
+        </ul>
+        <p><span class="LIB_Bold">Related Topics</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="../04 System 7/01 Form Administration Grid.htm">Form Administration Grid</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../04 System 7/02 Form Administration Form.htm">Form Administration Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

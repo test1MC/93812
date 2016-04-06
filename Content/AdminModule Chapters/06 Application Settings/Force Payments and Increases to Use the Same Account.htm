@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="496" MadCap:lastWidth="1020">
+    <head><title></title>
+        <meta name="description" content="Application setting forces payments and increases to use the same account as the authorization." />
+    </head>
+    <body>
+        <h1>Force payments and increases to use the same account as the authorization<MadCap:concept term="App Setting" /></h1>
+        <p><span class="LIB_Bold">(App.AccountSelection.UseARecordAccount)</span>
+        </p>
+        <p>&#160;</p>
+        <p>When set to true:</p>
+        <ul>
+            <li><span class="LIB_Italic"><MadCap:variable name="FormNames.1000"></MadCap:variable>s</span> will use the following to select accounts:<ul><li>The account must be the same account as the authorization line item associated with that payment</li><li>The account must not be turned off</li><li>The <span class="LIB_Bold">Date Expired (Payments)</span> field must be in the future</li><li>The <span class="LIB_Bold">Available Payment Balance</span> must be high enough to accept the payment</li></ul></li>
+            <li>If the authorization account is not valid for payment, then it will not let the user pay the authorization.</li>
+            <li>When increasing the amount of an approved and printed authorization, it will try to use the account on the authorization. If this is not valid, it will not allow the user to increase the authorized amount.</li>
+            <li>Additionally, when changing the account on an authorization (either by changing the date and having it automatically calculate the account or by manually changing the account field), it will now move all of the increases to that account also.</li>
+            <li>However, it will not move any existing <span class="LIB_Italic"><MadCap:variable name="FormNames.1000"></MadCap:variable>s</span> to the new account so the accounts for these will need to be edited manually if needed. Any payments made after the account change will use the new account.</li>
+        </ul>
+        <p>When set to false:</p>
+        <ul>
+            <li>Account selection functionality remains unchanged.</li>
+        </ul>
+    </body>
+</html>

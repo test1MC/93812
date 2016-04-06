@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="114" MadCap:lastWidth="1072">
+    <head>
+        <link href="../Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p>Open (right-click or press F4) the cell context menu in any cell of the row that you will be deleting. Select the <span class="LIB_Bold">Delete </span>option. This action deletes the selected row.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> There is no "undo"&#160;functionality when deleting.</p>
+        <p>&#160;</p>
+    </body>
+</html>

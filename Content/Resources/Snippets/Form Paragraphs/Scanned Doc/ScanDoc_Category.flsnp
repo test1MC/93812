@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="267" MadCap:lastWidth="1010">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Category</span> - The selected category appears in the <span class="LIB_Bold">Description</span> column of the ECF. Since it appears in the ECF you can filter on the category value. For example, if you link a lot of scanned correspondence you can filter the <span class="LIB_Bold">Description</span> column by the word "correspondence" to see all of the scanned documents meeting that criteria.</p>
+        <p>When you select a <span class="LIB_Bold">Category</span> it appears in the ECF as follows:</p>
+        <p style="text-indent: 0.5in;"><span class="LIB_Italic">Form Title: Category</span>
+        </p>
+        <p>For example:</p>
+        <p style="text-indent: 0.5in;"><span class="LIB_Italic"><MadCap:variable name="FormNames.60001"></MadCap:variable>: Correspondence</span>
+        </p>
+        <p MadCap:conditions="General.Hold">Designated employees have the ability to edit the table that populates this lookup by selecting the <span class="LIB_Italic">Action Row</span> where it says, "Administer "Attachment Document Categories" options... ." If you're not a designated employee, the <span class="LIB_Italic">Action Row</span> is not visible to you. Selecting the <span class="LIB_Italic">Action Row</span> opens <span class="LIB_Italic">Attachment Document Categories</span> table for editing.</p>
+    </body>
+</html>

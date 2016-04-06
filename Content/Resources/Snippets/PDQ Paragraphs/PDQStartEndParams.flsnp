@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="69" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p>The <span class="LIB_Bold">Start Date</span> and <span class="LIB_Bold">End Date</span> fields allow you to limit the data returned to within a date range. For example, if you wanted to see data for the month of June, you would enter 06/01/20XX as the <span class="LIB_Bold">Start Date</span> and 06/30/20XX as the <span class="LIB_Bold">End Date</span>.</p>
+    </body>
+</html>

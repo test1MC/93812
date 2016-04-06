@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.DotNet45" MadCap:lastBlockDepth="8" MadCap:lastHeight="3255" MadCap:lastWidth="994">
+    <head>
+        <meta name="description" content="System Admins use the Dashboard Administration form to configure dashboard items." />
+    </head>
+    <body>
+        <h1>Dashboard Administration Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/Dashboard/Dashboard-TopOfForm.png" title="Top of the Dashboard Administration form." alt="Top of the Dashboard Administration form." />
+            <br /><span class="LIB_Caption">Top of the Dashboard Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <span class="LIB_Italic">Dashboard Administration</span> form allows you to configure dashboard Items. You can access this form from the <span class="LIB_Italic">System Administration</span> module or via the <span class="LIB_Bold">Gear</span> button (visible to System Administrators) associated with each Item on the dashboard.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Form Fields</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li><span class="LIB_Bold">Name</span> - Type the name of the Item here. This name will appear on the Item when it is added to the dashboard.</li>
+                    <li><span class="LIB_Bold">Category</span> - To add the Item to a category, press the <span class="LIB_Bold">Search Existing Categories</span> Button to the right of this field. This will open the list of existing categories. one. The <span class="LIB_Bold">Category</span> field will be filled with the one you choose and the Item will be added. If the category you wish to add the item to does not already exist, you must create a new one by typing the desired name of the category by hand into the Category field. The new category will be added as soon as the cursor focus leaves the field and it will be available in the lookup for future Dashboard items. <span class="LIB_Bold">Note:</span> If all of a category's Items are moved out of it, it will no longer be available in the lookup and must be manually added again.</li>
+                    <li><span class="LIB_Bold">Type</span> - The type determines how the information provided by its PDQ is displayed on the Dashboard. Available types:<ul><li><span class="LIB_Bold">Bullet</span> - Has a box and a horizontal bar.</li><li><span class="LIB_Bold">Chart</span> - Displays chart.</li><li><span class="LIB_Bold">Gauge</span> - Has an arch graphic reminiscent of a dashboard.</li><li><span class="LIB_Bold">Table</span> - Displays a table. <br />Refer to the <MadCap:xref href="../../Libera Global Content/CH04 - Forms/Dashboard/Dashboard.htm">Dashboard</MadCap:xref> topic for more information on the available types.</li></ul></li>
+                    <li><span class="LIB_Bold">Scope Type</span> - Controls performance for when the value is calculated from system data. If the Item is a "statewide" statistic, meaning that only users with a statewide role are allowed to see this Item, the Scope Type should be set to global. When it's set to global, the value is calculated once regardless of the number of users subscribed to the Item because they all see the same information. If the Item is based on the individual user, the Scope Type should be set to user. The assumption is that the value will be different for every user and the value must be calculated individually for each subscribed user.</li>
+                    <li><span class="LIB_Bold">Statistic Data Type</span> - The only configured option as of 08/21/2013 is scalar.  This option returns one number, the current value, that is displayed in the graphic of the widget. For example, in a gauge Item, this is the number displayed centered below the arch.</li>
+                    <li><span class="LIB_Bold">Cache Type</span> - This setting controls where the system stores information to display in the Dashboard. As of 08/21/2013, please only use the dashboard option as the others are not configured for use yet.</li>
+                    <li><span class="LIB_Bold">Default</span>, <span class="LIB_Bold">Minimum</span>, and <span class="LIB_Bold">Actual Refresh Intervals</span> - The <span class="LIB_Bold">Default Refresh Interval</span> sets the refresh interval of the item when a user first adds it to their dashboard. The user can adjust this interval, but no user can set it lower than the value in the <span class="LIB_Bold">Min Refresh Interval</span> field. The <span class="LIB_Bold">Actual Refresh Interval</span> is the lowest interval currently being used by any user. There are two kinds of refreshing happening:</li>
+                </ul>
+                <blockquote>
+                    <p><span class="LIB_Bold">Screen Refreshing</span>
+                    </p>
+                    <p>This is what causes the dashboard to blink/flutter and display new data, if available. It is separate from the refresh fields described above. It's controlled by the <span class="LIB_Bold">Interval (mins</span>) column in the <span class="LIB_Italic">Select Dashboard Items</span> PDQ.</p>
+                    <p>All users can edit the value in this column via the grid context menu. While you can set a different value for every option, the screen refreshes at the minimum interval of all selected Items. This affects only the individual user. All users can have different screen refresh rates.</p>
+                    <p><span class="LIB_Bold">Data Refreshing</span>
+                    </p>
+                    <p>This is related to the scheduled task that controls when new data is displayed in the Dashboard for all users. This is the <span class="LIB_Bold">Actual Refresh Interval</span>.</p>
+                    <p><span class="LIB_Bold">For example:</span>
+                    </p>
+                    <p>You set the <span class="LIB_Bold">Interval (mins</span>) for one of your Items to refresh every one minute. You have two widgets on your dashboard. Widget-01 is set to refresh hourly and Widget-02 is set to refresh every four hours.</p>
+                    <p>This means that your dashboard refreshes every minute, but Widget-01 will show new data hourly and Widget-02 will show new data every four hours. In this example, it might be more productive to set the screen refresh interval to one hour.</p>
+                </blockquote>
+                <ul>
+                    <li><span class="LIB_Bold">Last Refresh</span> - This is the last date and time the information for this item was updated for any single user. Some users may still have only older data visible on their dashboards until the next screen refresh.</li>
+                    <li><span class="LIB_Bold">Statistics PDQ</span> - This is the PDQ which generates the data for the Item. This PDQ is never visible to end users.</li>
+                    <li><span class="LIB_Bold">Statistics PDQ Params</span> - Works with the <span class="LIB_Bold">PDQ Display Params</span> and is often the same. Provides parameters for the statistic. No parameter window is displayed to the user. Libera maintains this field.</li>
+                    <li><span class="LIB_Bold">PDQ Display</span> - Type the component number of the PDQ that will be opened in a new window by clicking the item on the dashboard. You can use this value to filter the <span class="LIB_Italic">PDQ Administration</span> grid to see the name of the PDQ and more detailed administrative information about the PDQ. Libera maintains this field.</li>
+                    <li><span class="LIB_Bold">PDQ Display Params</span> - Works with the Statistics PDQ Params and is often the same. Provides parameters for the PDQ display. No parameter window is displayed to the user. When the Item name is selected in the Dashboard, the PDQ opens in a new window displaying data based on the parameters set in this field. This field also uses information provided from the Program field. For example, if the Item is providing eligibility statistics, the Program field determines which program these statistics come from. If the Program field is changed, the Item's Name and Category should also be changed to match. Libera maintains this field.</li>
+                    <li><span class="LIB_Bold">Program</span> - Controls the program associated with the statistic displayed in the Item. This should be correlated with the Item's Name and Category.</li>
+                    <li><span class="LIB_Bold">Number of Retention Days</span> - Specifies how far back data points are stored. If empty, the default value is one year. This affects data displayed in charts.</li>
+                    <li><span class="LIB_Bold">Goal Value</span> - This field allows users to do additional processing on the returned value to determine statistics like percentages or over/under values.</li>
+                    <li>Libera Developers maintain the following fields:<ul><li><span class="LIB_Bold">Default Value</span></li><li><span class="LIB_Bold">Dataformat</span></li><li><span class="LIB_Bold">Calculation Type</span></li><li><span class="LIB_Bold">Expression</span></li><li><span class="LIB_Bold">Filter Expression</span></li><li><span class="LIB_Bold">Data Command XML</span></li></ul></li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Security Access</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Dashboard/Dashboard-SecurityAccess.png" title="Security Access section." alt="Security Access section." />
+                    <br /><span class="LIB_Caption">Security Access section.</span>
+                </p>
+                <ul>
+                    <li><span class="LIB_Bold">View ACL </span>- Enter a comma-separated list of the roles that are allowed to add this item to their Dashboards. If the field is blank, all users will have access to it.</li>
+                    <li><span class="LIB_Bold">Forced to view item ACL</span> - Enter a comma separated list of the roles that will have this Item appear on their dashboard by default. Once this is set, users may be able to temporarily remove this from their dashboard. However, when they close and reopen their Dashboard, the Item will automatically appear.</li>
+                    <li><span class="LIB_Bold">Admin ACL</span> - Enter a comma-separated list of the roles that are able to edit the properties of this item. If the field is blank, all users will have access to it.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Threshold Settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Dashboard/Dashboard-ThreshholdSettings.png" title="Threshold Settings section." alt="Threshold Settings section." />
+                    <br /><span class="LIB_Caption">Threshold Settings section.</span>
+                </p>
+                <p>Setting thresholds are a way to let users know which items are high priority. They assign a <span class="LIB_Bold">Severity</span> to the item when the data provided by the item is within a certain range.</p>
+                <p>An item can have several thresholds with different levels of Severity. Please refer to the <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/Multiple-Section Sections 4.5.htm">Multiple-Section Sections</MadCap:xref> topic for additional information on adding multiple sections.</p>
+                <p>For example, an item that tracks the number of clients overdue for follow ups may have one threshold with a <span class="LIB_Bold">Severity</span> of "Normal" for when there are five or fewer such clients, another with a <span class="LIB_Bold">Severity</span> of "Warning" for when there are between five and ten, and a third threshold with a <span class="LIB_Bold">Severity</span> of "Severe" for when there are more than ten such clients.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Numeric</span> - Numeric means that the threshold levels are saved as numeric values. If this field is unchecked, the user has the option to save the thresholds as alphanumeric characters.</li>
+                    <li><span class="LIB_Bold">Min Threshold</span> - This is the lower limit of the threshold. To avoid overlapping, it should be greater than the <span class="LIB_Bold">Max Threshold</span> of the previous threshold, if any.</li>
+                    <li><span class="LIB_Bold">Max Threshold</span> - This is the upper limit of the threshold.</li>
+                    <li><span class="LIB_Bold">Severity</span> - Select a rating for the severity of the item when its value is within this threshold.</li>
+                    <li><span class="LIB_Bold">Threshold Type</span> - Select the threshold type here. The type of the threshold determines if a notification should be sent to the user once the threshold is reached and the user is subscribed to the Item.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Subscribed Users</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/Dashboard/Dashboard-SubscribedUsers.png" title="Subscribed Users section." alt="Subscribed Users section." />
+                    <br /><span class="LIB_Caption">Subscribed Users section.</span>
+                </p>
+                <p>A grid appears when expanded which displays the users who have subscribed to this Item. It also displays their Interval value for the item. You can add new users via the <span class="LIB_Italic">Action Row</span>. You can also delete a user or edit the Interval via the context menu in the grid.</p>
+                <p>Use the <span class="LIB_Bold">Calculate New Value for Dashboard</span> button to force the Item to refresh the data displayed for all users currently subscribed to it.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

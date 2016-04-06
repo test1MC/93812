@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="168" MadCap:lastWidth="1005">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Account Type</span>   – If your agency doesn’t use <MadCap:variable name="Terminology.Sub_Account" />s select <span class="LIB_Bold">Authorization Account</span>   for all accounts. Otherwise, select another account type from the lookup. The form changes dynamically depending on the account type selected. Some fields may appear as read-only. Following is the hierarchy of account types.</p>
+        <ul>
+            <li><span class="LIB_Bold">Upper Level Account</span> – Creates accounts and sub accounts to allocate funds from the Main Account. This account type may have any number of <MadCap:variable name="Terminology.Sub_Account" />s.</li>
+            <li><span class="LIB_Bold">Authorization Account </span>– Authorization accounts are set up by office for the purpose of authorizing services. This account type is the lowest level account and is available for authorization creation and payment.</li>
+        </ul>
+    </body>
+</html>

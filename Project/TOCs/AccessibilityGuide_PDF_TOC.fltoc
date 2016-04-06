@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Accessibility Cover Page"
+    Link="/Content/Print Only Topics/Copy of AdminModule_Cover Page.htm"
+    BreakType="chapter"
+    PageType="title"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/Default.flpgl" />
+  <TocEntry
+    Title="Copyright Page"
+    Link="/Content/Print Only Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Revision History"
+    Link="/Content/Print Only Topics/Revision History.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Print Only Topics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Overview"
+    Link="/Content/Accessibility Guide Content/00 Overview/Overview.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Screen Readers"
+    Link="/Content/Accessibility Guide Content/02 Screen Readers/00 Screen Readers.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Preparing System 7"
+      Link="/Content/Accessibility Guide Content/02 Screen Readers/01 Preparing System 7.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Verifying Configuration"
+      Link="/Content/Accessibility Guide Content/02 Screen Readers/02 Verifying Configuration.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="General Tips and Troubleshooting"
+      Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/00 General Tips and Troubleshooting.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Cursor Jumps to the Next Field During Data Entry"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Cursor Jumps to the Next Field During Data Entry.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Cursor Skips Over Some Fields"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Cursor Skips Over Some Fields.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Data Tree Search Pane Takes Up Too Much Space"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Data Tree Search Pane Takes Up Too Much Space.htm" />
+      <TocEntry
+        Title="Grid Navigation with ARROW Keys Fails"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Grid Navigation with ARROW Keys Fails.htm" />
+      <TocEntry
+        Title="Internet Explorer and Screen Reader Add-ons"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Internet Explorer and Screen Reader Add-ons.htm" />
+      <TocEntry
+        Title="Login Page Doesn't Allow Data Entry"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Login Page Doesn't Allow Data Entry.htm" />
+      <TocEntry
+        Title="Navigation in Data Tree is Very Slow"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Navigation in Data Tree is Very Slow.htm" />
+      <TocEntry
+        Title="Screen Reader Stops Functioning When a New Window/Dialog Opens"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Screen Reader Stops.htm" />
+      <TocEntry
+        Title="Slow Performance"
+        Link="/Content/Accessibility Guide Content/02 Screen Readers/03 General Tips and Troubleshooting/Slow Performance.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="JAWS"
+    Link="/Content/Accessibility Guide Content/04 JAWS/00 JAWS.htm">
+    <TocEntry
+      Title="JAWS Scripts"
+      Link="/Content/Accessibility Guide Content/04 JAWS/01 JAWS Scripts.htm" />
+    <TocEntry
+      Title="JAWS Tips and Troubleshooting"
+      Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/00 JAWS Tips and Troubleshooting.htm">
+      <TocEntry
+        Title="ALT Key Doesn't Move Cursor to Toolbar"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/ALT Key Doesnt Move Cursor to Tool Bar.htm" />
+      <TocEntry
+        Title="ALT+F4 Closes Windows"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/ALT+F4 Closes Windows.htm" />
+      <TocEntry
+        Title="Difficulty Locating Form Fields"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/Difficulty Locating Form Fields.htm"></TocEntry>
+      <TocEntry
+        Title="Internet Explorer Crashes"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/Internet Explorer Crashes.htm" />
+      <TocEntry
+        Title="JAWS 12 and 13 Don't Read Suggested Words in Spell Check Dialog"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/JAWS 12 13 Dont Read Suggested Words.htm" />
+      <TocEntry
+        Title="JAWS Hotkey Conflicts"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/JAWS Hotkey Conflicts.htm" />
+      <TocEntry
+        Title="JAWS Speaks Unwanted Formatting Information"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/JAWS Speaks Unwanted Formatting Information.htm" />
+      <TocEntry
+        Title="JAWS Virtual PC Cursor"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/JAWS Virtual PC Cursor.htm" />
+      <TocEntry
+        Title="Libera Scripts Must Be Installed"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/Libera Scripts Must Be Installed.htm" />
+      <TocEntry
+        Title="No Custom Speech with JAWS©"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/JAWS No Custom Speech.htm" />
+      <TocEntry
+        Title="Set Screen Reader User Preference"
+        Link="/Content/Accessibility Guide Content/04 JAWS/02 JAWS Tips and Troubleshooting/Set Screen Reader User Preference JWS.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Window-Eyes"
+    Link="/Content/Accessibility Guide Content/06 Window-Eyes/00WindEyes.htm">
+    <TocEntry
+      Title="Preparing Window-Eyes"
+      Link="/Content/Accessibility Guide Content/06 Window-Eyes/01PrepWindEyes.htm" />
+    <TocEntry
+      Title="Installing the Window-Eyes Script"
+      Link="/Content/Accessibility Guide Content/06 Window-Eyes/InstallWEScript.htm" />
+    <TocEntry
+      Title="Window-Eyes Tips and Troubleshooting"
+      Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/00WETipsandTshtng.htm">
+      <TocEntry
+        Title="Cannot Enter Text in a Field"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/CannotEnterTextInField.htm" />
+      <TocEntry
+        Title="Browse Mode"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/WEBrowseMode.htm" />
+      <TocEntry
+        Title="Set Screen Reader User Preference to Window-Eyes"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/WES7ScreenReaderPref.htm" />
+      <TocEntry
+        Title="Window-Eyes Hotkey Conflicts"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/WEHotkeyConflicts.htm" />
+      <TocEntry
+        Title="Window-Eyes Produces No Speech"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/WENoSpeech.htm" />
+      <TocEntry
+        Title="Window-Eyes Speaks Unwanted Formatting Information"
+        Link="/Content/Accessibility Guide Content/06 Window-Eyes/WE Tips and TShooting/WESpksUnwantedFormatting.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Screen Magnification"
+    Link="/Content/Accessibility Guide Content/08 Screen Magnifcation/00 ScreenMag.htm">
+    <TocEntry
+      Title="Preparing System 7™ for Screen Magnification"
+      Link="/Content/Accessibility Guide Content/08 Screen Magnifcation/PrepS7forScrnMag.htm" />
+    <TocEntry
+      Title="Changing Viewable Information"
+      Link="/Content/Accessibility Guide Content/08 Screen Magnifcation/Chng ViewInfo.htm"
+      conditions="General.DotNet35"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="ZoomText"
+    Link="/Content/Accessibility Guide Content/ZoomText/00ZoomText.htm">
+    <TocEntry
+      Title="Preparing ZoomText"
+      Link="/Content/Accessibility Guide Content/ZoomText/PrepZoomText.htm" />
+    <TocEntry
+      Title="ZoomText Tips and Troubleshooting"
+      Link="/Content/Accessibility Guide Content/ZoomText/ZTTipsAndTShooting/00ZTTipsNTShoot.htm">
+      <TocEntry
+        Title="Disabling the AHOI Module"
+        Link="/Content/Accessibility Guide Content/ZoomText/ZTTipsAndTShooting/ZTDisableAHOIModule.htm" />
+      <TocEntry
+        Title="Editing Hotkeys in ZoomText"
+        Link="/Content/Accessibility Guide Content/ZoomText/ZTTipsAndTShooting/ZTEditHotkeys.htm" />
+      <TocEntry
+        Title="ZoomText Speech"
+        Link="/Content/Accessibility Guide Content/ZoomText/ZTTipsAndTShooting/ZTSpeech.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

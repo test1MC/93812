@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="148" MadCap:lastWidth="908" MadCap:conditions="Sys7UserGuide.Sys7UserGuide_Exclude,CO-CICMS.CO-CICMS_Exclude">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Account Identifier*</span> – This is the funding source of the account. It identifies the fund type of the account. This value becomes part of the account number. This data flows through to all <MadCap:variable name="Terminology.Sub_Account" />ts.</p>
+        <p>Multiple accounts can be setup for a single Account Identifier (e.g. one per <span class="LIB_Bold">Fiscal Year/Agency</span> combination) so this is a way of categorizing the accounts.</p>
+        <p>A service can be associated with an Account Identifier if authorizations and payments for that service need to use a particular funding source.</p>
+    </body>
+</html>

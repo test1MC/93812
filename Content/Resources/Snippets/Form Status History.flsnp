@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="80" MadCap:lastWidth="723">
+    <body>
+        <ul>
+            <li>You can see the status history by opening the <span class="LIB_Italic">Tools</span> menu in the <span class="LIB_Italic">Internal Referral - JKTC</span> form and selecting the <span class="LIB_Bold">Form Status History...</span> option. This opens a grid in a new window that displays the<span class="LIB_Bold"> Status Date and Time</span>, <span class="LIB_Bold">Status</span>, <span class="LIB_Bold">Status Change Reason</span>, and <span class="LIB_Bold">User</span> (the person who did the status change) for each status change.</li>
+        </ul>
+    </body>
+</html>

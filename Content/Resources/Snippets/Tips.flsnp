@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="53" MadCap:lastWidth="624">
+    <head>
+        <link href="../Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-Tips_Heading" cellspacing="0" style="border-top-left-radius: 8px;border-top-right-radius: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;border-left-style: none;border-left-width: 6px;border-left-color: #4b0082;border-right-style: none;border-right-width: 6px;border-right-color: #4b0082;border-top-style: none;border-top-width: 6px;border-top-color: #4b0082;border-bottom-style: none;border-bottom-width: 6px;border-bottom-color: #4b0082;mc-table-style: url('../Stylesheets/TableStyles/Table_TipsHeader.css');">
+            <col class="TableStyle-Tips_Heading-Column-Column1" />
+            <col class="TableStyle-Tips_Heading-Column-Column1" style="width: 94px;" />
+            <tbody>
+                <tr class="TableStyle-Tips_Heading-Body-Body1">
+                    <td class="TableStyle-Tips_Heading-BodyB-Column1-Body1">
+                        <img src="../../LIB_Images/LIBPurpleLightbulb.png" title="Purple light bulb." alt="Purple light bulb." />
+                    </td>
+                    <td class="TableStyle-Tips_Heading-BodyA-Column1-Body1" style="vertical-align: middle;"><span class="LIB_Tips_Title">Tips</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

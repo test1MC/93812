@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Date Expired (Payments) </span>– This is the date on which <span class="LIB_Italic">Payment Approvals</span> can no longer use this account. It is the date the payment is being made, not the Date Rendered. The Date Rendered is compared to the Begin and End Date of the account. This means you can continue to make payments against the account even after the End Date has passed as long as you are back-dating the Date Rendered into the date range of the account. However, once the current date reaches the Date Expired (Payments) you won't be able to pay using this account at all.</p>
+    </body>
+</html>

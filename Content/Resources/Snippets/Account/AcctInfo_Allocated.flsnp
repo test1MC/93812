@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="117" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Allocated" class="LIB_Bold" /></span> – This amount represents the amount of funds allocated to the account or <MadCap:variable name="Terminology.Sub_Account" />. This amount is related to the <span class="LIB_Bold">Payments Not to Exceed</span> field. The purpose of the Payments Not to Exceed field is to display the actual dollar amount that you have available to spend, this is a hard limit. The <MadCap:variable name="Terminology.Allocated" /> amount cannot be less than the Payments Not to Exceed, however you can over allocate to provide flexibility based on account fluctuations over the life of the account. The goal is to not prevent users from being able to write authorizations.</p>
+    </body>
+</html>

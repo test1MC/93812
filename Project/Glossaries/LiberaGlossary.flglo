@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary
+  conditions="General.CoreContent">
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Tri-State field</Term>
+    </Terms>
+    <Definition
+      Link="">A field that accepts only one of three responses: Y (Yes), N (No), and blank. Type your response or use the mouse or the spacebar to cycle through the options.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>PDQ</Term>
+    </Terms>
+    <Definition
+      Link="">Pre-Defined Query. Provides data results related to the title of the PDQ. Most often associated with PDQs in the PDQs Tab of the File drawer, however all grids are populated by PDQs. PDQs from the PDQs tab always load in the Desktop.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Action Row</Term>
+    </Terms>
+    <Definition
+      Link="">The Action Row is used to add a new form. It's located between the Filter Row and the grid. It's light blue and has instructional text for example, "Please click here to add a new form." Optionally, you can press the ENTER key or the F2 key to activate  Action Row functionality. Clicking the Action Row most often opens a new window providing you a list of options to select from. However, it can also simply open for editing, allowing you to type values into the cells. Also known as the "Add Row" or "Add New Forms Row."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Data Tree</Term>
+    </Terms>
+    <Definition
+      Link="">The Data Tree displays the PDQ results of the selected PDQ from the PDQs tab. Depending on the PDQ, selecting a record in the Data Tree loads the Electronic Case File (ECF).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>ECF</Term>
+    </Terms>
+    <Definition
+      Link="">Electronic Case Folder. The ECF displays forms and/or data specific to the record selected in the Data Tree.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Default PDQ</Term>
+    </Terms>
+    <Definition
+      Link="">PDQs associated with the options on the Application Home Page are considered to be the default PDQ for the option (module). The Default PDQ is based on your primary user role and is set up by your System Administrator.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>File Drawer</Term>
+    </Terms>
+    <Definition
+      Link="">Think of the File Drawer as a drawer in a file cabinet that holds blank forms and tools to help you manage your case. Think of each tab as a hanging folder that has many options available from which you can select.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Filter Row</Term>
+    </Terms>
+    <Definition
+      Link="">This is the first row below the column headers in most grids. Use the filter row to filter/search for criteria matching your entry into the Filter Cell.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Filter Cell</Term>
+    </Terms>
+    <Definition
+      Link="">The individual data entry box/field in the Filter Row.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Filter button</Term>
+    </Terms>
+    <Definition
+      Link="">This is the blue funnel button in the Filter Cell. Selecting it opens a context menu of filter options.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Desktop</Term>
+    </Terms>
+    <Definition
+      Link="">This is primary working window within the system. It's divided into two frames: The Data Tree which displays a list of records (often clients) and the ECF which displays forms associated with the selected record in the Data Tree.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Grid</Term>
+    </Terms>
+    <Definition
+      Link="">A table that displays one or more columns and one or more rows. Data populates grids from PDQs.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Cursor Focus</Term>
+    </Terms>
+    <Definition
+      Link="">The location of the cursor in the form or grid.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Hotkey</Term>
+    </Terms>
+    <Definition
+      Link="">A combination of keys when pressed together activates functionality within the system. Also known as a "keyboard shortcut."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Lookup</Term>
+    </Terms>
+    <Definition
+      Link="">A grid that displays a list of options from which to select a response for a field. Also known as a "picklist."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Picklist</Term>
+    </Terms>
+    <Definition
+      Link="">A grid that displays a list of options from which to select a response for a field. Also known as a "lookup."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Report</Term>
+    </Terms>
+    <Definition
+      Link="">Reports display data based on the report title. They can output to a form or a PDQ. They always open in their own window vs. the Desktop. When a report outputs to a form it may include some data entry fields, but not always. When a report outputs to a PDQ you can filter, sort, group, and /or export the data to another format. Any changes you make are temporary and do not save to the system database.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>MyPDQ</Term>
+    </Terms>
+    <Definition
+      Link="">A PDQ created by the user for the user. It saves to the MyPDQs tab of the File Drawer. For more information about creating MyPDQs refer to the help content for PDQs or the System 7 User Guide in the system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Toggle</Term>
+    </Terms>
+    <Definition
+      Link="">Think on and off, like a light switch. For example, a button can both show more data and hide more data in a form. Or it can both expand and collapse data in a grid. That button toggles between one setting and another.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Refresh</Term>
+    </Terms>
+    <Definition
+      Link="">Also known as a window refresh. When a window refreshes it updates the displayed content to the most current version. For example, when you select a PDQ from the PDQs tab of the File Drawer, the Desktop window refreshes to display the contents of the PDQ in the Data Tree. Or, when you update a form and you want to see the updated information in the Data Tree or ECF, you would refresh the grid.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Grid Status Row</Term>
+    </Terms>
+    <Definition
+      Link="">The row at the bottom of grids that displays the current status, how many records are loaded, and the following buttons: Refresh Grid Data, Export Data, Load More Data, Show Help About This PDQ, and General PDQ Grid Help.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Select</Term>
+    </Terms>
+    <Definition
+      Link="">Highlight or move cursor focus to a field on a form or a cell within a grid. Usually after you select a field or form you can preform another action. Single-clicking into the field or cell selects it. Likewise navigating to the field or cell via ARROW keys or TABBING selects it.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Filter or Filtering</Term>
+    </Terms>
+    <Definition
+      Link="">The act of filtering or searching grids for specific data entered in the Filter Cell.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Context Menu</Term>
+    </Terms>
+    <Definition
+      Link="">These are the menus that appear when you right-click the mouse within the system. They differ based on cursor location. For example there are several context menus within grids: column header, cell, and grouped row. Cursor location determines which context menu opens.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Filter Bar</Term>
+    </Terms>
+    <Definition
+      Link="">Refer to Filter Row.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Tool Bar</Term>
+    </Terms>
+    <Definition
+      Link="">The bar at the top of forms that displays buttons.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>Menu Bar</Term>
+    </Terms>
+    <Definition
+      Link="">The bar that displays all of the menus, for example: File, Edit, View, Tools, Help.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Expanding">
+    <Terms>
+      <Term>ACL</Term>
+    </Terms>
+    <Definition
+      Link="">Access Control List. A comma separated list of user roles that controls who can see, add, or edit a component such as a form or PDQ.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

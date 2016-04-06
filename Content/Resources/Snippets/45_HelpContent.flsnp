@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="501" MadCap:lastWidth="1216">
+    <head>
+    </head>
+    <body>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/Core/45_HelpContent.png" title="Example of Libera's online help window." alt="Example of Libera's online help window." />
+        </p>
+        <p class="LIB_Img">
+            <br /><span class="LIB_Caption">Example of Libera's online help window.</span>
+        </p>
+        <p>&#160;</p>
+        <p>Selecting the <span class="LIB_Bold">System 7™ Help</span> button in the <span class="LIB_Italic">Ribbon Bar</span> opens the system <span class="LIB_Italic">User Guide</span> in a new window. Use the menus at the top of the window or the <span class="LIB_Bold">Search</span> field to find topics to help you use the system. Please note that the title of the user guide and the menu options will vary.</p>
+    </body>
+</html>

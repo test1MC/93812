@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="854" MadCap:lastWidth="624">
+    <head><title>Grid Navigation with ARROW Keys Fails</title>
+    </head>
+    <body>
+        <h1>Grid Navigation with ARROW Keys Fails</h1>
+        <p>Within a System 7™ grid, if you are unable to use the ARROW keys to navigate, the screen reader may need to be configured. Alternatively, this may be an issue with an Internet Explorer setting; this is the case if the phrase “System 7” is not included in Internet Explorer window titles.</p>
+        <p><span class="LIB_Italic">Current Solution:</span>
+        </p>
+        <p>Please walk through the steps outlined for your specific screen reader in either the Preparing JAWS® or the Preparing Window-Eyes® section to double-check that your screen reader is set up correctly.</p>
+        <p><span class="LIB_Italic">Alternate Solution:</span>
+        </p>
+        <p>Enable script initiated windows in Internet Explorer for Trusted Sites. </p>
+        <p><span class="LIB_Bold">For Internet Explorer 7.0 or greater:</span>
+        </p>
+        <ol>
+            <li>Open  Internet Explorer.</li>
+            <li>Open <span class="LIB_Italic">Internet Options</span>. This option is available via the <span class="LIB_Italic">Tools</span> menu if available or via the <span class="LIB_Italic">Tools</span> button ( <img src="../../../LIB_Images/Accessibility/IEToolsButton.png" title="Tools button." alt="Tools button." /> ).</li>
+            <li>Select <span class="LIB_Bold">Internet Options…</span></li>
+            <li>Go to the <span class="LIB_Italic">Security</span> tab.</li>
+            <li>Select <span class="LIB_Bold">Trusted Sites</span> from the <span class="LIB_Italic">Select a Web Content Zone to Specify Its Security</span> box.</li>
+            <li>Select the <span class="LIB_Bold">Sites…</span> button. This opens the <span class="LIB_Italic">Trusted Sites</span> box.<br /><img src="../../../LIB_Images/Accessibility/InternetExplorerOptions.png" title="Internet Explorer Options. 1) Security Tab. 2) Trusted Sites. 3) Custom level button." alt="Internet Explorer Options. 1) Security Tab. 2) Trusted Sites. 3) Custom level button." style="width: 245px;height: 313px;" /><br /><span class="LIB_Caption">Internet Explorer Options. 1) Security Tab. 2) Trusted Sites. 3) Custom level button.</span></li>
+            <li>	In the <span class="LIB_Italic">Custom Level</span> dialog, under <span class="LIB_Bold">Miscellaneous</span> select the <span class="LIB_Bold">Allow script initiated windows without size or position constraints</span> setting and set it to <span class="LIB_Bold">Enable</span>. <br /><img src="../../../LIB_Images/Accessibility/IESecuritySettingsMiscAllowScript-Initiated.png" title="Security Settings dialog with Allow script-initiated windows without size or position constraints selected." alt="Security Settings dialog with Allow script-initiated windows without size or position constraints selected." style="width: 227px;height: 258px;" /><br /><span class="LIB_Caption">Security Settings dialog with Allow script-initiated windows without size or position constraints selected.</span><br /><br />Without this setting enabled, Internet Explorer adds part of the URL to the window title. This confuses the screen readers and disables the System 7 screen reader scripts. The screen readers require that the text "System 7" is visible in the window title. With the URL added by Internet Explorer, this sometimes pushes the "System 7" phrase out of the visible window title.</li>
+        </ol>
+    </body>
+</html>

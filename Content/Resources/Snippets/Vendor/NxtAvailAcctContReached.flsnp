@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="90" MadCap:lastWidth="1026">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Use the next available account if the contract total is reached?</span> – When selected, the system will automatically look for the next available account when the contract total is reached.</p>
+        <p MadCap:conditions="General.Hold">&lt;!--Field added per ITS 22642 03/04/2009.Item doesn't explain how/why they are used or what they affect in the system.--&gt;</p>
+    </body>
+</html>

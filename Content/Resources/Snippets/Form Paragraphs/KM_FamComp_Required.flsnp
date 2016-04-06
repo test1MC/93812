@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="210" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <p>For Unit Members the following fields are required, you won't be able to sign the <MadCap:variable name="FormNames.32110004" class="LIB_Italic" /> without this data:</p>
+        <ul>
+            <li><span class="LIB_Bold">Name</span>
+            </li>
+            <li><span class="LIB_Bold">Gender</span>
+            </li>
+            <li><span class="LIB_Bold">Education Level</span>
+            </li>
+            <li><span class="LIB_Bold">Relationship to Primary Member</span>
+            </li>
+            <li><span class="LIB_Bold">Race</span>
+            </li>
+            <li><span class="LIB_Bold">Ethnicity</span>
+            </li>
+            <li><span class="LIB_Bold">Verification of Identity</span>
+            </li>
+        </ul>
+    </body>
+</html>

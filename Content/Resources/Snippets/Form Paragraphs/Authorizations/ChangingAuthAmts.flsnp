@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="762" MadCap:lastWidth="877">
+    <head>
+    </head>
+    <body>
+        <h4>Changing Authorization Amounts</h4>
+        <p>Designated employees may increase or decrease amounts within pre-defined Agency limitations. Changes are recorded in the <span class="LIB_Italic">Authorization History</span> of the <span class="LIB_Italic">Authorization</span>. You can view the <span class="LIB_Italic">Authorization History</span> from the <span class="LIB_Italic">Tools</span> menu of the <span class="LIB_Italic">Authorization</span> form. Increasing  amounts requires the <span class="LIB_Italic">Authorization</span> to be approved and signed again.</p>
+        <p><span class="LIB_Bold">Authorization History</span>
+        </p>
+        <ul>
+            <li>Increases create an <span class="LIB_Bold">I</span> record, for <span class="LIB_Italic">Increase</span>.</li>
+            <li>Decreases create an <span class="LIB_Bold">L</span> record, for <span class="LIB_Italic">Liquidation</span>.</li>
+        </ul>
+        <p class="LIB_Img">
+            <img src="../../../../LIB_Images/Auths/AuthHistory.png" />
+            <br /><span class="LIB_Caption">Authorization History showing Increase and Liquidation records.</span>
+        </p>
+        <p MadCap:conditions="KEEM.KEEM-Exclude">Increasing or decreasing either the <span class="LIB_Bold">Quantity</span> or <span class="LIB_Bold">Unit Price</span> field results in a record being added to the <span class="LIB_Italic">Authorization History</span>.</p>
+    </body>
+</html>

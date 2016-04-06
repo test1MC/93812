@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod" MadCap:lastBlockDepth="7" MadCap:lastHeight="1903" MadCap:lastWidth="1007">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Developers use Status Form Launching Administration to add new status form launching records." />
+    </head>
+    <body>
+        <h1>Status Form Launching Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/StatusFormLaunchingAdmin.png" title="Status Form Launching Administration." alt="Status Form Launching Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/StatFrmLaunchAdmn.png" title="Status Form Launching Administration." alt="Status Form Launching Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Status Form Launching Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> Form or Grid</p>
+        <p><span class="LIB_Bold">Description:</span> The <span class="LIB_Bold">Status Form Launching Administration</span> option allows Libera Developers to set up which forms are launched as a result of a status change. </p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Making changes to the <span class="LIB_Italic">Status Form Launching Administration</span> grid should be made only by Libera Developers.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Columns</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Program</span> - Program code of the forms involved.</li>
+            <li><span class="LIB_Bold">Source Status</span> and <span class="LIB_Bold">Target Status</span> - To and From status moves that trigger the launching of the form.</li>
+            <li><span class="LIB_Bold">Form ID to Launch</span> - Form <span class="LIB_Bold">Template ID</span> (Also Known As <span class="LIB_Bold">Component #</span>) of the form to be launched when the criteria matches.</li>
+            <li><span class="LIB_Bold">Component Template ID to Launch From</span> - If applicable, the trigger form.</li>
+            <li><span class="LIB_Bold">Component Type to Launch From</span> - Type code of the <span class="LIB_Bold">Component Template ID to Launch From</span> component. 1 = PDQ, 2 = form.</li>
+            <li><span class="LIB_Bold">Form Name</span> - Name of the form to be launched.</li>
+            <li><span class="LIB_Bold">Launching mode</span> - Code for the form launching functionality.</li>
+            <li><span class="LIB_Bold">Modal</span> - When selected the form that opens retains focus, meaning that users won't be able to work in another window until the new form window closes.</li>
+            <li><span class="LIB_Bold">Form Height</span> and <span class="LIB_Bold">Form Width</span> - Indicates the size of the window when the form launches.</li>
+            <li><b>Form Title</b> - Displays what appears in the title bar of the form window. When blank, the component title alone is displayed.</li>
+            <li><span class="LIB_Bold">Target</span> - Displays if the form is opened in a new window or within the current form.</li>
+            <li><span class="LIB_Bold">Parameters</span> - User or system define parameters that control any number of things about the form to be launched.</li>
+            <li><span class="LIB_Bold">Roles</span> - A comma separated list of User Roles that have access to the form being launched. Can be used to launch different forms for different user groups.</li>
+            <li><span class="LIB_Bold">Enabled</span> - Indicates if this form launching action is enabled in the system or not.</li>
+        </ul>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Grid Functionality</span>
+        </p>
+        <ul>
+            <li>Selecting a record in the grid opens the associated <span class="LIB_Italic">Status Form Launching Settings</span> form in a new window.</li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFilterGroupAndSort.flsnp" />
+            </li>
+        </ul>
+        <h3>Adding a New Status Form Launching Record</h3>
+        <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQActionRow_EditInGrid.flsnp" />
+        <h3>Deleting a Status Form Launching Record</h3>
+        <MadCap:snippetBlock src="../../Resources/Snippets/DeleteGridRow.flsnp" />
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>While you can edit data directly in the grid, it's easier to make changes via the <span class="LIB_Italic">Status Form Launching Settings</span> form.</li>
+            <li>Even if you have the ability to add new records or modify data via this option, changes should be made by Libera Developers.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="12 Status Form Launching Settings Form.htm">Status Form Launching Settings</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

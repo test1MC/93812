@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/AccessibilityGuide_PDF_TOC.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/LiberaGlobalStyleSheet.css"
+  ConditionTagExpression="exclude[General.DotNet35 or General.Hold or General.Online] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries />
+  <PDF
+    Tagged="true" />
+</CatapultTarget>

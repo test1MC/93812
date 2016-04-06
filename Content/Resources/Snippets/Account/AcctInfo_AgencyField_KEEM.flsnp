@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:conditions="CO-CICMS.CO-CICMS_Exclude,Sys7UserGuide.Sys7UserGuide_Exclude" MadCap:lastBlockDepth="2" MadCap:lastHeight="164" MadCap:lastWidth="908" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Agency* </span>– Displays your Agency's name. This field is editable for level two sub accounts or if your Agency is not using <MadCap:variable name="Terminology.Sub_Account" />s. The numeric code for this value becomes part of the account number.</p>
+        <p>When an account is setup for a particular Agency, only authorizations for offices within that agency will be able to use this account.</p>
+        <p>If your Agency uses upper level accounts, once an upper level account for a particular <span class="LIB_Bold">Fiscal Year</span>, <span class="LIB_Bold">Account Identifier</span>, and <span class="LIB_Bold">Segment of Year</span> is configured, <MadCap:variable name="Terminology.Sub_Account" />s can be created for each Agency to divide up the allocation for the parent account amongst the agencies.</p>
+    </body>
+</html>

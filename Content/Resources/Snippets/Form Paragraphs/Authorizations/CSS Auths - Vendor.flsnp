@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="904">
+    <head>
+    </head>
+    <body>
+        <p>The winning <MadCap:variable name="Terminology.Vendor_UC" /> on the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form appears in the <span class="LIB_Bold">Vendor Name</span> field. The <MadCap:variable name="Terminology.vendor_LC" />'s contact information appears in the <span class="LIB_Bold">Phone Number</span> and <span class="LIB_Bold">Vendor Address</span> fields.</p>
+    </body>
+</html>

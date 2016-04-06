@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="236" MadCap:lastWidth="1059">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Flags</span> - Flags are short codes describing the type of action taken. Some common flags and their meanings are:
+
+
+</p>
+        <ul>
+            <li><span class="LIB_Bold">I</span> which means "Insert"
+
+</li>
+            <li><span class="LIB_Bold">U</span> which means "Update"
+</li>
+            <li><![CDATA[
+]]><span class="LIB_Bold">D</span> which means "Delete"
+</li>
+            <li><span class="LIB_Bold">UA</span> means "User Activity" and refers to actions such as loading a form.
+
+</li>
+            <li><span class="LIB_Bold">SEC</span> means "Security" and refers to actions such as a login and confirming that the correct password was entered. </li>
+        </ul>
+        <p>
+
+
+The <span class="LIB_Bold">UA</span> and <span class="LIB_Bold">SEC</span> flags usually identify system events that will only be included if the parameter <span class="LIB_Bold">Include System Events</span> is set to <span class="LIB_Bold">Y</span>.
+</p>
+        <p>If a flag is followed by a question mark (Example: I?), the framework cannot determine if all audited columns are accurate and this is only an estimated action.
+</p>
+    </body>
+</html>

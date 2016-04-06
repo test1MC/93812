@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="597" MadCap:lastWidth="1010">
+    <head>
+    </head>
+    <body>
+        <p>Access reports via the <span class="LIB_Bold">Tools</span> button in the <span class="LIB_Italic">Account Management</span> grouping of the <span class="LIB_Italic">Desktop Ribbon</span>. This opens a listing of available tools in a new window. Selecting the tool you wish to use in the list closes the window and opens the tool.</p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/45/GetToTools.png" title="Tools button circled in the Account Management grouping of the Desktop Ribbon showing an example of the Tools list." alt="Tools button circled in the Account Management grouping of the Desktop Ribbon showing an example of the Tools list." />
+        </p>
+        <p class="LIB_Img">
+            <br /><span class="LIB_Caption">Tools button circled in the Account Management grouping of the Desktop Ribbon showing an example of the Tools list.</span>
+        </p>
+        <p>&#160;</p>
+        <p class="LIB_Note"><span style="color: #9400d3; font-weight: bold; font-style: italic;">Tip:</span> Use the <span class="LIB_Italic">Filter Row</span> to quickly find the tool that you wish to run.</p>
+    </body>
+</html>

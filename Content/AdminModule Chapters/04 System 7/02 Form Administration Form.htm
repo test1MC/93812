@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod,SADOPS.SADOPS_Include" MadCap:lastBlockDepth="7" MadCap:lastHeight="1684" MadCap:lastWidth="1007">
+    <head><title></title>
+        <meta name="description" content="System Admins use the Form Administration form to configure forms for their Agency." />
+    </head>
+    <body>
+        <h1>Form Administration Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/FormAdministrationForm.png" title="Portion of the Form Administration form." alt="Portion of the Form Administration form." />
+            <br /><span class="LIB_Caption">Portion of the Form Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <span class="LIB_Italic">Form Administration</span> form is used to edit information about the selected form such as <span class="LIB_Bold">Form Name</span>, <span class="LIB_Bold">Description</span>, and <span class="LIB_Bold">ACLs</span>. Only users with access to the <span class="LIB_Italic">System Administratio</span>n module have access to this form.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Fields Maintained by the Agency</span>
+        </p>
+        <p>If you change any information in <span class="LIB_Italic">Form Administration</span>, please inform your Libera Project Coordinator, so the environments can be kept in sync.</p>
+        <ul>
+            <li><span class="LIB_Bold">Form Name</span> - This is the name of the form as displayed in the <span class="LIB_Italic">File Drawer</span> and <span class="LIB_Italic">Electronic Case Folder </span>(ECF).</li>
+            <li><span class="LIB_Bold">Description</span> - This is the description that appears in the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Italic">Security Access</span> - ACLs - Access Control List (ACL). They are used to define who has rights to the component and exactly which rights - Read, Create, Write, and/or Delete. You may use the Build ACL buttons or type comma separated lists in the fields.<ul><li><span class="LIB_Bold">Read ACL</span> - Users that have any of the user roles in this field have the ability to see this form in the ECF. They can open it and see the contents of the form.</li><li><span class="LIB_Bold">Create ACL</span> - Users that have any of the user roles in this field  have the ability to see this form in the <span class="LIB_Italic">File Drawer</span> and add it as a new form to the ECF.</li><li><span class="LIB_Bold">Write ACL</span> - Users that have any of the user roles in this field have the ability to edit the form.</li><li><span class="LIB_Bold">Delete ACL</span> - Users that have any of the user roles in this field  have the ability to delete the form from the ECF. Some forms are not configured to be deleted. Please contact Libera for assistance with removing the form.</li></ul></li>
+        </ul>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Fields Maintained by Libera</span>
+        </p>
+        <p>The following fields listed below are maintained by Libera and should not be changed by the Agency. Explanations of the fields are provided for your information only. Please direct questions about these fields to your Libera Project Coordinator.</p>
+        <ul>
+            <li><span class="LIB_Bold">Form Number</span> - Also known as Template ID and Component Number. This is the unique ID for the form component.</li>
+            <li><span class="LIB_Bold">XML File</span> - Think of this as the "address" of the component.</li>
+            <li><span class="LIB_Bold">Single Instance</span> - Allows the form to be added to the ECF multiple times or, not.</li>
+            <li><span class="LIB_Bold">Days Between Instances</span> - Related to Single Instance, if multiple instances of a form are allowed this setting controls the frequency.</li>
+            <li><span class="LIB_Bold">Agency Header</span> - Determines if the Agency's header appears on the form.</li>
+            <li><span class="LIB_Bold">Agency ID</span> - Not used at this time.</li>
+            <li><span class="LIB_Bold">Module Name</span> - This controls when the component is visible in the File Drawer. For example when the value is Case Management, the component appears when a Case Management PDQ is loaded in the Data Tree.</li>
+            <li><span class="LIB_Bold">Program</span> - This associates the form with a program.</li>
+            <li><span class="LIB_Bold">Min/Max Status</span> - Controls when the form can be added to the ECF.</li>
+            <li><span class="LIB_Bold">Note Type</span> - Depending on the form, this is the code that shows in the Type column of the ECF (if the Type column is visible in the ECF for your Agency).</li>
+            <li><span class="LIB_Bold">Stage</span> - Used by Libera to control when forms become available to the Agency. Think new Agencies or new programs to an Agency.</li>
+            <li><span class="LIB_Bold">Form Arguments</span> - Code that controls all kinds of things including but not limited to: how/when the form displays, layout/look of form, and more.</li>
+            <li><span class="LIB_Bold">Excluded Status(es)</span> - Prevents the form from being visible in the File Drawer when the case is in an excluded status.</li>
+            <li><span class="LIB_Bold">Form Precedence</span> - Used to set up forms required to be on file prior to allowing this form to be added to the ECF.</li>
+            <li><span class="LIB_Bold">Universal Styling Settings</span> - Used to control the look and feel of forms specifically related to HTML/XML. This is controlled globally. However, these fields can be used to make this form look different from other forms.</li>
+            <li><span class="LIB_Bold">Extended Settings</span> - These are the application settings that affect this form.</li>
+            <li><span class="LIB_Bold">Forms to Launch</span> - This is where we could link other forms to this form. They can be set to automatically open, appear in the ECF, or display a list for the user to select from.</li>
+            <li><b>System Variable Date Mode</b> - Tells the system which date to look at when applying application settings.</li>
+            <li><b>Form Properties</b> - A listing of application settings associated with the form.</li>
+            <li><span class="LIB_Bold">External Form Content</span> - Used for PDF forms.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="01 Form Administration Grid.htm">Form Administration</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

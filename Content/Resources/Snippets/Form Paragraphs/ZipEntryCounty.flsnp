@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="239" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Zip Entry </span>
+        </p>
+        <p>When doing data entry, you can leave the <span class="LIB_Bold">City</span> and <span class="LIB_Bold">State</span> fields blank and skip directly to the <span class="LIB_Bold">Zip</span> field. Entering a Zip Code automatically populates these fields as well as the <span class="LIB_Bold">County</span> field.</p>
+        <ul>
+            <li>Should there be more than one city name for the Zip Code entered, the <span class="LIB_Bold">Zip</span> lookup automatically opens displaying all possible combinations from which to choose.</li>
+            <li>Leaving the <span class="LIB_Bold">City</span> and <span class="LIB_Bold">State</span> fields blank or only entering one or the other results in all Zip Codes for the state being displayed in the <span class="LIB_Bold">Zip</span> lookup.</li>
+            <li>Clearing the <span class="LIB_Bold">Zip</span> field also clears the <span class="LIB_Bold">City</span>, <span class="LIB_Bold">State</span>, and <span class="LIB_Bold">County</span> fields. A quick way to clear any field is to select it, then press CTRL+0 (zero).</li>
+        </ul>
+    </body>
+</html>

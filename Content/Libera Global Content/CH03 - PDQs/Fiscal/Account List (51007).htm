@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3192" MadCap:lastWidth="968" MadCap:conditions="SADOPS.SADOPS_Exclude,JKTC.JKTC_Exclude,CO-CICMS.CO-CICMS_Exclude">
+    <head>
+        <meta name="description" content="The Account List PDQ displays all accounts used to fund services. " />
+    </head>
+    <body>
+        <h1><MadCap:variable name="PDQNames.51007" />
+            <MadCap:concept term="PDQ" />
+        </h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Core/AcctList_PDQ.png" title="Account List PDQ." alt="Account List PDQ." />
+            <br /><span class="LIB_Caption">Account List PDQ.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <MadCap:variable name="PDQNames.51007" class="LIB_Italic" /> PDQ displays all accounts used to fund services. This information includes account identification, financial status, and dates of activity. Data relevant to any external accounting is also displayed. You will only see accounts for the offices associated with the caseloads or teams which you are linked (if your Agency uses caseloads and/or teams), and the office which appears on your <span class="LIB_Italic">Employee Information</span> form. Other user roles or settings may affect the PDQ results. If you have any questions about the data you are seeing, please contact your System Administrator.</p>
+        <p>Access the <MadCap:variable name="PDQNames.51007" class="LIB_Italic" /> PDQ one of two ways:</p>
+        <ul>
+            <li>Select the <span class="LIB_Bold">Accounts</span> option under <span class="LIB_Bold">Resource Management </span>on the <span class="LIB_Italic">Application Home Page.</span></li>
+            <li> Open the <span class="LIB_Italic">File Drawer</span> to the PDQs Tab and filter for <span class="LIB_Bold">Account List</span>. Select the PDQ in the resulting list to run or open it.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>PDQ Results</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/PDQ Paragraphs/PDQFilterGroupAndSort.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/PDQ Paragraphs/ECFNotUsed.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>Selecting an account record in the Data Tree opens the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form.</li>
+                </ul>
+                <ul>
+                    <li>Use the <span class="LIB_Bold">Create Account </span>button to add new top level or <MadCap:variable name="Terminology.ParentAcct" /> accounts to the system. Selecting the button opens a blank <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form ready to be filled out.</li>
+                </ul>
+                <ul>
+                    <li>Select an <span class="LIB_Bold">Upper Level Account</span> record in the <span class="LIB_Italic">Data Tree</span>, then use the <span class="LIB_Bold">Create <MadCap:variable name="Terminology.Sub_Account" /></span> button to add a new <MadCap:variable name="Terminology.Sub_Account" /> to that account. You cannot add <MadCap:variable name="Terminology.Sub_Account" />s to Authorization accounts.</li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/PDQ Paragraphs/PDQCountandSummaryData.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctList_DeleteAcctButton.flsnp" MadCap:conditions="KEEM.KEEM-Exclude" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Column Header Definitions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> As some of the column headers are self explanatory, not all are defined.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Account Number</span> - This is a combination of the values from several fields on the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form. It's explained in detail in the help content for the <MadCap:xref href="../../CH04 - Forms/Fiscal/AcctInfo(406).htm">Account Information</MadCap:xref> form.</li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="KEEM.KEEM-Exclude">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_DistrictRegionField.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="CO-CICMS.CO-CICMS_Exclude">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AgencyField_KEEM.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_SegOfYear.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="KEEM.KEEM-Exclude">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AccountIdentifier.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="CO-CICMS.CO-CICMS_Exclude">
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AccountIdentifier_KEEM.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li MadCap:conditions="General.Hold"><span class="LIB_Bold">Account Identifier Group</span> - Displays the title of the Account Identity Group associated with the Account Identifier. It provides an additional way to categorize or group data in the grid.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Special Project</span> - When authorizing services for <MadCap:variable name="Terminology.client_lc" />s, authorizations will select accounts where the Special Project (on the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form) matches the <MadCap:variable name="Terminology.client_lc" />’s Special Project (on the Application and Intake form) or the Default Project Description for the <MadCap:variable name="Terminology.client_lc" />’s program. Default Project Descriptions are set for programs in the Dictionary Table Administration module, specifically the <span class="LIB_Italic">Account Special Project Codes</span> table. For more information on this, please refer to the help content for the  <MadCap:xref href="../../CH04 - Forms/Fiscal/AcctInfo(406).htm">Account Information</MadCap:xref> form.</li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Allocated.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Encumbered.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Authorized.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_Projected.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_RtnToBudget.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_OutstandingPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_BalToAuth.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_ActAmtExp.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_PymtNotExceed.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_TotPymt.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_PymtInProc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AvailPymtBal.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_SubAcctTot.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_BalLftAlloc.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_BgnEndDate.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_DTExpPymts.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_TurnAcctOff.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AlsoOffAuth.flsnp" />
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Account/AcctInfo_AcctType.flsnp" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../CH04 - Forms/Fiscal/AcctInfo(406).htm">Account Information</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

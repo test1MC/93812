@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="32120011">Client Services Specialist</Variable>
+  <Variable
+    Comment=""
+    Name="32120002">Client Services Coordinator</Variable>
+  <Variable
+    Name="32120005"
+    Comment="">Inquiry Only</Variable>
+  <Variable
+    Name="32120001"
+    Comment="">Energy Coordinator</Variable>
+  <Variable
+    Name="24"
+    Comment="">System Administrator</Variable>
+  <Variable
+    Name="32120012"
+    Comment="">Employee Audit Auditor</Variable>
+  <Variable
+    Name="32120013"
+    Comment="">Employee Audit Inspector</Variable>
+  <Variable
+    Name="12"
+    Comment="">Fiscal User</Variable>
+  <Variable
+    Name="32120000"
+    Comment="">Bid Witness</Variable>
+</CatapultVariableSet>

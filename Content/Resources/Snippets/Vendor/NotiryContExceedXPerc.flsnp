@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="1026">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Notify when the contract has exceeded __ percent</span> – An automated notification (system email) is sent to users who are signed up to receive the <span class="LIB_Italic">Depleted Contracts</span> notification when the contract has exceeded the percentage specified.</p>
+    </body>
+</html>

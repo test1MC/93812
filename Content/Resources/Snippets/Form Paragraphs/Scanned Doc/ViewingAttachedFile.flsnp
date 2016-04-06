@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="214" MadCap:lastWidth="1046">
+    <head>
+    </head>
+    <body>
+        <h4>Viewing an Attached File</h4>
+        <p>Open a <MadCap:variable name="FormNames.60001" class="LIB_Italic" /> form that has an attached file.</p>
+        <p><span class="LIB_Bold">Options</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Download</span> - Opens the <span class="LIB_Italic">File Download</span> dialog window. You may choose to Open, Save (Save, Save As, or Save and Open), or Cancel.</li>
+            <li><span class="LIB_Bold">View Full Window</span> - Opens the attached file in it's own window.</li>
+            <li><span class="LIB_Bold">Remove</span> - Permanently removes the attached file. This button is available to designated users at your Agency's discretion.</li>
+        </ul>
+    </body>
+</html>

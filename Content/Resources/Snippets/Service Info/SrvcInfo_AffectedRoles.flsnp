@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="134" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Affected Roles</span> - Allows you to apply case limits for this service by User Role. You may type a list of User Roles, for example: 23,24,123,1001,15071, or you may use the <span class="LIB_Bold">Build Affected Roles</span> button to select which roles to include or exclude. When you use the <span class="LIB_Bold">Build Affected Roles</span> button, the <span class="LIB_Italic">Build Affected Roles</span> section becomes visible. When you select either the<span class="LIB_Bold"> Include Roles</span> or <span class="LIB_Bold">Exclude Roles</span> link, a lookup opens displaying your Agency's User Roles. You may select one or more User Roles using the check box column in the grid. Select the <span class="LIB_Bold">Save</span> button to save your changes. This closes the <span class="LIB_Italic">Build Affected Roles</span> section and displays a comma separated list of ACLs in the <span class="LIB_Bold">Affected Roles</span> field.</p>
+    </body>
+</html>

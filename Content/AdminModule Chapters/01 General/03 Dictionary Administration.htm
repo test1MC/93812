@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3787" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod,SADOPS.SADOPS_Include">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Dictionary Administration is where you view and edit dictionary administration tables." />
+    </head>
+    <body>
+        <h1>Dictionary Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/DictAdmin.png" title="Dictionary Administration." alt="Dictionary Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/DictAdm.png" title="Dictionary Administration." alt="Dictionary Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Dictionary Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> Grid</p>
+        <p><span class="LIB_Bold">Description:</span> Dictionary Administration allows Administrators to manage the dictionaries (editable lists) used for form lookup lists. These lookup lists are located in forms. When the user opens the lookup, the lookup is populated from a dictionary table.</p>
+        <p>The grid in the ECF lists all dictionaries with identifying information about each dictionary. Select an option in the ECF to open the dictionary. This opens a new window displaying the contents of the dictionary. Administrators can change the contents of dictionaries.</p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Be careful when modifying dictionaries. If an option is deleted that was previously selected (at least once), unpredictable results may occur. Also, it is important to be careful about modifying dictionaries that contain information which is used in federal reports. The federal reports pull certain codes that are used in some of these dictionary tables. If federal codes or the meaning of the codes are changed so that they no longer match the federal report instructions this will affect the accuracy of the federal reports.</p>
+        <p class="LIB_Img">&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/DictAdminTable.png" title="Example of a Dictionary Administration table." alt="Example of a Dictionary Administration table." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/DictTblExamp.png" title="Example of a Dictionary Administration table." alt="Example of a Dictionary Administration table." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Example of a Dictionary Administration table.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The contents of each dictionary table contains different columns and rows. Some have only a few of each, others have many of each.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Adding a New Record to a Dictionary</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the <span class="LIB_Italic">Action Row</span> where it says, "Please click here to add a new record..." This action opens the row for editing. </li>
+                    <li>Type directly into the cells. </li>
+                    <li>When you're done, press CTRL+ENTER or single-click into the grid to save your data entry.<br /><img src="../../LIB_Images/AdminModule/WhileAfterAddingANewDictTblRecord.png" title="Dictionary table while adding a new record and after." alt="Dictionary table while adding a new record and after." MadCap:conditions="General.DotNet35" /><br /><img src="../../LIB_Images/45/DictAddRec.png" title="Dictionary table while adding a new record and after." alt="Dictionary table while adding a new record and after." MadCap:conditions="General.DotNet45" /><br /><span class="LIB_Caption">Dictionary table while adding a new record and after.</span></li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Editing a Dictionary Table Entry</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the record to be edited, then press F4 or right-click to open the context menu.</li>
+                    <li>Select the <span class="LIB_Bold">Edit</span> option from the context menu. This opens the cell for editing. Now you can change the contents of the cell.<br /><img src="../../LIB_Images/AdminModule/EditingInGrid.png" title="Editing a cell  in the grid." alt="Editing a cell  in the grid." MadCap:conditions="General.DotNet35" /><br /><img src="../../LIB_Images/45/EditCell.png" title="Editing a cell in the grid." alt="Editing a cell in the grid." MadCap:conditions="General.DotNet45" /><br /><span class="LIB_Caption">Editing a cell  in the grid.</span></li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot> Deleting a Dictionary Table Entry</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Select the record to be edited, then press F4 or right-click to open the context menu.</li>
+                    <li>Select the <span class="LIB_Bold">Delete</span> option from the context menu. A confirmation message appears, "Are you sure you want to delete this record?" If so, select the <span class="LIB_Bold">OK</span> button in the message window, otherwise select the <span class="LIB_Bold">Cancel</span> button.</li>
+                    <li>Selecting the OK button closes the confirmation message window and deletes the record from the grid.</li>
+                </ol>
+                <p class="LIB_Note"><b>Note:</b> There's no "undo" when deleting. Think carefully before deleting a record from a dictionary table.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+            <li MadCap:conditions="SADOPS.SADOPS_Exclude">
+                <MadCap:xref href="../03 Security/01 Dictionary Table Access.htm">Dictionary Table Access</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

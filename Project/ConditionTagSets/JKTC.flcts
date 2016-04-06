@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="JKTC_Exclude"
+    BackgroundColor="#ee82ee" />
+  <ConditionTag
+    Comment=""
+    Name="JKTC_Include"
+    BackgroundColor="#40e0d0" />
+</CatapultConditionTagSet>

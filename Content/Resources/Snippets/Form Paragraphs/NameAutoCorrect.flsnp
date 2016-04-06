@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="223" MadCap:lastWidth="956">
+    <head>
+    </head>
+    <body>
+        <p>After the cursor focus leaves the <span class="LIB_Bold">Last Name</span> field, the system automatically checks for capitalization and corrects it to use standard capitalization. If the <MadCap:variable name="Terminology.client_lc" /> has a last name starting with a lowercase letter (like d'Artagnan) or mixed case (like VanderHosen), this will cause the data to be wrong afterwards.</p>
+        <p>To correct this, AFTER leaving the <span class="LIB_Bold">Last Name</span> field, come back to it and replace letters that should NOT have been changed to their lowercase or capital versions with the appropriate ones.</p>
+        <p>Doing anything besides changing a letter to the same letter triggers the automatic correction again. (Changing "Vanderhosen" to "VanderHosen" will save the capitalized H, but changing it to "VanderJosen" will trigger the automatic correction, making the J lowercase).</p>
+        <p>If your Agency interfaces with another system to verify <MadCap:variable name="Terminology.client_lc" /> name data, you may not be able to make these types of corrections.</p>
+    </body>
+</html>

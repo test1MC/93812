@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1872" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod,SADOPS.SADOPS_Include" MadCap:conditionTagExpression="include[SADOPS.SADOPS_Include] ">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Use the PDQ  Administration form to manage settings for the selected PDQ." />
+    </head>
+    <body>
+        <h1>PDQ Administration Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/PDQAdministrationForm.png" title="The top portion of the PDQ Administration form." alt="The top portion of the PDQ Administration form." />
+            <br /><span class="LIB_Caption">The top portion of the PDQ Administration form.</span>
+        </p>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Overview</p>
+        <p>Use the PDQ Administration form to manage settings for the selected PDQ.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">Form Functionality</p>
+        <ul>
+            <li><span class="LIB_Bold">PDQ Number</span> - It's a unique identification number assigned to the PDQ. It appears in the <span class="LIB_Bold">PDQ XML ID</span> column of the PDQ Administration grid. It's also known as the <span class="LIB_Bold">Component #</span> of the PDQ. It's managed by Libera.</li>
+            <li><span class="LIB_Bold">Name</span> - This is the name of the PDQ. It appears in the <span class="LIB_Bold">Name</span> column of the <span class="LIB_Italic">PDQ Administration</span> grid and in the <span class="LIB_Bold">Name</span> column of the PDQ grid displayed on the PDQs tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Description</span> - This is a brief description of the PDQ's functionality. It appears in the <span class="LIB_Bold">Description</span> column in the PDQ grid displayed on the PDQs tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Module</span> - The PDQ loaded in the <span class="LIB_Italic">Desktop</span> determines the module. The value in the <span class="LIB_Bold">Module</span> field filters the other tabs in the <span class="LIB_Italic">File Drawer</span> based on the PDQ loaded in the <span class="LIB_Italic">Desktop</span>.</li>
+            <li><span class="LIB_Bold">Flags</span> - Essentially, this is a "tag" field for the developers. Any value in this field is informational only and doesn't impact PDQ functionality in any way. A common usage example is that it displays a parent PDQ, if any. This functionality is managed by Libera.</li>
+            <li><span class="LIB_Bold">Arguments</span> - Developer defined parameters that are passed into the PDQ. They run in the background, invisible to the end user. This functionality is managed by Libera.</li>
+            <li><span class="LIB_Bold">Category</span> - This controls where the PDQ appears in the PDQ list on the PDQs tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Access ACL</span> - Enter a comma separated list of User Roles that you want to have access to this PDQ or, use the <span class="LIB_Bold">Build Access ACL</span> button to create the list.</li>
+        </ul>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">PDQ Definition Options</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/PDQAdministrationFormPDQDefOPtions.png" title="PDQ Definition Options section of the PDQ Administration form." alt="PDQ Definition Options section of the PDQ Administration form." />
+            <br /><span class="LIB_Caption">PDQ Definition Options section of the PDQ Administration form.</span>
+        </p>
+        <p>&#160;</p>
+        <p>This section allows you to change the order of the columns in PDQs to your Agency's preference. This is a new feature that already has enhancements planned to make it easier to use. If you have any questions about making changes in this section, please contact Libera. This is a multiple-section section which allows you to reorder columns in complex tables. A complex PDQ is one that has one or more levels of child tables such as the Vendor/Service list or almost any accounting PDQ. A simple PDQ is one that doesn't include one or more levels of child tables.</p>
+        <ul>
+            <li><span class="LIB_Bold">Table Name</span> - Optional for simple PDQs, required for complex PDQs. At this time, if you're working with a complex table, please contact Libera for the table's name. </li>
+            <li><span class="LIB_Bold">Column Order</span> - Displays the PDQ's column names from the database (not what you see in the grid). You can reorder the columns in the PDQ&#160;by moving the column names around within this field.</li>
+            <li><span class="LIB_Bold">Get Columns from PDQ</span> - Use this button to populate the <span class="LIB_Bold">Column Order</span> field with all of the PDQ's column names from the database (not what you see in the grid), even the columns not visible to your Agency.  They populate the field in alphabetical order vs the order that they currently appear within the PDQ grid. </li>
+            <li><span class="LIB_Bold">SQL Prefix</span> and <span class="LIB_Bold">Suffix</span> - Displays the code that is pre or post-appended to the SQL&#160;statement in the PDQ. These fields allow Libera to fine tune and improve PDQ&#160;performance without being required to make file system changes. Agencies will not be able to modify these fields. </li>
+            <li><span class="LIB_Bold">Refresh PDQ Cache</span> - Use this button to make your column order changes take effect.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>Copy the contents of the <span class="LIB_Bold">Column Order</span> field into a text file before making any changes. This way you can "undo" any changes you make.</li>
+            <li>You can drag and drop the names within the Column Order field by highlighting the name and using the mouse to drag it to another position in the list. Watch closely when you do this, you'll see the cursor focus move behind the text you're dragging. This indicates the location that the text will be dropped. It's important that it's dropped between column names and not in the middle of a column name.<br /><img src="../../LIB_Images/AdminModule/PDQAdministrationFormColumnOrder.png" title="Example of moving column names within the Column Order field." alt="Example of moving column names within the Column Order field." /><br /><span class="LIB_Caption">Example of moving column names within the Column Order field.</span></li>
+        </ul>
+    </body>
+</html>

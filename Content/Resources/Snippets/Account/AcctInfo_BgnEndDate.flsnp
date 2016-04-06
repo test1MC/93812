@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Begin/End Date</span> – This is the date range that the account is active. Authorizations/payments may only use an account if the date of service is within the date range of the account. These dates or the Fiscal Year can be used to track accounts by biennium. <MadCap:snippetText src="DataFlowstoAllSubChildAccts.flsnp" /></p>
+    </body>
+</html>

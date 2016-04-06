@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.DotNet35" MadCap:lastBlockDepth="5" MadCap:lastHeight="537" MadCap:lastWidth="1067">
+    <head>
+        <link href="../../Stylesheets/TableStyles/Table_Purple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>Basic Navigation</h3>
+        <p>The simplest way to navigate forms is tabbing from field-to-field. However, you may also use the mouse to click into fields or scroll the length of the form.</p>
+        <p>&#160;</p>
+        <table style="mc-table-style: url('../../Stylesheets/TableStyles/Table_Purple.css');margin-left: auto;margin-right: auto;caption-side: bottom;" class="TableStyle-Table_Purple" cellspacing="0">
+            <caption style="text-align: left;"><span class="LIB_Caption">Hotkey Navigation</span>
+            </caption>
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <col class="TableStyle-Table_Purple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Table_Purple-Head-Header1">
+                    <th class="TableStyle-Table_Purple-HeadE-Column1-Header1" style="color: #ffffff;">Hotkey</th>
+                    <th class="TableStyle-Table_Purple-HeadD-Column1-Header1" style="color: #ffffff;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">TAB</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Moves the cursor forward to the next field in the form.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">SHIFT+TAB</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Moves the cursor backward to the previous field in the form.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">ALT+F</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Opens the File menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">ALT+E</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Opens the Edit menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">ALT+V</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Opens the View menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">ALT+I</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Opens the Insert menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">ALT+O</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Opens the Format menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">ALT+T</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Opens the Tools menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">ALT+H</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Opens the Help menu.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">ALT+F1</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Opens lookups/picklists.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body1">ARROW keys</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Moves up and down within menus.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body2">
+                    <td class="TableStyle-Table_Purple-BodyE-Column1-Body2">SPACEBAR</td>
+                    <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Select or clear check boxes. Selects/activates buttons.</td>
+                </tr>
+                <tr class="TableStyle-Table_Purple-Body-Body1">
+                    <td class="TableStyle-Table_Purple-BodyB-Column1-Body1">ENTER</td>
+                    <td class="TableStyle-Table_Purple-BodyA-Column1-Body1">Select an option in a grid. Activates buttons.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

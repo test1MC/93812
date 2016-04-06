@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="Search/Add New Client">Search/Add New Client</Variable>
+  <Variable
+    Name="Search/Add New Client"
+    Comment="">Search/Add New KEEM Job</Variable>
+</CatapultVariableSet>

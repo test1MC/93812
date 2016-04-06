@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1722" MadCap:lastWidth="942" MadCap:conditions="SADOPS.SADOPS_Exclude,JKTC.JKTC_Exclude">
+    <head>
+        <link href="../../../Resources/Stylesheets/TableStyles/Table_Purple.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="Use the Transfer Authorizations tool to transfer authorization transactions between accounts." />
+    </head>
+    <body>
+        <h1>Transfer Authorizations Tool<MadCap:concept term="Tool" /></h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Auths/TranferAuthorizationsTool.png" title="Transfer Authorizations Tool." alt="Transfer Authorizations Tool." />
+            <br /><span class="LIB_Caption"><MadCap:variable name="FormNames.50003"></MadCap:variable> tool.</span>
+            <br />
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>Use the <MadCap:variable name="FormNames.50003" class="LIB_Italic" /> tool to transfer authorization transactions between accounts.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Getting to the <MadCap:variable name="FormNames.50003"></MadCap:variable></span>
+        </p>
+        <ol>
+            <li>Log on with rights to access the <MadCap:variable name="FormNames.50003" class="LIB_Italic" />.</li>
+            <li>Open the <span class="LIB_Italic">File Drawer</span> to the <span class="LIB_Italic">Tools</span> tab.</li>
+            <li>Filter the <span class="LIB_Italic">Tools</span> tab by the partial word trans (short for transfer), then select the <MadCap:variable name="FormNames.50003" class="LIB_Bold" /> option to open the tool.</li>
+        </ol>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Form Functionality</span>
+        </p>
+        <ul>
+            <li>Use the <span class="LIB_Bold">Accounts to Transfer from</span> field to select one or more accounts from which to transfer authorizations and/or payments. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information. on working with multiple-sections.</li>
+            <li>The transfer tool displays both authorization records and payment records.<ul><li><p>When selecting an authorization record to transfer, it moves all the encumbrance (but not liquidation) for that line item associated with the selected account, except those tied to payments.</p></li><li><p>When selecting a payment record to transfer, it moves the encumbrance, payment and amount warranted for that specific payment to the new account.</p></li></ul></li>
+            <li>The <span class="LIB_Bold">Authorizations to Transfer</span> lookup shows the following based on the <span class="LIB_Bold">Show Warranted?</span> and <span class="LIB_Bold">Show Unwarranted?</span> fields:</li>
+            <ul>
+                <li>
+                    <table style="mc-table-style: url('../../../Resources/Stylesheets/TableStyles/Table_Purple.css');caption-side: bottom;" class="TableStyle-Table_Purple" cellspacing="0">
+                        <col class="TableStyle-Table_Purple-Column-Column1" />
+                        <col class="TableStyle-Table_Purple-Column-Column1" />
+                        <col class="TableStyle-Table_Purple-Column-Column1" />
+                        <thead>
+                            <tr class="TableStyle-Table_Purple-Head-Header1">
+                                <th class="TableStyle-Table_Purple-HeadE-Column1-Header1">Show Warranted?</th>
+                                <th class="TableStyle-Table_Purple-HeadE-Column1-Header1">Show Unwarranted?</th>
+                                <th class="TableStyle-Table_Purple-HeadD-Column1-Header1">Results</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-Table_Purple-Body-Body1">
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">Y</td>
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">Y</td>
+                                <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">All Payments and Authorizations with outstanding balances</td>
+                            </tr>
+                            <tr class="TableStyle-Table_Purple-Body-Body2">
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body2" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">Y</td>
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body2" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">N</td>
+                                <td class="TableStyle-Table_Purple-BodyD-Column1-Body2">Only warranted payments</td>
+                            </tr>
+                            <tr class="TableStyle-Table_Purple-Body-Body1">
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">N</td>
+                                <td class="TableStyle-Table_Purple-BodyE-Column1-Body1" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">Y</td>
+                                <td class="TableStyle-Table_Purple-BodyD-Column1-Body1">Unwarranted Payments and Authorizations with outstanding balances</td>
+                            </tr>
+                            <tr class="TableStyle-Table_Purple-Body-Body2">
+                                <td class="TableStyle-Table_Purple-BodyB-Column1-Body2" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">N</td>
+                                <td class="TableStyle-Table_Purple-BodyB-Column1-Body2" style="text-align: center;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;">N</td>
+                                <td class="TableStyle-Table_Purple-BodyA-Column1-Body2">Nothing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+            <li>
+                <p>If a deactivated account is selected from the <span class="LIB_Bold">Account to Transfer To</span> lookup, an informational message appears letting you know the selected "to" account is deactivated. You may still use this account or change the "to" account.</p>
+            </li>
+            <li>Use the <span class="LIB_Bold">Amount to Transfer</span> field to limit the authorizations returned in the <span class="LIB_Bold">Authorizations to transfer</span> lookup to authorizations that add up to (as close as possible) the amount entered. The authorizations returned are based on the service <span class="LIB_Bold">Begin Date</span>. The payments returned are based on the <MadCap:variable name="Terminology.Date Rendered (Pymts)" class="LIB_Bold" />. In both cases, it starts with the oldest dates. If you leave the field blank, it will show all authorizations and payments tied to the selected "from" accounts.</li>
+            <li>The <span class="LIB_Bold">Document Number</span> field is used for internal tracking and is completely optional. This value appears in the <span class="LIB_Italic"><MadCap:variable name="PDQNames.30000079" class="LIB_Italic"></MadCap:variable></span> PDQ after the transfer is completed.</li>
+            <li>The <span class="LIB_Bold">Comments</span> field is used for any comments you would like to add and is completely optional. This value appears in the <MadCap:variable name="PDQNames.30000079" class="LIB_Italic" /> PDQ after the transfer is completed.</li>
+            <li>
+                <p>When transferring to an upper level account, the sub-account to use is automatically determined. However, if the target account does not have a corresponding sub-account, the entire transfer will fail. Corresponding accounts are based on <span class="LIB_Bold"><MadCap:variable name="Terminology.Region/District_UC" class="LIB_Bold" /></span> and <span class="LIB_Bold">Office</span> on the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form.</p>
+            </li>
+            <li>Corresponding accounts are also based on the <span class="LIB_Bold">County</span> field on the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form. This is controlled by the <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Enable Counties in Account Structure.htm">Enable counties in Account structure</MadCap:xref> application setting.</li>
+            <li>
+                <p>The <span class="LIB_Italic">Total Amounts transferring to</span> section automatically fills in based on the <span class="LIB_Bold">Authorizations to transfer</span> field. The fields display calculated totals based on the authorizations and payments selected from the lookup.</p>
+            </li>
+            <li>
+                <p>Use the <span class="LIB_Bold">Transfer authorizations</span> button to complete the transfer of authorizations between accounts.</p>
+            </li>
+            <li>
+                <p>The <span class="LIB_Bold">Open Account List</span> button opens a new window which displays the <span class="LIB_Italic">Account List</span> PDQ.</p>
+            </li>
+            <li>
+                <p>Use the <span class="LIB_Bold">Cancel Transfer</span> button to cancel the transfer and close the <MadCap:variable name="FormNames.50003" class="LIB_Italic" /> tool.</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

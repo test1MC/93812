@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="7723" MadCap:lastWidth="942" MadCap:conditions="SADOPS.SADOPS_Exclude,JKTC.JKTC_Exclude,CO-CICMS.CO-CICMS_Exclude">
+    <head><title>Service Information Form</title>
+        <meta name="description" content="The Service Information form collects information about the service." />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="Form" />Service Information Form</h1>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <span class="LIB_Italic">Service Information</span> form collects information about the service. The information collected on this form serves as source data for numerous other forms and functionality related to the service throughout System 7™. The <span class="LIB_Italic">Service Information</span> form can be opened directly from the <span class="LIB_Italic">Data Tree</span> of the PDQ.</p>
+        <p><span class="LIB_Bold">Accessing the Service Information Form</span>
+        </p>
+        <ul>
+            <li>Access to this form is limited by your User Role.</li>
+            <li>Service data must be displayed in the <span class="LIB_Italic">Data Tree</span> before you can add a new service or update an existing service. You may select the <span class="LIB_Bold">Services</span> option from the <span class="LIB_Italic">Application Home Page</span> or the <MadCap:xref href="../../CH03 - PDQs/Vend-Serv/ViewAllServices(51500).htm">View All Services</MadCap:xref> PDQ from the PDQs tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li>To add a new service, select the <span class="LIB_Bold">Add New Service</span> button at the bottom of the <span class="LIB_Italic">Data Tree</span> to launch a new <span class="LIB_Italic">Service Information</span> form.</li>
+            <li>To view an existing <span class="LIB_Italic">Service Information</span> form select the service in the <span class="LIB_Italic">Data Tree</span>.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Form Sections</span>
+        </p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Basic Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_BasicInfo.png" title="Example of the Basic Information section." alt="Example of the Basic Information section." />
+                    <br /><span class="LIB_Caption">Example of the Basic Information section.</span>
+                </p>
+                <p>&#160;</p>
+                <ul>
+                    <li><span class="LIB_Bold">Parent Service</span> - If this service is a child/sub service, use this field to link it to its Parent Service. For additional information refer to <MadCap:xref href="Parent Child Sub Services.htm">Parent Child/Sub Services</MadCap:xref>.</li>
+                    <li><span class="LIB_Bold">Commodity Type</span> - Only services that are classified as a  "Good" can be transferred in equipment transfer forms (if used by your Agency).</li>
+                    <li><span class="LIB_Bold">Complete?</span> - Is the <span class="LIB_Italic">Service Information</span> form completely filled out?</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Child/Sub Services</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If this service is a Parent service, this section lists all the child/sub services linked to it. You may link additional child/sub services. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Service Events</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_Events.png" title="Events section." alt="Events section." />
+                    <br /><span class="LIB_Caption">Events section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>The Service Events section is divided into three tabbed headings.</p>
+                <ol>
+                    <li><span class="LIB_Bold">Summary</span> - Text appears notifying you if the Service is activated or not. When it is activated, the text is <span style="color: #228b22;" class="LIB_Bold">green</span>. When it isn't activated, the text is <span class="LIB_Bold" style="color: #ff0000;">red</span> and tells you how to activate the service.</li>
+                    <li><span class="LIB_Bold">Activate/Reactivate (#)</span> - Shows a grid of activate/reactivate events. When activating a Service, select the <span class="LIB_Italic">Action Row</span> where it says, "Please click here to add a new record..." Doing so adds a record to the grid with today's date in the <span class="LIB_Bold">Added On</span> column.</li>
+                    <li><span class="LIB_Bold">Deactivate (#)</span> - Shows a grid of Deactivate events. When deactivating a Service, select the <span class="LIB_Italic">Action Row</span> where it says, "Please click here to add a new record..." Doing so adds a record to the grid with today's date in the <span class="LIB_Bold">Added On</span> column.</li>
+                </ol>
+                <p><span class="LIB_Bold">True for all Service Events Tabs</span>
+                </p>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_EventsActivateTab.png" title="Activate/Reactivate tab selected." alt="Activate/Reactivate tab selected." />
+                    <br /><span class="LIB_Caption">Activate/Reactivate tab selected.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Selecting a record in the grid shows the values in fields below the grid. You can add a <span class="LIB_Bold">Start Date</span> and <span class="LIB_Bold">Comments</span> in the fields provided. As records are added to the grid the number displayed in the tab changes to reflect the number of events.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Required Certifications</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_ReqCerts.png" title="Required Certifications section." alt="Required Certifications section." />
+                    <br /><span class="LIB_Caption">Required Certifications section.</span>
+                </p>
+                <p>&#160;</p>
+                <ul>
+                    <li><span class="LIB_Bold">Required Certifications</span> - Optional. Your Agency may require Vendors who provide this service to maintain one or more certifications. Use the lookup field to select the required certification. Your Agency maintains the list of certifications. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Service Types</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_SrvcTypes.png" title="Service Types section." alt="Service Types section." />
+                    <br /><span class="LIB_Caption">Service Types section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Service Types are used to categorize the service. They are also used for reporting purposes. They are also used to control when a service can be used. All services must have a <span class="LIB_Bold">Service Type</span> for at least one program before you are allowed to activate the service. The lookups for each program are determined either by the Federal government or your Agency.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Miscellaneous Codes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>There can be many different codes that are specific to your Agency. One or more of these codes may be required to work with the fiscal process for your Agency. If a miscellaneous code field is not filled in, it could result in a payment for this service not being processed for payment. If in doubt, check with your Fiscal staff.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Rate Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_RateInfo.png" title="Rate Information section." alt="Rate Information section." />
+                    <br /><span class="LIB_Caption">Rate Information section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>When this section is filled in the information provided flows into the <span class="LIB_Italic">Vendor's Services</span> form. These values can be overridden on the <span class="LIB_Italic">Vendor's Services</span> form if configured by designated staff to do so.</p>
+                <p>When editing the Rate Information section after the service is linked to one or more vendors, you are prompted to select which vendor services you wish to update with the new value. This happens for each field you update. You may select multiple records in the grid that appears. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="KEEM.KEEM-Exclude">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Pricing Tiers</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Service Info/SrvcInfo_PricingTiers.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Program Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Note">Note: This section is optional. If this section is not filled in, the system will consider the service to be allowed in any status for all programs.</p>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_ProgConfig.png" title="Program Configuration section." alt="Program Configuration section." />
+                    <br /><span class="LIB_Caption">Program Configuration section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Use the Program Configuration section to configure the service for one or more programs. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information. </p>
+                <ul>
+                    <li>The <span class="LIB_Bold">Program</span> field links the other fields in the section to the selected program. You must select a program before you are allowed to fill in the other fields in the section.</li>
+                    <li><span class="LIB_Bold">Account Identifier / Take Money only from this Account Identifier</span> - Allows you to link this service to one account identifier which controls the budget account selected when authorizing this service. When the <span class="LIB_Bold">Take Money only from this Account Identifier?</span> field is selected, authorizations will ignore any accounts that do not have the selected <span class="LIB_Bold">Account Identifier</span>. When the field isn't selected, the system prioritizes accounts with that <span class="LIB_Bold">Account Identifier</span> first but, if none are available, account selection rolls over into other accounts.</li>
+                    <li><span class="LIB_Bold">Unplanned / Planned Statuses</span> - These fields allow you to control when this service can be authorized based on the case status as of the <span class="LIB_Bold">Date of Authorization</span>, on the <span class="LIB_Italic">Authorization</span> form, for the selected program.<ul><li><span class="LIB_Bold">Unplanned Statuses</span> - Controls when you can create a <span class="LIB_Italic">Diagnostic</span> or <span class="LIB_Italic">Pre-Plan Authorization</span> for this service. For example:<ul><li>If you leave this field blank, you can create a <span class="LIB_Italic">Diagnostic Authorization</span> in any status. Please note however, that <span class="LIB_Italic">Diagnostic Authorization</span> forms have minimum and maximum status requirements that will prevent access to the form unless the case status is within that range.</li><li>Entering any status into the field allows you to only create a <span class="LIB_Italic">Diagnostic Authorization</span> when the case is in the specified status.<ul><li>If you enter only "unplanned" statuses, then you can only create <span class="LIB_Italic">a Diagnostic Authorization </span>when the case is not in a planned status.</li><li>You can enter "planned" statuses to allow creation of a <span class="LIB_Italic">Diagnostic Authorization</span> when the case is in the specified planned status.</li></ul></li><li>You can write the word "none" to prevent the creation of <span class="LIB_Italic">Diagnostic Authorizations</span> for this service all together.</li></ul></li><li><span class="LIB_Bold">Planned Statuses</span> - Controls when you can create a <span class="LIB_Italic">Planned Authorization</span> for this service. For example:<ul><li>Leaving the field blank allows you to create <span class="LIB_Italic">Planned Authorizations</span> in any status. Please note however, that <span class="LIB_Italic">Planned Authorization</span> forms have minimum and maximum status requirements that will prevent access to the form until the case status is within that range.</li><li>Entering any status into the field allows you to only create a <span class="LIB_Italic">Planned Authorization</span> when the case is in the specified status.</li><li>You can write the word "none" to prevent the creation of <span class="LIB_Italic">Planned Authorizations</span> for this service all together.</li></ul></li></ul></li>
+                </ul>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span>
+                </p>
+                <ul>
+                    <li>The status rules only apply to the selected program. If no status rules are selected, then all statuses will be allowed by default.</li>
+                    <li>If this section is populated from the <span class="LIB_Italic">Service Information</span> form, you can edit it on the <span class="LIB_Italic">Vendor's Services</span> form. Your changes are specific to the <span class="LIB_Italic">Vendor's Services</span> form; they do not flow back to the <span class="LIB_Italic">Service Information</span> form.</li>
+                </ul>
+                <p MadCap:conditions="KEEM.KEEM-Exclude"><span class="LIB_Bold">Authorizations to Clients</span>
+                </p>
+                <p MadCap:conditions="KEEM.KEEM-Exclude">Authorizations to clients are treated a little differently because whether the <span class="LIB_Italic">Authorization to Client</span> should be considered a planned authorization or not is dependent upon the case status as of the <span class="LIB_Bold">Date of Authorization</span> on the <span class="LIB_Italic">Authorization</span> form. If the authorization is for an unplanned status, it treats it as an unplanned authorization, otherwise, it treats it as a planned authorization. For example for a VR case, it means an authorization written for status 10 would use Unplanned Statuses and one written for status 12 would use Planned Statuses.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Plan Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_PlanConfig.png" title="Plan Configuration section." alt="Plan Configuration section." />
+                    <br /><span class="LIB_Caption">Plan Configuration section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Use the Plan Configuration section to configure the service for Plans.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Hide from plan lookup?</span> - When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), users will not be able to add this service to Plans. For example, if this is a child/sub service, you would set this to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>).</li>
+                    <li><span class="LIB_Bold">Requires Supervisory Signature on Plan?</span> - If marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), a signature line is added to the Plan when this service is selected. The supervisory signature line appears after the first signature is dated on the Plan. The required signature is for the immediate Supervisor of the counselor who signed the Plan.</li>
+                    <li><span class="LIB_Bold">Create a Plan Amendment to be Resigned?</span> - When you update an existing plan it causes a Plan Amendment. Your Agency can require the Plan Amendment to be signed or not. Regardless of how your Agency has configured this process, if the response to this field is Y (Yes), users will be required to sign the Plan Amendment.</li>
+                    <li><span class="LIB_Bold">Contingent on Economic Need?</span> – Selecting <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) requires the client to have the <span class="LIB_Italic">Economic Status Report</span> form on file indicating economic/financial need.</li>
+                    <li><span class="LIB_Bold">Plan ACL</span> - Allows you to control which groups of users can add this service to Plans based on User Role. You may type a list of User Roles, for example: 23,24,123,1001,15071, or you may use the <span class="LIB_Bold">Build Plan ACL</span> button to select which roles to include or exclude. When you use the <span class="LIB_Bold">Build Plan ACL</span> button, the <span class="LIB_Italic">Build Plan ACL</span> section becomes visible. When you select either the <span class="LIB_Bold">Include Roles</span> or <span class="LIB_Bold">Exclude Roles</span> link, a lookup opens displaying your Agency's User Roles. You may select one or more User Roles using the check box column in the grid. Select the <span class="LIB_Bold">Save</span> button to save your changes. This closes the <span class="LIB_Italic">Build Plan ACL</span> section and displays a comma separated list of ACLs in the <span class="LIB_Bold">Plan ACL</span> field.</li>
+                    <li><span class="LIB_Bold">If Service exceeds...</span> - Allows you to control approval requirements based on User Role or Employee for the dollar amount indicated. You may enter a dollar amount, which then will unlock the <span class="LIB_Bold">by Role</span> and <span class="LIB_Bold">by Employee</span> fields. The lookups for these fields will only allow one choice. If you mark the <span class="LIB_Bold">Include All Signatures up to and including this role?</span> as <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), additional signature lines appear for all of the supervisors between the user and the role indicated.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Authorization Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_AuthConfig.png" title="Authorization Configuration section." alt="Authorization Configuration section." />
+                    <br /><span class="LIB_Caption">Authorization Configuration section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Use the Authorization Configuration section to configure the service for authorizations.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Hide from authorization lookup?</span> - When this is set to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), the service will not show in an authorization lookup unless it is an <span class="LIB_Italic">Agency Authorization</span> and the <span class="LIB_Bold">Show on Office Authorizations</span> field is marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>). If this is a Parent Service, you would set this to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>).</li>
+                    <li><span class="LIB_Bold">Show on Office Authorizations?</span> - When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), this service appears in the service lookup for the <span class="LIB_Italic">Agency Authorization</span> form. When marked <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>) or not set, it will not appear in the service lookup for the <span class="LIB_Italic">Agency Authorization</span> form.</li>
+                    <li><span class="LIB_Bold">Print cost as TBD?</span> - When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), when you print the Authorization, the <span class="LIB_Bold">Unit Price</span> and <span class="LIB_Bold">Total Cost</span> will print as "TBD" (To Be Determined).</li>
+                    <li><span class="LIB_Bold">Requires Terms and Conditions Agreement?</span> - The service cannot be authorized unless the Vendor has a Terms &amp; Conditions Event on the Vendor's Services form that has not expired. Related Application Setting: <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Number of days after which a vendors Terms and Conditions agrmnt is not current.htm">Number of days after which a vendor's Terms &amp; Conditions agreement is no longer current </MadCap:xref>.</li>
+                    <li><span class="LIB_Bold">A detailed description of the services to be provided must be included?</span> - When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), the <span class="LIB_Bold">Service Detai</span>l field on the line item is required when authorizing this service.</li>
+                    <li><span class="LIB_Bold">Requires Exemption Form on Authorization?</span> - Setting to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) causes the <span class="LIB_Bold">Exemption</span> button to appear on authorization forms.</li>
+                    <li><span class="LIB_Bold">Allowed to be authorized as a Service to Groups? </span>– When marked <span class="LIB_Bold">Y </span>(<span class="LIB_Italic">Yes</span>), allows service to be used on group authorizations.</li>
+                    <li><span class="LIB_Bold">Request For Quotes? / Starting at What Amount?</span> - Setting to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) causes the <span class="LIB_Bold"><MadCap:variable name="FormNames.1406" class="LIB_Bold" /></span>button to appear on authorization forms when the service amount exceeds the amount entered. This button opens the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form.</li>
+                    <li><span class="LIB_Bold">Price Confirmation Request? / Starting at What Amount?</span> - Setting this to <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) will cause the <span class="LIB_Bold">Price Confirmation Request</span> button to appear on authorization forms when the service amount exceeds the amount entered. This button opens the <span class="LIB_Italic">Price Confirmation Request</span> form.</li>
+                    <li><span class="LIB_Bold">Is this a taxable item? </span>- When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), sales tax is calculated for this service at the time of authorization.</li>
+                    <li><span class="LIB_Bold">Authorize ACL</span> - Allows you to control which groups of users can add this service to authorizations based on User Role. You may type a list of User Roles, for example: 23,24,123,1001,15071, or you may use the <span class="LIB_Bold">Build Authorize ACL </span>button to select which roles to include or exclude. When you use the <span class="LIB_Bold">Build Authorize ACL</span> button, the <span class="LIB_Italic">Build Authorize ACL</span> section becomes visible. When you select either the <span class="LIB_Italic">Include Roles</span> or <span class="LIB_Italic">Exclude Roles</span> link, a lookup opens displaying your Agency's User Roles. You may select one or more User Roles using the check box column in the grid. Select the <span class="LIB_Bold">Save</span> button to save your changes. This closes the <span class="LIB_Italic">Build Authorize ACL</span> section and displays a comma separated list of ACLs in the <span class="LIB_Bold">Build Authorize ACL</span> field.</li>
+                    <li><span class="LIB_Bold">If Service exceeds..</span>. - Allows you to control approval requirements based on User Role or Employee for the dollar amount indicated. You may enter a dollar amount, which then will unlock the <span class="LIB_Bold">by Role</span> and <span class="LIB_Bold">by Employee</span> fields. The lookups for these fields will only allow one choice. If you mark the <span class="LIB_Bold">Include All Signatures up to and including this role?</span> as <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>), additional signature lines appear for all of the supervisors between the user and the role indicated.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Shared Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_SharedConfig.png" title="Shared Configuration section." alt="Shared Configuration section." />
+                    <br /><span class="LIB_Caption">Shared Configuration section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Use the Shared Configuration section to configure the service.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Supports Small Business Enterprises?</span> - Affects the RSA-2 (Schedule II Line 13). Please note that this may be phased out due to the 2014 regulation changes.</li>
+                    <li>Text entered into the <span class="LIB_Bold">Brief Service Description</span> field appears on authorizations and plans as configured by your Agency.<br />Related Application Settings:<ul><li MadCap:conditions="General.Hold"><MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Determines whether the Service Brief Desc ShowsOnMyrCTRReqAndTransFRMS.htm">Determines whether the Service Brief Description field is shown in the Item lookup on the Meyer Center Request and Transfer forms</MadCap:xref></li><li><MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Populate Service Details on Auth with Brief Srvc Desc from Srvc Info.htm">Populate Service Details on Authorization with Brief Service Description on from Service Information</MadCap:xref></li><li><MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Brief Service Description on Service form.htm">Show Brief Service Description on Service form</MadCap:xref></li><li><MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the Brief Service Description on Plans.htm">Show the Brief Service Description on Plans</MadCap:xref></li></ul></li>
+                    <li><span class="LIB_Bold">Number of Times Provided Per Case</span> – Type the maximum number of times this service may be provided per case.</li>
+                    <li><span class="LIB_Bold">Amount Allocated Per Case</span> – Type the maximum dollar amount allowed for this service per case.</li>
+                    <li><span class="LIB_Bold">Number of Times Provided Per Client</span> – Type the maximum number of times this service may be provided for one client across all cases.</li>
+                    <li><span class="LIB_Bold">Amount Allocated Per Client</span> – Type the maximum dollar amount allowed to be allocated per client across all cases.</li>
+                </ul>
+                <p><span class="LIB_Bold">Additional Signature Controls in the Shared Configuration Section</span>
+                </p>
+                <p>You may specify signature rules on a per service basis. This is applied on the Service Information form, via the fields following this statement:</p>
+                <p><span class="LIB_Bold">The following fields control additional signatures based on role for the life of a case. Signature Role and (Min or Max Amount) fields are required.</span>
+                </p>
+                <ul>
+                    <li>The <span class="LIB_Bold">Value Type</span> field controls the field labels for <span class="LIB_Bold">Min Quantity</span> and <span class="LIB_Bold">Max Quantity</span>. For example:<ul><li>Setting the <span class="LIB_Bold">Value Type</span> to <span class="LIB_Italic">Total</span> the field labels change to <span class="LIB_Bold">Min Amount</span> and <span class="LIB_Bold">Max Amount</span> and opens them for editing.</li><li>Setting the <span class="LIB_Bold">Value Type</span> to <span class="LIB_Italic">Unit Price</span> the field labels change to <span class="LIB_Bold">Min Amount</span> and <span class="LIB_Bold">Max Amount</span> opens them for editing, and changes the Duration to Instance.</li><li>Setting the <span class="LIB_Bold">Value Type</span> to <span class="LIB_Italic">Quantity</span> doesn't change the field labels, but opens them for editing.</li></ul></li>
+                    <li>The rules are applied when users select the service for <span class="LIB_Italic">Authorization</span>, <span class="LIB_Italic">Plan</span>, or <span class="LIB_Italic">Internal Referral</span> forms. You designate when you want the rules applied by responding <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) to the <span class="LIB_Bold">Auths?</span>, <span class="LIB_Bold">Plans?</span>, and/or <span class="LIB_Bold">Internal Referrals?</span> fields.</li>
+                    <li>The <span class="LIB_Bold">Signature Role</span> field controls which additional roles need to sign the form. The <span class="LIB_Bold">Min Quantity/Amount</span> field states the minimum quantity to trigger the additional signatures to be added to the form. The <span class="LIB_Bold">Min</span> and <span class="LIB_Bold">Max Quantity/Amount</span> fields set a cost range for which to add the additional signature line.</li>
+                    <li>The additional fields relating to the projected quantity and cost are not required fields. When the calculations are not required the plan can be signed without these fields being populated.</li>
+                    <li>When you set <span class="LIB_Bold">Duration</span> to <span class="LIB_Italic">Form</span>, instead of calculating the total of services for the entire life of the case or for a certain time frame, the system calculates the total of the services on the current form.</li>
+                    <li>You may add as many additional signature rules as needed. Please refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</li>
+                    <li>
+                        <MadCap:snippetBlock src="../../../Resources/Snippets/Service Info/SrvcInfo_AffectedRoles.flsnp" />
+                    </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Additional Form(s) Text</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section allows you to automatically add text to forms that access this service. You can add as many additional form(s) text sections as necessary. Please refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</p>
+                <ul>
+                    <li><span class="LIB_Bold">On Which Form</span> - Select a form that you want to apply an action to. Your selection will cause the <span class="LIB_Bold">Action Statement </span>to update.</li>
+                    <li><span class="LIB_Bold">Short Description</span> –  This lookup list is maintained by designated Agency employees via the <span class="LIB_Italic">Dictionary Administration </span>table: LVR_Service_Authorization_Text.</li>
+                    <li><span class="LIB_Bold">Text to be included on form when service is selected</span> – When you select the <span class="LIB_Bold">Short Description</span>, the text from the <span class="LIB_Bold">Long Text</span> column in the <span class="LIB_Bold">Short Description</span> lookup fills into this field.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Additional Form(s) to Include</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section allows you to automatically launch additional forms when this service is selected. You can add as many additional form(s) to include sections as necessary. Please refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information.</p>
+                <ul>
+                    <li><span class="LIB_Bold">On Which Form</span> - Select a form that you want to apply an action to. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                    <li><span class="LIB_Bold">Action</span> - Select the action that you want to occur on the form chosen in the previous <span class="LIB_Bold">On Which Form</span> field. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                    <li><span class="LIB_Bold">Form to be included when this service is selected</span> - Select the form you wish to be added or launched when this <span class="LIB_Italic">Vendor's Services</span> is selected. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                    <li><span class="LIB_Bold">Program</span> - If a program is selected, the <span class="LIB_Bold">Action</span> for the form selected in the <span class="LIB_Bold">On Which Form</span> field will only happen if the form matches the program selected.</li>
+                    <li><span class="LIB_Bold">[Action Statement]</span> – Automatically populated with selection of <span class="LIB_Bold">Action</span> and <span class="LIB_Bold">Form to be included when this service is selected</span>. You may not edit this field.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Contact Note Footer</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Refer to: <MadCap:xref href="../Case Notes/Case Note Footer.htm">Case Note Footer</MadCap:xref></p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="Connecting Services and Vendors.htm">Connecting Services and Vendors</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH03 - PDQs/Vend-Serv/ViewAllServices(51500).htm">View All Services</MadCap:xref>
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

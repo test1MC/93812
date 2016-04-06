@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="1406">KEEM - Bid Results</Variable>
+  <Variable
+    Name="1406"
+    Comment="">Request for Quotes</Variable>
+  <Variable
+    Name="1406"
+    Comment="">3 Bid Form</Variable>
+  <Variable
+    Name="6"
+    Comment="">Case Note</Variable>
+  <Variable
+    Name="6"
+    Comment="">Applicant Contact Note</Variable>
+  <Variable
+    Name="CNFooter"
+    Comment="">Case Note Footer</Variable>
+  <Variable
+    Name="CNFooter"
+    Comment="">Contact Note Footer</Variable>
+  <Variable
+    Name="CNFooter"
+    Comment="">Comment Footer</Variable>
+  <Variable
+    Name="KEEM Job Search"
+    Comment="">KEEM Job Search</Variable>
+  <Variable
+    Name="1003"
+    Comment="">Applicant Validation Dialog</Variable>
+  <Variable
+    Name="1003"
+    Comment="">Client Validation Dialog</Variable>
+  <Variable
+    Name="32110004"
+    Comment="">KEEM - Application</Variable>
+  <Variable
+    Name="32120016"
+    Comment="">KEEM - Post-Audit</Variable>
+  <Variable
+    Name="32120015"
+    Comment="">KEEM - Pre-Audit</Variable>
+  <Variable
+    Name="32116113"
+    Comment="">KEEM - Post-Audit Authorization</Variable>
+  <Variable
+    Name="30001741"
+    Comment="LTR">KEEM - Post-Audit Notice</Variable>
+  <Variable
+    Name="32116112"
+    Comment="">KEEM - Pre-Audit Authorization</Variable>
+  <Variable
+    Name="30001244"
+    Comment="LTR">KEEM - Pre-Audit Notice</Variable>
+  <Variable
+    Name="30001046"
+    Comment="LTR">KEEM - Approval Notice</Variable>
+  <Variable
+    Name="32160052"
+    Comment="">KEEM - Move Job to Deferred Status</Variable>
+  <Variable
+    Name="32160053"
+    Comment="">KEEM - Move Job to Terminated Status</Variable>
+  <Variable
+    Name="32160054"
+    Comment="">KEEM - Move Job to Posted for Bid Status</Variable>
+  <Variable
+    Name="32160056"
+    Comment="">KEEM - Move Job to Work Completed Status</Variable>
+  <Variable
+    Name="32160057"
+    Comment="">KEEM - Move Job to Completed Status</Variable>
+  <Variable
+    Name="92127022"
+    Comment="LTR">KEEM - Terminated Notice</Variable>
+  <Variable
+    Name="30001246"
+    Comment="LTR">KEEM - Deferral Returned to Active List Notice</Variable>
+  <Variable
+    Name="30001042"
+    Comment="LTR">KEEM - Verification Request Notice</Variable>
+  <Variable
+    Name="30001040"
+    Comment="LTR">KEEM - Deferral Notice</Variable>
+  <Variable
+    Name="32116111"
+    Comment="">KEEM - Work Authorization</Variable>
+  <Variable
+    Name="1000"
+    Comment="">Invoice Review</Variable>
+  <Variable
+    Name="1000"
+    Comment="">Payment Approval</Variable>
+  <Variable
+    Name="32160059"
+    Comment="">New Bid Amount</Variable>
+  <Variable
+    Name="92127021"
+    Comment="LTR">KEEM - Denial Notice</Variable>
+  <Variable
+    Name="32160051"
+    Comment="">KEEM - Move Job Out of Deferred Status</Variable>
+  <Variable
+    Name="1"
+    Comment="">Family Composition Form</Variable>
+  <Variable
+    Name="1"
+    Comment="">Demographic Information</Variable>
+  <Variable
+    Name="406"
+    Comment="">Account Information</Variable>
+  <Variable
+    Name="32160058"
+    Comment="">Contractor Penalty</Variable>
+  <Variable
+    Name="30002541"
+    Comment="">Monthly Income Calculator</Variable>
+  <Variable
+    Name="32160028"
+    Comment="">Payments for Processing Summary</Variable>
+  <Variable
+    Name="60001"
+    Comment="">Scanned Document</Variable>
+  <Variable
+    Name="405"
+    Comment="">Service Information</Variable>
+  <Variable
+    Name="400"
+    Comment="">Vendor Information</Variable>
+  <Variable
+    Name="401"
+    Comment="">Vendor's Services</Variable>
+  <Variable
+    Name="50003"
+    Comment="">Transfer Authorizations</Variable>
+  <Variable
+    Name="32160061"
+    Comment="">KEEM - Move Job to Pre-Audit Status</Variable>
+  <Variable
+    Name="32160062"
+    Comment="">KEEM - Move Job to Post-Audit Status</Variable>
+</CatapultVariableSet>

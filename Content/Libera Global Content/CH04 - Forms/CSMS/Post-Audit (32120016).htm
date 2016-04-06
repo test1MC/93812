@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1478" MadCap:lastWidth="1141">
+    <head><title></title>
+        <meta name="description" content="The Post-Audit form is used to determine if weatherization measures were completed satisfactorily or not. It becomes available when the Job is in Work Completed status." />
+    </head>
+    <body>
+        <h1><MadCap:variable name="FormNames.32120016" />
+            <MadCap:concept term="Form" />
+        </h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/KM_Post-Audit.png" title="Example of a completed Post-Audit form." alt="Example of a completed Post-Audit form." style="width: 379px;height: 619px;" />
+            <br /><span class="LIB_Caption">Example of a completed <MadCap:variable name="FormNames.32120016"></MadCap:variable> form.</span>
+        </p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <MadCap:variable name="FormNames.32120016" class="LIB_Italic" /> form is used to determine if weatherization measures were completed satisfactorily or not. It becomes available when the <MadCap:variable name="Terminology.Case_UC" /> is in <MadCap:variable name="Statuses.22" /> status.  Completing the form results in the generation of the <MadCap:variable name="FormNames.30001741" class="LIB_Italic" /> letter.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p><span class="LIB_Bold">Form Functionality</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold"><MadCap:variable name="Terminology.Vendor_UC" /> reported <MadCap:variable name="Terminology.case_lc" /> completed</span> - In the first instance of the form, this auto fills with the date the <MadCap:variable name="Terminology.case_lc" /> moved into <MadCap:variable name="Statuses.22" /> status. In the second instance of the form, this auto fills with the date from the <span class="LIB_Bold">Date corrections submitted</span> field of the first instance of the form.</li>
+            <li><span class="LIB_Bold">Assigned on</span> - Completing this field results in the <MadCap:variable name="FormNames.30001741" class="LIB_Italic" /> letter automatically opening. The <MadCap:variable name="FormNames.32116113" class="LIB_Italic" /> automatically launches if a <MadCap:variable name="Terminology.Vendor_UC" /> is selected as the <span class="LIB_Bold"> Auditor Name</span>.</li>
+            <li><span class="LIB_Bold">Post-Audit determination</span> - This field determines the next status for a <MadCap:variable name="Terminology.Case_UC" /> upon signing the form.</li>
+            <li><span class="LIB_Bold">Failure Reason</span> - Field appears when the <span class="LIB_Bold">Post-Audit determination</span> is "Fail." You must provide one or more reasons for failure. Refer to <MadCap:xref href="../../CH01 - Grid Functionality/Multiple Select Lookups and Grids.htm">Multiple Select Lookups and Grids</MadCap:xref>&#160;for more information.</li>
+            <li><span class="LIB_Bold">Category </span>(Attachment) - If you select the<span class="LIB_Bold"> Pre-Audit Pictures of the Home</span> option, the <span class="LIB_Bold">Pictures Provided?</span> field automatically displays a <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>); otherwise it displays <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>).</li>
+            <li><span class="LIB_Bold">Approved?</span> and <span class="LIB_Bold">Signature Date</span> - Filling in these fields "signs" the form. When you complete the <span class="LIB_Bold">Signature Date</span> and move out of the field these fields and the form above the signature line locks against further editing. The <span class="LIB_Bold">Signature Date</span> is also the status date of the next status.</li>
+            <li><span class="LIB_Bold">Pre-Audit Kilowatt-hour (kWh) Information</span> - The information collected in the fields in this section comes from the <MadCap:variable name="FormNames.32120015" class="LIB_Italic" /> form. The information is used to compare against the <span class="LIB_Bold">Post-Audit Kilowatt-hour (kWh) Information</span> to show whether the weatherization measures were successful or not.</li>
+            <li><span class="LIB_Bold">Post-Audit Kilowatt-hour (kWh) Information</span> -  Enter the<span class="LIB_Bold"> Post-Weatherization 12 month kWh Usage</span> amount 12 months after weatherization measures were completed. <span class="LIB_Bold">Actual Energy Savings</span> calculates based on this entry. <span class="LIB_Bold">Actual expenditures</span> and <span class="LIB_Bold">Actual Cost per Square Foot</span> are automatically populated when <MadCap:variable name="FormNames.32116111" class="LIB_Italic" /> <MadCap:variable name="FormNames.1000" />s are processed by designated staff via the <MadCap:variable name="PDQNames.30000173" class="LIB_Italic" /> PDQ.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../Case Notes/Case Note Footer.htm">Case Note Footer</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH03 - PDQs/Fiscal/Payments - Ready for Review (30000030).htm" />
+            </li>
+            <li>
+                <MadCap:xref href="../../CH03 - PDQs/Fiscal/Payments - Processed (30000173).htm" />
+            </li>
+        </ul>
+    </body>
+</html>

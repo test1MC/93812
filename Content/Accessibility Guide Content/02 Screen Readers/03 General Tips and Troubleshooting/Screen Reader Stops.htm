@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="369" MadCap:lastWidth="971">
+    <head>
+    </head>
+    <body>
+        <h1>Screen Reader Stops Functioning When a New Window/Dialog Opens</h1>
+        <p>If Internet Explorer is not properly configured, the screen reader may stop functioning properly after System 7™ opens a new window/web dialog.</p>
+        <p><span class="LIB_Italic">Current Solution:</span>
+        </p>
+        <p>For Internet Explorer 7.0 or greater:</p>
+        <ol>
+            <li>Open the <span class="LIB_Italic">Tools</span> menu on the Internet Explorer menu bar.</li>
+            <li>Select <span class="LIB_Bold">Internet Options…</span></li>
+            <li>Go to the <span class="LIB_Bold">Security</span> tab.</li>
+            <li>Select <span class="LIB_Bold">Trusted Sites</span> from the <span class="LIB_Italic">Select a Web Content Zone to Specify Its Security</span> box.</li>
+            <li>Press the <span class="LIB_Bold">Sites…</span> button. This opens the <span class="LIB_Italic">Trusted Sites</span> box.</li>
+            <li>In the <span class="LIB_Italic">Custom Level</span> dialog, select the <span class="LIB_Bold">Allow script initiated windows without size or position constraints</span> setting and set it to Enable. Without this enabled, Internet Explorer adds part of the URL to the window title. This confuses the screen readers and disables the System 7™ screen reader scripts. The screen readers require that the text "System 7" is visible in the window title. With the URL added by Internet Explorer, this sometimes pushes the "System 7" phrase out of the visible window title.</li>
+        </ol>
+    </body>
+</html>

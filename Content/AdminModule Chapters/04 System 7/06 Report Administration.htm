@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod" MadCap:lastBlockDepth="7" MadCap:lastHeight="1519" MadCap:lastWidth="1007">
+    <head><title></title>
+        <meta name="description" content="System Admins use Report Administration to manage reports in the system." />
+    </head>
+    <body>
+        <h1>Report Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/ReportAdministration.png" title="Report Administration." alt="Report Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/RptAdmn.png" title="Report Administration." alt="Report Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Report Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><b>Edit Mode:</b> Form</p>
+        <p><span class="LIB_Bold">Description:</span> The <span class="LIB_Bold">Report Administration</span> option allows  Administrators to manage reports available in the application. The reports are listed in a grid, grouped by Module and Report Category. Do not add or remove any reports, and the form or PDQ reference for the report should remain unchanged. However, the agency can modify the name, description, module, and category of the reports, and the User Roles (Create ACL).</p>
+        <p class="LIB_Bold">&#160;</p>
+        <p class="LIB_Bold">ECF Columns</p>
+        <ul>
+            <li><span class="LIB_Bold">ID</span> - Also known as <span class="LIB_Bold">Report #</span>. This is the unique identifier for the report.</li>
+            <li><span class="LIB_Bold">Name</span> - Name of the report. It also appears in the Reports tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Description</span> - A brief description of the report. It also appears in the Reports tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Filename</span> - Another ID number. Usually matches the value in the ID&#160;column. In some older reports it might different.</li>
+            <li><span class="LIB_Bold">Type</span> - Tells you the type of report output. Most commonly used types are form (1) and PDQ (2). </li>
+            <li><span class="LIB_Bold">Module Name</span> - The module with which the report is associated. Controls when the report is available in the <span class="LIB_Italic">File Drawer</span>. For example, if the report is associated with Vendors and you are working in the Case Management module, you won't have access to the report.</li>
+            <li><span class="LIB_Bold">Report Category</span> - Categorizes the report within the module. The report will be found grouped under this category.</li>
+            <li><span class="LIB_Bold">Create ACL</span> - Comma separated list of User Roles that have the ability to see and run the report.</li>
+            <li><span class="LIB_Bold">Flags</span> - Essentially, this is a "tag" field for Libera developers. Any value in this field is informational only and doesn't impact report functionality in any way. A common usage example is that it displays a parent PDQ or file, if any. This functionality is managed by Libera. Do no modify.</li>
+            <li><span class="LIB_Bold">Arguments</span> - Controls all kinds of things including but not limited to: how/when the report displays, layout/look of the report, and more. This functionality is managed by Libera. Do not modify.</li>
+            <li><span class="LIB_Bold">Parameters</span> - Displays report parameters, if any. Parameters may be visible to the user or handled in the background. This functionality is managed by Libera. Do not modify.</li>
+            <li><span class="LIB_Bold">Stage</span> - Controls when the report is visible to the Agency. <span class="LIB_Bold">Note:</span> User Roles also control who can see and use the report, so even if the report is visible, it may not be available to all users.</li>
+        </ul>
+        <h3>Adding or Deleting Reports</h3>
+        <p> Libera manages adding and deleting of reports. While you may have the ability to technically add or delete reports, you should not. You would like a report added or deleted please contact your Supervisor or Libera Client Support.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="07 Report Administration Form.htm">Report Administration Form</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

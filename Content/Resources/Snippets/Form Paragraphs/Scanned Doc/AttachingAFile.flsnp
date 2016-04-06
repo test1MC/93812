@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="856" MadCap:lastWidth="770">
+    <head>
+    </head>
+    <body>
+        <h4>Attaching a File</h4>
+        <p class="LIB_Img" MadCap:conditions="General.DotNet35">
+            <img src="../../../../LIB_Images/Core/LIB_AttachDialogWindow.png" title="The Attach Dialog window." alt="The Attach Dialog window." style="width: 563px;height: 231px;" />
+        </p>
+        <p class="LIB_Img" MadCap:conditions="General.DotNet45">
+            <img src="../../../../LIB_Images/Forms/45_AttachWindow.png" title="The Attach Dialog window." alt="The Attach Dialog window." />
+        </p>
+        <p class="LIB_Img">
+            <br /><span class="LIB_Caption">The Attach Dialog window.</span>
+        </p>
+        <ol>
+            <li><span class="LIB_Bold">Attach</span> – Select the <span class="LIB_Bold">Attach</span> button to open the <span class="LIB_Italic">Attach</span> dialog window. </li>
+            <li><span class="LIB_Bold">Browse…</span> – Located in the <span class="LIB_Italic">Attach</span> dialog window. You can type the file location or use the <span class="LIB_Bold">Browse…</span> button to open the <span class="LIB_Italic">Choose file to Upload</span> dialog window which allows you to select a file from your computer or network. <span class="LIB_Bold">Note: </span>Your Agency may have configured the form to have only one location from which to select.<br /></li>
+            <li><span class="LIB_Bold">Preview</span> - Located in the <span class="LIB_Italic">Attach</span> dialog window. Select this button to open the selected document in a preview window.</li>
+            <li><span class="LIB_Bold">Attach</span> – Located in the <span class="LIB_Italic">Attach</span> dialog window. Select this button to upload the document and close the <span class="LIB_Italic">Attach</span> dialog window, returning you to the form.</li>
+            <li><span class="LIB_Bold">Cancel</span> - Located in the <span class="LIB_Italic">Attach</span> dialog window. Use this button to cancel the attachment process.</li>
+        </ol>
+    </body>
+</html>

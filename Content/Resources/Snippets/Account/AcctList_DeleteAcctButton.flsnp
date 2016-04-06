@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="245" MadCap:lastWidth="895" MadCap:conditions="KEEM.KEEM-Exclude">
+    <head>
+    </head>
+    <body>
+        <p>Use the <span class="LIB_Bold">Delete Account</span> button to delete the account selected in the <span class="LIB_Italic">Data Tree</span>.  </p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> There is no "undo" for this action.</p>
+        <p>When used the following message appears:</p>
+        <blockquote>
+            <p>Delete Account Dialog</p>
+            <p>Are you sure you wish to delete account with account number and ALL this Account's <MadCap:variable name="Terminology.Sub_Account" />s?</p>
+            <p>(Yes) (No)</p>
+        </blockquote>
+        <p>When you select <span class="LIB_Bold">Yes</span>, the <span class="LIB_Italic">Data Tree</span> refreshes to show that the selected account has been removed.</p>
+        <p>When you select <span class="LIB_Bold">No</span>, the delete account action is canceled.</p>
+    </body>
+</html>

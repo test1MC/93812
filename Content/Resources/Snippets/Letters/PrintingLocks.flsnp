@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="471" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <h4><span class="LIB_Bold">Printing or Print Preview Locks the Letter</span>
+        </h4>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Letters/LTRS_Unlocked.png" title="Example of an unlocked letter." alt="Example of an unlocked letter." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">Example of an unlocked letter.</span>
+        </p>
+        <p>When you print or look at the letter in print preview, the letter locks against further editing. Designated users, such as System Administrators, have the ability to unlock a letter. To unlock the letter they would single-click the <span class="LIB_Bold">Unlock the letter</span> link that is visible to them.</p>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Letters/LTRS_Locked.png" title="Example of a locked letter." alt="Example of a locked letter." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">Example of a locked letter.</span>
+        </p>
+    </body>
+</html>

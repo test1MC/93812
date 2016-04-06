@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Process Payments</span> - Selecting this button processes all selected records in the <span class="LIB_Italic">Data Tree</span>. You'll receive a confirmation message. The PDQ refreshes, removing the selected records from the PDQ results. The processed records now appear in the PDQ&#160;results of the <MadCap:variable name="PDQNames.30000173" class="LIB_Italic" /> PDQ.</p>
+    </body>
+</html>

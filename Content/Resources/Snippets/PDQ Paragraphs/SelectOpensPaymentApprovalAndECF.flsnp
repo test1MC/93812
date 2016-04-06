@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="49" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p>Selecting a record in the <span class="LIB_Italic">Data Tree</span> launches the <MadCap:variable name="FormNames.1000" class="LIB_Italic" /> form in a new window and loads the <span class="LIB_Italic">Authorization</span> form in the ECF.</p>
+    </body>
+</html>

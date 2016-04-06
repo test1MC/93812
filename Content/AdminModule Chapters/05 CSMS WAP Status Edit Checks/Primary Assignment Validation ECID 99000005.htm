@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="840" MadCap:lastWidth="1046" MadCap:conditions="General.AdminMod">
+    <head><title></title>
+        <meta name="description" content="This edit check checks for primary assignments at status changes throughout the life of the case." />
+    </head>
+    <body>
+        <h1>Primary Assignment Validation ECID 99000005</h1>
+        <p>This edit check checks for primary assignments at status changes throughout the life of the case. This edit check is related to the Application Setting, "<span class="LIB_Italic">Require the Program field to be filled in for Primary client assignments</span>". When set to true, then the Primary Assignment must have the primary assignment for that program for the date entered.</p>
+        <p>If you want to change the this application setting, please contact Libera.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Additional Configuration Information</span>
+        </p>
+        <p><span class="LIB_Note">Please note, you may review these settings but not change them. If you want them changed, please contact Libera.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Application Setting:</span> <span class="LIB_Italic">A Comma Separated List of Allowed Types of Primary Assignments</span></p>
+        <p>This setting controls what assignment is required and is configurable by component. This setting stores a comma separated list of values. Possible values are 1, 2, or 3.</p>
+        <p>1 = Require Primary Team Assignment</p>
+        <p>2 = Require Primary Caseload Assignment</p>
+        <p>3 = Require Primary Worker Assignment</p>
+        <p>The 99999 extended system setting entry controls the primary assignment required when changing status. If the value of the system setting is set to a particular value, all other components will require that assignment based on the date that component was filed. Status 00 to 08 will not fire these checks.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Application Setting:</span> <span class="LIB_Italic">Forms that can be opened when the client does not have a primary assignment</span></p>
+        <p>This setting controls what forms are allowed to be filed without a primary assignment.</p>
+        <p><u>Messages associated with this edit check:</u>
+        </p>
+        <ul>
+            <li>This client has a primary assignment to [Counselor Title] Name on [MM/DD/YYYY].</li>
+            <li>This client has no primary assignment on [MM/DD/YYYY].</li>
+            <li>The [client must have (at least one of) the following assignment(s) on [MM/DD/YYYY]: [list of assignment types required]</li>
+        </ul>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

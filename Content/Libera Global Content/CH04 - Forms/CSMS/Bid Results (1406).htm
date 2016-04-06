@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2772" MadCap:lastWidth="1141">
+    <head><title></title>
+        <meta name="description" content="RFQ/Bid form collects quotes from vendors/contractors for services." />
+    </head>
+    <body>
+        <h1><MadCap:variable name="FormNames.1406" />
+            <MadCap:concept term="Form" />
+        </h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/KEEM-BidResults.png" title="Top portion of the KEEM - Bid Results form." alt="Top portion of the KEEM - Bid Results form." style="width: 471px;height: 335px;" />
+            <br /><span class="LIB_Caption">Top portion of the KEEM - Bid Results form.</span>
+        </p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <ul>
+            <li>A <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form collects quotes from up to three (3) <MadCap:variable name="Terminology.vendors_LC" /> for a specific Job.</li>
+            <li MadCap:conditions="KEEM.KEEM-Exclude">Multiple <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> forms can be created if more than three (3) quotes are needed. The <span class="LIB_Bold">Add More Bids</span> button appears when three <MadCap:variable name="Terminology.vendors_LC" /> with quotes have been added to the form. When the button is selected, a new <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form opens.</li>
+            <li>When the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form is approved an <span class="LIB_Italic">Authorization</span>  form opens for the selected <MadCap:variable name="Terminology.vendor_LC" />.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p><span class="LIB_Bold">Form Functionality</span>
+        </p>
+        <ul>
+            <li>The <span class="LIB_Bold"><MadCap:variable name="Terminology.RFQDocNo"></MadCap:variable></span> flows into the <span class="LIB_Italic">Authorization</span> form.</li>
+            <li>The <span class="LIB_Bold"><MadCap:variable name="Terminology.RFQAuthNo" /></span> is created with the <span class="LIB_Italic"><MadCap:variable name="FormNames.1406" /></span> form is approved.</li>
+            <li>The lookup for the <MadCap:variable name="Terminology.RFQProcurementOfficer" class="LIB_Bold" /> field shows only Agency employees responsible for researching and selecting a vendor. This field only shows if the <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Procurement Officer on RFQ.htm">Show Procurement Officer on Request for Quotes</MadCap:xref> application setting is set to true.</li>
+            <li MadCap:conditions="KEEM.KEEM-Exclude">You can enter information for up to three (3) <MadCap:variable name="Terminology.vendors_LC" /> on each <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form.</li>
+            <li>A <MadCap:variable name="Terminology.vendor_LC" /> can only appear once on any <span class="LIB_Italic"><MadCap:variable name="FormNames.1406"></MadCap:variable></span> form.</li>
+            <li>You may either type <MadCap:variable name="Terminology.vendor_LC" /> information directly into this form or use the <MadCap:variable name="Terminology.VendorNo" class="LIB_Bold" /> lookup to select a <MadCap:variable name="Terminology.vendor_LC" />. When you select a <MadCap:variable name="Terminology.vendor_LC" /> from the lookup, the following fields automatically populate (<span class="LIB_Bold">Note:</span> If any of the fields remain blank, it's because the data wasn't collected on the <span class="LIB_Italic">Vendor Information</span> form.):<ul><li><MadCap:variable name="Terminology.Vendor_UC" class="LIB_Bold" /></li><li><span class="LIB_Bold">Address</span></li><li><span class="LIB_Bold">City</span></li><li><span class="LIB_Bold">State</span></li><li><span class="LIB_Bold">Federal ID No</span></li><li><span class="LIB_Bold">Phone Number</span><br /></li></ul></li>
+            <li>The <span class="LIB_Bold">Search <MadCap:variable name="Terminology.Vendor_UC" /></span> button appears at the bottom of a column if information is typed into the fields <span class="LIB_Bold"><MadCap:variable name="Terminology.Vendor_UC" /></span>, <span class="LIB_Bold">Federal ID No</span>, or <span class="LIB_Bold">Phone Number</span>. When used, the system attempts to match information entered against available <MadCap:variable name="Terminology.vendors_LC" />.<br /><br />The button appears for all users but only designated users can create a new vendor.<ul><li>If no match is found, a message appears, "Searching for this <MadCap:variable name="Terminology.Vendor_UC" /> has returned 0 records. Would you like to add this <MadCap:variable name="Terminology.Vendor_UC" />?" Select the <span class="LIB_Bold">OK</span> button to add the <MadCap:variable name="Terminology.vendor_LC" /> to the system; select the <span class="LIB_Bold">Cancel</span> button to close the message and return to the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form. When the <MadCap:variable name="Terminology.vendor_LC" /> is added, their <span class="LIB_Bold"><MadCap:variable name="Terminology.VendorNo"></MadCap:variable> <![CDATA[ ]]></span>appears and selected fields become read-only.</li><li>If any records match information in the search fields, the <span class="LIB_Italic"><MadCap:variable name="Terminology.Vendors_UC"></MadCap:variable></span> lookup list opens.</li><li>If any records match, but the <MadCap:variable name="Terminology.vendor_LC" /> is to be added as a new <MadCap:variable name="Terminology.vendor_LC" /> using the information on the <span class="LIB_Italic"><MadCap:variable name="FormNames.1406" /></span> form, select the <span class="LIB_Italic">Action Row</span> where it says, "Please click here to add this as a new <MadCap:variable name="Terminology.vendor_LC" />."</li></ul></li>
+            <li>Use the <span class="LIB_Bold">Selected <MadCap:variable name="Terminology.Vendor_UC" /></span> field to mark the <MadCap:variable name="Terminology.vendor_LC" /> that will be used for the authorization. Only designated users may edit this field.</li>
+            <li>To remove a <MadCap:variable name="Terminology.vendor_LC" /> from the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form, delete the value in the <MadCap:variable name="Terminology.VendorNo" class="LIB_Bold" /> field and then leave the field. All fields in the <MadCap:variable name="Terminology.vendor_LC" /> column will clear.</li>
+            <li>If you have rights to see the <span class="LIB_Italic">Vendor Information</span> form for the <MadCap:variable name="Terminology.vendors_LC" />, the <span class="LIB_Bold">Vendor Info</span> button appears at the bottom of the column when a <MadCap:variable name="Terminology.vendor_LC" /> is added to the form either via the <span class="LIB_Bold"><MadCap:variable name="Terminology.VendorNo" /></span> field or when you manually add a new <MadCap:variable name="Terminology.vendor_LC" /> to the form. This button opens the <span class="LIB_Italic">Vendor Information</span> form.</li>
+            <li>If the selected <MadCap:variable name="Terminology.vendor_LC" /> does not provide all the services on the form and you have rights to create new <MadCap:variable name="Terminology.vendor_LC" /> services, you will be asked if you wish to add any missing <span class="LIB_Italic">Vendor's Services</span> records. You may do so via the<span class="LIB_Bold"> Create Vendor's Service</span> button. If the selected <MadCap:variable name="Terminology.vendor_LC" /> does provide the service and you have rights to view the <span class="LIB_Italic">Vendor's Servics</span> form, the <span class="LIB_Bold">Open Vendor's Service</span> button appears. <span class="LIB_Bold">Note:</span> This functionality only applies if the service is displayed on the <span class="LIB_Italic"><MadCap:variable name="FormNames.1406"></MadCap:variable></span> form. This is controlled by the <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the services sectioon on the RFQ.htm">Show the services section on the Request for Quotes</MadCap:xref> application setting.</li>
+            <li>The <span class="LIB_Bold">Federal ID No</span> must be in one of two formats: FEI ##-#######; or SSN ###-##-####.</li>
+            <li>Access to the <span class="LIB_Bold">Approved?</span> field is restricted to designated staff set by your Agency.</li>
+            <li>If the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form is not approved (i.e., <span class="LIB_Bold">N</span> is entered in the <span class="LIB_Bold">Approved?</span> field), an authorization is not created.</li>
+            <li>If the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form was not approved, use the <span class="LIB_Bold">If Not, Explain</span> field to explain why the request was denied. If the request was approved, <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) or blank, this field is read-only. Access to this field is limited to designated employees.</li>
+            <li MadCap:conditions="KEEM.KEEM-Exclude">When the <MadCap:variable name="Terminology.RFQProcurementOfficer" /> approves a selected <MadCap:variable name="Terminology.vendor_LC" /> (by marking <span class="LIB_Bold">Y</span> in the <span class="LIB_Bold">Selected <MadCap:variable name="Terminology.Vendor_UC" />?</span> field), all information updates back to the original authorization form. This functionality only applies if the <span class="LIB_Bold"><MadCap:variable name="Terminology.RFQProcurementOfficer"></MadCap:variable></span> field is in use on the form.</li>
+            <li>
+                <p>If the selected <MadCap:variable name="Terminology.Vendor's_UC" /> bid amount is not the lowest bid, then the <span class="LIB_Bold">Justification for not choosing lowest bid field appears</span> below the <span class="LIB_Bold">General Comments</span> field. This functionality only applies if the application setting <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Justification for not selecting the lowest bidder on RFQ.htm">Show the Justification for not selecting the lowest bidder field on the RFQ</MadCap:xref> is set to true.</p>
+            </li>
+            <li>
+                <p>The lookup for the bid witness fields shows a list of employees who have the <MadCap:variable name="UserRoles.32120000" /> user role. The <span class="LIB_Italic">Bid Witnesses</span> section must be completed before signing the form if the <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Require the bid witnesses on the bid results form.htm">Require the bid witnesses on the bid results form</MadCap:xref> application setting is set to true. </p>
+            </li>
+            <li MadCap:conditions="KEEM.KEEM-Exclude">Once the <span class="LIB_Bold">Signature Date</span> is entered and cursor focus moves out of the field, two files must be attached:<ul><li>WAP - Contractor Approved Job Bid</li><li>WAP - Submitted Job Bid</li></ul></li>
+            <li>When approved, the following happens:<ul><li MadCap:conditions="KEEM.KEEM-Exclude">The case moves to the next status.</li><li MadCap:conditions="GenWAP.GenWAP_Exclude,JKTC.JKTC_Exclude,SADOPS.SADOPS_Exclude,Sys7UserGuide.Sys7UserGuide_Exclude">The job moves to the next status.</li><li>The <span class="LIB_Italic">Authorization</span> form automatically opens.</li></ul></li>
+            <li><span class="LIB_Bold">View Winning Bid History</span> - This button appears after the <span class="LIB_Italic"><MadCap:variable name="FormNames.1406" /> </span>form has been approved. Selecting the button opens the <MadCap:variable name="FormNames.32160059" class="LIB_Italic" /> form.</li>
+            <li><span class="LIB_Bold">Change Winning Bid Amount</span> - This button appears after the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form has been approved. Selecting the button opens the <span class="LIB_Italic">Bid History</span> PDQ which displays the history of the winning bid.</li>
+        </ul>
+        <p><span class="LIB_Bold">System Administration</span>
+        </p>
+        <p>The ACLs for the <MadCap:variable name="FormNames.1406" class="LIB_Italic" /> form should be set to make sure designated users can access the form.</p>
+        <ol>
+            <li>Go to the <span class="LIB_Italic">System Administration</span> module.</li>
+            <li>Open the <span class="LIB_Italic">Form Administration</span> table.</li>
+            <li>Filter the <span class="LIB_Bold">Template ID</span> column by the form component # <span class="LIB_Bold">1406</span>.</li>
+            <li>Select the form in the table. This opens the <span class="LIB_Italic">Form Administration</span> form. Navigate to the <span class="LIB_Italic">Security Access</span> section of the form.</li>
+            <li>Adjust the ACL fields as desired for your Agency.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <p><span class="LIB_Bold">General</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/Attaching Files to Forms.htm">Attaching Files to Forms</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../Case Notes/Case Note Footer.htm">Case Note Footer</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="New Bid Amount (32160059).htm">New Bid Amount</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../CH03 - PDQs/CSMS/Bid History.htm">Bid History</MadCap:xref>
+            </li>
+        </ul>
+        <p><span class="LIB_Bold">System Administration</span>
+        </p>
+        <p><span class="LIB_Italic">Application Settings</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Checks if current job status is deferred if so then the form is locked.htm">Checks if current job status is deferred, if so then the form is locked</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Label for Document Number on RFQ.htm">Label for Document Number on RFQ</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Require an authorization to be picked before the request for quotes.htm">Require an authorization to be picked before the Request for Quotes can be completed </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Require at least 3 vendors to be entered before an RFQ can be approved.htm">Require at least 3 vendors to be entered before an RFQ can be approved</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Roles that can sign an RFQ.htm">Roles that can sign an RFQ</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Roles that see the Search Add Vendor Buttons on the RFQ.htm">Roles that see the Search/Add Vendor buttons on the Request for Quotes form </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Add More Bids button on Request for Quotes.htm">Show Add More Bids button on Request for Quotes</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Bid Witnessess section on RFQ.htm">Show Bid Witnesses section on RFQ</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Client Name on RFQ.htm">Show Client Name on Request for Quotes</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Procurement Officer on RFQ.htm">Show Procurement Officer on Request for Quotes</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/show the current user as the signature on the bid results form.htm">Show the current user as the signature on the bid results form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show Justification for not selecting the lowest bidder on RFQ.htm">Show the Justification for not selecting the lowest bidder field on the RFQ</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show KEEM Job Number on the bid results form.htm">Show the KEEM Job Number on the bid results form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Show the services sectioon on the RFQ.htm">Show the services section on the Request for Quotes</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for the Authorization Number field on the RFQ.htm">Terminology for the Authorization Number field on the Request for Quotes </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for the Creation Date on the RFQ.htm">Terminology for the Creation Date on the Request for Quotes</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Terminology for the Procurement Officer on the RFQ.htm">Terminology for the Procurement Officer on the RFQ</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Title of the contract Unit Manager on the RFQ.htm">Title of the Contract Unit Manager on the Request for quotes form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../../AdminModule Chapters/06 Application Settings/Update the Vendor's Service Normal Rate from a RFQ.htm">Update the Vendor's Service Normal Rate from a Request for Quotes</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

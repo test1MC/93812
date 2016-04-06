@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="659" MadCap:lastWidth="1046" MadCap:conditions="General.AdminMod">
+    <head><title></title>
+        <meta name="description" content="Use of ACLs allows you control over which forms a user can see and use in System 7™." />
+    </head>
+    <body>
+        <h1>Example of ACL Effectiveness in Forms</h1>
+        <p>Use of ACLs allows you control over which forms a user can see and use in System 7™.  You can use ACLs to limit access to a program specific to only users that work with that program.  Instead of wading through forms that a program X user would never use, they only see forms specific to program X.</p>
+        <p>You can allow a program X form to be added new and edited by program X users and allow other users read-only access to the same form.  To do this you would make the <span class="LIB_Bold">Create ACL</span> and <span class="LIB_Bold">Write ACL</span> the same (User Roles for program X roles) and leave the <span class="LIB_Bold">Read ACL</span> blank.</p>
+        <blockquote>
+            <p>Create ACL: 		23, 24, 1000-1010</p>
+            <p>This allows users with roles 23, 24, and 1000 through 1010 to add this form to the ECF.</p>
+            <p>Read ACL:</p>
+            <p>Leaving this field blank allows all users to see the form in the ECF regardless of their user role.</p>
+            <p>Write ACL: 			23, 24, 1000-1010</p>
+            <p>This allows users with roles 23, 24, and 1000 through 1010 to open this form from the ECF and edit it.  This form is read-only to all other users.</p>
+        </blockquote>
+        <p class="LIB_Img">&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/ReadOnlyFormExample.png" title="Example of a read only form." alt="Example of a read only form." />
+            <br /><span class="LIB_Caption">Example of a read only form.</span>
+        </p>
+        <p><span class="LIB_Bold">Related Topics</span>
+        </p>
+        <ul>
+            <li>
+                <MadCap:xref href="../04 System 7/02 Form Administration Form.htm">Form Administration Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

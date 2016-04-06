@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="175" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p>Adding a new address results in adding a new Unit which is associated with the <MadCap:variable name="Terminology.client_lc" />. There are two ways to add a new Unit: 1) Open the <span class="LIB_Italic">Tools</span> menu and select the <span class="LIB_Bold">Add Address...</span> option or 2) With cursor focus in the last address listed, press CTRL+ALT+Plus sign. Both options result in the <span class="LIB_Bold">Add New Unit</span> button appearing below the last address listed.</p>
+        <p>Selecting the <span class="LIB_Bold">Add New Unit</span> button opens the <span class="LIB_Italic">Address Search</span> window. Enter the address then select the <span class="LIB_Bold">Execute Search</span> button. A table appears showing possible matching addresses from which to choose. If none match, select the <span class="LIB_Bold">Create New Building</span> button. This action closes the <span class="LIB_Italic">Address Search</span> window. You are prompted to respond to the following question:<span class="LIB_Italic"> Is this being added as a secondary address?</span> Select the <span class="LIB_Bold">Submit</span> button if so; this closes the prompt and adds the new unit to your form. Select the <span class="LIB_Bold">Cancel</span> button if not; this closes the prompt and doesn't add the new unit to your form.</p>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="GenWAP_Exclude"
+    BackgroundColor="#c71585" />
+  <ConditionTag
+    Comment=""
+    Name="GenWAP_Include"
+    BackgroundColor="#7b68ee" />
+</CatapultConditionTagSet>

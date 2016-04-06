@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="176" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p>This is primarily a closure edit check associated with multiple programs. However, it can be run at different points within any program's process if configured to do so by your Agency. It checks to make sure that gender data has been collected for your client.</p>
+        <p class="LIB_Underline"><u>Messages associated with this edit check:</u>
+        </p>
+        <ul>
+            <li>Invalid Gender code. Please enter a (F or M) in the text box.</li>
+            <li>Invalid Gender code. You currently do not have the appropriate role to enter this information. Please contact your supervisor to get the issue resolved.</li>
+            <li>Invalid Gender code. Please enter a (F or M) in the text box for client.</li>
+        </ul>
+    </body>
+</html>

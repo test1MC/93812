@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="162" MadCap:lastWidth="956">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Description</span> – Type a brief description of the attached file. The description appears in the <span class="LIB_Bold">Description</span> column of the ECF after the form is closed. You can filter the <span class="LIB_Bold">Description</span> column on the value you enter into this field.</p>
+        <p>If you have both a <span class="LIB_Bold">Category</span> and a <span class="LIB_Bold">Description</span> it appears in the ECF as follows:</p>
+        <p style="text-indent: 0.5in;"><span class="LIB_Italic">Form Title: Category - Description</span>
+        </p>
+        <p>For example:</p>
+        <p style="text-indent: 0.5in;"><span class="LIB_Italic"><MadCap:variable name="FormNames.60001" />: Correspondence - Appointment Letter</span> <![CDATA[ ]]></p>
+    </body>
+</html>

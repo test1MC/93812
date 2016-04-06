@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="32100051">View All KEEM Jobs</Variable>
+  <Variable
+    Name="32100054"
+    Comment="">KEEM - Jobs Eligible to be Deferred</Variable>
+  <Variable
+    Name="32100057"
+    Comment="">KEEM - Jobs Eligible to be moved to Completed</Variable>
+  <Variable
+    Name="32100056"
+    Comment="">KEEM - Jobs Eligible to be moved to Work Completed</Variable>
+  <Variable
+    Name="32100055"
+    Comment="">KEEM - Jobs Eligible to be Terminated</Variable>
+  <Variable
+    Name="32100012"
+    Comment="">KEEM - Jobs Ready to Post for Bid</Variable>
+  <Variable
+    Name="32100022"
+    Comment="">KEEM - Deferred Jobs</Variable>
+  <Variable
+    Name="30000173"
+    Comment="">Payments - Processed</Variable>
+  <Variable
+    Name="30000030"
+    Comment="">Payments - Ready for Review</Variable>
+  <Variable
+    Name="32100021"
+    Comment="">KEEM - Denied Applications</Variable>
+  <Variable
+    Name="32100050"
+    Comment="">KEEM - Pending Applications</Variable>
+  <Variable
+    Name="32100059"
+    Comment="">KEEM - Service Agreement Jobs</Variable>
+  <Variable
+    Name="32100058"
+    Comment="">KEEM - Terminated Jobs</Variable>
+  <Variable
+    Name="32100011"
+    Comment="">KEEM - Jobs in Posted for Bid Status</Variable>
+  <Variable
+    Name="32100041"
+    Comment="">KEEM - Wait List</Variable>
+  <Variable
+    Name="51007"
+    Comment="">Account List</Variable>
+  <Variable
+    Name="30000054"
+    Comment="">Count of Case Notes for each Employee</Variable>
+  <Variable
+    Name="30000108"
+    Comment="">View Authorization Line Items for an Account</Variable>
+  <Variable
+    Name="30000131"
+    Comment="">View Authorizations Transactions for an Account</Variable>
+  <Variable
+    Name="30000079"
+    Comment="">View Accounting Audits</Variable>
+  <Variable
+    Name="32140001"
+    Comment="">WAP - Clients Ready for Closure</Variable>
+  <Variable
+    Name="98010009"
+    Comment="">Employee Last Login</Variable>
+  <Variable
+    Name="54501"
+    Comment="">Office List</Variable>
+  <Variable
+    Name="54501"
+    Comment="">View Offices</Variable>
+</CatapultVariableSet>

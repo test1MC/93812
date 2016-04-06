@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="65" MadCap:lastWidth="1058">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Payments_in_Process" class="LIB_Bold" /></span> - This is total of payment approvals that haven't been processed or batched. Calculation: <span class="LIB_Bold"><MadCap:variable name="Terminology.Tot_Pymts" class="LIB_Bold"></MadCap:variable></span> less <span class="LIB_Bold"><MadCap:variable name="Terminology.Actual_Amt_Expended" class="LIB_Bold"></MadCap:variable></span>.</p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="100" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Segment of Year #*</span> – Type a unique number (0-9) representing the specific segment of year for the account’s allocation of funds. It is also used to make the account number unique to prevent duplicate accounts in the event of multiple accounts of the same type. This value becomes part of the account number. <MadCap:snippetText src="DataFlowstoAllSubChildAccts.flsnp" /></p>
+    </body>
+</html>

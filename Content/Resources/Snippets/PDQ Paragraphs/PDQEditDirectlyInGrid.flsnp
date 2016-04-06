@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="197" MadCap:lastWidth="628">
+    <head>
+    </head>
+    <body>
+        <p>Editing of data displayed in the PDQ is done directly in the grid. To open a cell for editing, double-click the cell you want to edit or, right-click the cell, then select the Edit option or, press F2 (with cursor focus on the cell).</p>
+        <p>When the cell opens for editing all of the current content is highlighted which allows you to quickly overwrite the contents. Be careful to not erase the contents by pressing the DELETE or BACKSPACE key. If this happens, immediately press CTRL+Z to undo. This must be done immediately to avoid making the change permanent.</p>
+        <p>Edit the content, then press SHIFT+ENTER or single-click another row in the grid to save your changes. Depending on your user preferences, you may get a prompt asking if you want to save your changes, select the OK option.</p>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Online"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="Print"
+    BackgroundColor="#ffe4c4" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Hold"
+    Comment="Don't use."
+    OriginalName="Hold" />
+  <ConditionTag
+    BackgroundColor="#ffd700"
+    Name="AdminMod"
+    Comment="Admin Module" />
+  <ConditionTag
+    BackgroundColor="#800080"
+    Name="CoreContent"
+    Comment="Libera core content." />
+  <ConditionTag
+    BackgroundColor="#c0c0c0"
+    Name="DotNet35"
+    Comment="Specific to 3.5" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="DotNet45"
+    Comment="Specific to 4.5" />
+  <ConditionTag
+    BackgroundColor="#00008b"
+    Name="PortalContent"
+    Comment=""
+    OriginalName="PortalContent" />
+</CatapultConditionTagSet>

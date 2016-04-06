@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Actual_Amt_Expended" class="LIB_Bold" /></span> – Automatically populated from authorization payments that have been approved and batched (sent to be printed on checks) or processed and sent to the external fiscal system.</p>
+    </body>
+</html>

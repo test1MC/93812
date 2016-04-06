@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="502" MadCap:lastWidth="930">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Payments for Processing Summary</span> - This button launches the <span class="LIB_Italic">Payments for Processing Summary</span> form which lists all payments made within a date range, group them by <MadCap:variable name="Terminology.Vendor_UC" />, and display payments for each <MadCap:variable name="Terminology.Vendor_UC" /> on separate pages. Before the form is created, you are prompted to provide the required parameters. The form doesn't need to use the same date range as the PDQ.</p>
+        <p>The Parameters are:</p>
+        <ul>
+            <li><span class="LIB_Bold">Processed Payments?</span> - Enter <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) to only include payments that have been processed on the form. Enter <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>) to include all payments.</li>
+            <li><span class="LIB_Bold">Start</span> and <span class="LIB_Bold">End Date</span> - The form will display payments made during this date range.</li>
+        </ul>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> If your user role doesn't grant you access to the <span class="LIB_Italic">Payments for Processing Summary</span> form, the following message appears: "Your user role does not allow this form to be opened." after entering the form parameters. If this happens, contact your System Administrator.</p>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/PaymentsForProcessingSummary.png" title="An example of the Payments for Processing Summary form." alt="An example of the Payments for Processing Summary form." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">An example of the Payments for Processing Summary form.</span>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="940">
+    <head>
+        <link href="../Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Show PDQ Grid Help</span> (CTRL+ALT+H) - Opens new window displaying help content  that provides definitions for standard keystrokes and mouse behaviors for tables, rows, and cells navigation.</p>
+    </body>
+</html>

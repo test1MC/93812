@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1826" MadCap:lastWidth="1007" MadCap:conditions="General.AdminMod">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="System Admins use Tool Administration to manager the tools that appear on the Tools tab in the File Drawer." />
+    </head>
+    <body>
+        <h1>Tool Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/ToolAdministration.png" title="Tool Administration." alt="Tool Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/ToolAdmn.png" title="Tool Administration." alt="Tool Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Tool Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> Form and Grid</p>
+        <p><span class="LIB_Bold">Description: </span>The <span class="LIB_Bold">Tool Administration</span> option allows Administrators to manage the tools that appear on the <span class="LIB_Italic">Tools</span> tab in the <span class="LIB_Italic">File Drawer</span>. Administrators may need to use Tool Administration to provide or revoke access for a specific role. Adding and deleting tools and other details should be reserved for Libera Developers.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Columns</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Number</span> - Unique ID&#160;number for the tool component. Also known as Component #. It's displayed on the <span class="LIB_Italic">Tool Administration</span> form in the <span class="LIB_Bold">Tool #</span> field.</li>
+            <li><span class="LIB_Bold">Name</span> - Name of the tool. It's also displayed in the <span class="LIB_Bold">Name</span> column of the <span class="LIB_Italic">Tools</span> tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Group</span> - How the tool is categorized within the grid and on the <span class="LIB_Italic">Tools</span> tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">ACL</span> - A comma separated list of User Roles that have the ability access and use this tool from the <span class="LIB_Italic">Tools</span> tab of the <span class="LIB_Italic">File Drawer</span>.</li>
+            <li><span class="LIB_Bold">Module</span> - Displays the module in which the tool is visible. For example when the value for this cell is General, the tool is available all of the time, however if it is anything else, the tool only appears when the selected module is loaded in the <span class="LIB_Italic">Data Tree</span>.</li>
+            <li><span class="LIB_Bold">Agency</span> - No longer used.</li>
+            <li><span class="LIB_Bold">Object Type</span> - Typically related to the Module, used more with form components than with tools.</li>
+            <li><span class="LIB_Bold">Flags</span> - Component specific instructions and/or notes for the use of Libera developers. Used more with other types of components such as forms or PDQs than with tools.</li>
+            <li><span class="LIB_Bold">Code</span> and <span class="LIB_Bold">XML Code</span>- Commands, both <span class="LIB_Bold">[Javascript] Code</span> and <span class="LIB_Bold">XML Data Commands</span> provide specific instructions for the component relating to many things including how/when it opens, window size, etc.</li>
+            <li><span class="LIB_Bold">Stage</span> Controls when the tool is visible to the Agency. <span class="LIB_Bold">Note:</span> User Roles also control who can see and use the tool, so even if it is visible, it may not be available to all users.</li>
+        </ul>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Grid Functionality</span>
+        </p>
+        <ul>
+            <li>Tools are grouped by <span class="LIB_Bold">Group</span>. You may collapse and expand groupings for faster navigation.</li>
+            <li>Selecting a record in the grid opens the <span class="LIB_Italic">Tool Administration</span> form for the selected record.</li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFilterGroupAndSort.flsnp" />
+            </li>
+        </ul>
+        <h3>Adding a New Tool</h3>
+        <p>Selecting the Action Row, where it says, "Please click here to add a enw record..." opens a new Tool Administration Form. </p>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> For best results, please contact Libera to request the addition of a new tool.</p>
+        <h3>Deleting a Tool</h3>
+        <p>Tools are deleted by Libera. Please contact Libera to delete a tool. An alternative to deleting a tool is to add !0 to the ACL (Roles) field of the <span class="LIB_Italic">Tool Administration</span> form. All users inherently have the User Role 0. The exclamation point in front of the User Role excludes users with that role from access to the component. When the ACL is set to !0 no users, including System Administrators, have access to the component.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>While you have the ability to edit data in the grid, it is easier to edit data via the <span class="LIB_Italic">Tool Administration</span> form.</li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="14 Tool Administration Form.htm">Tool Administration Form</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm">Grid Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

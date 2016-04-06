@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold"><MadCap:variable name="Terminology.Rtn_to_Budget" class="LIB_Bold" /></span> – If the cost of an approved authorization is reduced, the amount reduced is tracked as <MadCap:variable name="Terminology.Rtn_to_Budget" />. The total of all <MadCap:variable name="Terminology.Rtn_to_Budget" /> amounts for this account is shown here. It's automatically populated when an approved and printed authorization amount is decreased</p>
+    </body>
+</html>

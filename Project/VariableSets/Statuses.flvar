@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="00">Pending</Variable>
+  <Variable
+    Comment=""
+    Name="02">Application Started</Variable>
+  <Variable
+    Name="04"
+    Comment="">Approved/Wait List</Variable>
+  <Variable
+    Name="28"
+    Comment="">Deferred</Variable>
+  <Variable
+    Name="34"
+    Comment="">Terminated</Variable>
+  <Variable
+    Name="30"
+    Comment="">Denied</Variable>
+  <Variable
+    Name="13"
+    Comment="">Pre-Audit</Variable>
+  <Variable
+    Name="18"
+    Comment="">Ready for Bid</Variable>
+  <Variable
+    Name="20"
+    Comment="">Posted for Bid</Variable>
+  <Variable
+    Name="40"
+    Comment="">Not Awarded</Variable>
+  <Variable
+    Name="21"
+    Comment="">In Process</Variable>
+  <Variable
+    Name="22"
+    Comment="">Work Completed</Variable>
+  <Variable
+    Name="23"
+    Comment="">Post-Audit</Variable>
+  <Variable
+    Name="24"
+    Comment="">Closure Pending</Variable>
+  <Variable
+    Name="26"
+    Comment="">Completed</Variable>
+</CatapultVariableSet>

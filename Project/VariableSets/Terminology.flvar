@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="Vendor_UC">Contractor</Variable>
+  <Variable
+    Comment=""
+    Name="Vendors_UC">Contractors</Variable>
+  <Variable
+    Name="Vendor_UC"
+    Comment="">Vendor</Variable>
+  <Variable
+    Name="Vendors_UC"
+    Comment="">Vendors</Variable>
+  <Variable
+    Name="Vendor's_UC"
+    Comment="">Contractor's</Variable>
+  <Variable
+    Name="Vendor's_UC"
+    Comment="">Vendor's</Variable>
+  <Variable
+    Name="vendors_LC"
+    Comment="">contractors</Variable>
+  <Variable
+    Name="vendors_LC"
+    Comment="">vendors</Variable>
+  <Variable
+    Name="RFQDocNo"
+    Comment="">Bid Number</Variable>
+  <Variable
+    Name="RFQDocNo"
+    Comment="">Confirming Procurement Document Number</Variable>
+  <Variable
+    Name="RFQAuthNo"
+    Comment="">Work Authorization #</Variable>
+  <Variable
+    Name="RFQAuthNo"
+    Comment="">Authorization No:</Variable>
+  <Variable
+    Name="RFQProcurementOfficer"
+    Comment="">KEEM Program Manager</Variable>
+  <Variable
+    Name="RFQProcurementOfficer"
+    Comment="">RSA Procurement Officer</Variable>
+  <Variable
+    Name="vendor_LC"
+    Comment="">contractor</Variable>
+  <Variable
+    Name="vendor_LC"
+    Comment="">vendor</Variable>
+  <Variable
+    Name="VendorNo"
+    Comment="">Vendor No:</Variable>
+  <Variable
+    Name="VendorNo"
+    Comment="">Contractor No:</Variable>
+  <Variable
+    Name="Client_UC"
+    Comment="">Client</Variable>
+  <Variable
+    Name="Client_UC"
+    Comment="">Service Member</Variable>
+  <Variable
+    Name="Client_UC"
+    Comment="">Applicant</Variable>
+  <Variable
+    Name="client_lc"
+    Comment="">client</Variable>
+  <Variable
+    Name="client_lc"
+    Comment="">service member</Variable>
+  <Variable
+    Name="client_lc"
+    Comment="">applicant</Variable>
+  <Variable
+    Name="Clients_UC"
+    Comment="">Clients</Variable>
+  <Variable
+    Name="Clients_UC"
+    Comment="">Applicants</Variable>
+  <Variable
+    Name="Clients_UC"
+    Comment="">Service Members</Variable>
+  <Variable
+    Name="clients_lc"
+    Comment="">clients</Variable>
+  <Variable
+    Name="clients_lc"
+    Comment="">applicants</Variable>
+  <Variable
+    Name="clients_lc"
+    Comment="">service members</Variable>
+  <Variable
+    Name="Client's_UC"
+    Comment="">Client's</Variable>
+  <Variable
+    Name="Client's_UC"
+    Comment="">Applicant's</Variable>
+  <Variable
+    Name="Client's_UC"
+    Comment="">Service Member's</Variable>
+  <Variable
+    Name="client's_lc"
+    Comment="">client's</Variable>
+  <Variable
+    Name="client's_lc"
+    Comment="">applicant's</Variable>
+  <Variable
+    Name="client's_lc"
+    Comment="">service member's</Variable>
+  <Variable
+    Name="case_lc"
+    Comment="">case</Variable>
+  <Variable
+    Name="case_lc"
+    Comment="">job</Variable>
+  <Variable
+    Name="Case_UC"
+    Comment="">Case</Variable>
+  <Variable
+    Name="Case_UC"
+    Comment="">Job</Variable>
+  <Variable
+    Name="Date Rendered (Pymts)"
+    Comment="">Date Rendered</Variable>
+  <Variable
+    Name="Region/District_UC"
+    Comment="">Region</Variable>
+  <Variable
+    Name="Region/District_UC"
+    Comment="">District</Variable>
+  <Variable
+    Name="region/district_lc"
+    Comment="">region</Variable>
+  <Variable
+    Name="region/district_lc"
+    Comment="">district</Variable>
+  <Variable
+    Name="Allocated"
+    Comment="Acct Info">Allocated</Variable>
+  <Variable
+    Name="Bal_to_Auth"
+    Comment="Acct Info">Balance to Authorize</Variable>
+  <Variable
+    Name="Bal_to_Auth"
+    Comment="Acct Info">Carry Forward Funds</Variable>
+  <Variable
+    Name="Sub_Account"
+    Comment="Acct Info">Sub Account</Variable>
+  <Variable
+    Name="Sub_Account"
+    Comment="Acct Info">Child Account</Variable>
+  <Variable
+    Name="Encumbered"
+    Comment="Acct Info">Encumbered</Variable>
+  <Variable
+    Name="Rtn_to_Budget"
+    Comment="Acct Info">Return to Budget</Variable>
+  <Variable
+    Name="Tot_Pymts"
+    Comment="Acct Info">Total Payments</Variable>
+  <Variable
+    Name="Outstanding_Pymts"
+    Comment="Acct Info">Outstanding Payments</Variable>
+  <Variable
+    Name="Actual_Amt_Expended"
+    Comment="Acct Info">Actual Amount Expended</Variable>
+  <Variable
+    Name="Payments_in_Process"
+    Comment="Acct Info">Payments in Process</Variable>
+  <Variable
+    Name="Pymt_Limit"
+    Comment="Acct Info">Payments Not to Exceed</Variable>
+  <Variable
+    Name="AvailPymtBal"
+    Comment="Acct Info">Avail Payment Balance</Variable>
+  <Variable
+    Name="ParentAcct"
+    Comment="Acct Info">Parent Account</Variable>
+  <Variable
+    Name="ServCode"
+    Comment="VendSrvc">KNOX Service Code</Variable>
+  <Variable
+    Name="ServCode"
+    Comment="VendSrvc">Service Code</Variable>
+  <Variable
+    Name="Client_UC"
+    Comment="">Account Owner</Variable>
+  <Variable
+    Name="client_lc"
+    Comment="">account owner</Variable>
+</CatapultVariableSet>

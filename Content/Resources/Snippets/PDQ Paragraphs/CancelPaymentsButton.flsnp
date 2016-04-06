@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Cancel Payments</span> - Selecting this button  cancels all selected payments, removing them from the PDQ. On the <MadCap:variable name="FormNames.406" class="LIB_Italic" /> form of the Account the payment was charged to, the payment will be subtracted from the <span class="LIB_Bold">Actual Amount Expended</span> field and added to the <span class="LIB_Bold">Payments in Process</span> field. No other numbers on the <span class="LIB_Italic"><MadCap:variable name="FormNames.406" class="LIB_Italic"></MadCap:variable></span> form will be affected.</p>
+    </body>
+</html>

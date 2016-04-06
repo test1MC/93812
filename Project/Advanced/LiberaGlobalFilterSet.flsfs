@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="Form"
+    Concepts="Form"
+    Order="0"></SearchFilter>
+  <SearchFilter
+    Name="PDQ"
+    Comment=""
+    Concepts="PDQ"
+    Order="1" />
+  <SearchFilter
+    Name="App Setting"
+    Comment=""
+    Order="6"
+    Concepts="App Setting" />
+  <SearchFilter
+    Name="Report"
+    Comment=""
+    Concepts="Report"
+    Order="3" />
+  <SearchFilter
+    Name="Tool"
+    Comment=""
+    Concepts="Tool"
+    Order="2" />
+  <SearchFilter
+    Name="Calendar"
+    Comment=""
+    Concepts="Calendar"
+    Order="7" />
+  <SearchFilter
+    Name="Process"
+    Comment=""
+    Concepts="Process"
+    Order="5" />
+  <SearchFilter
+    Name="Troubleshooting"
+    Comment=""
+    Concepts="Troubleshooting"
+    Order="4" />
+</CatapultSearchFilterSet>

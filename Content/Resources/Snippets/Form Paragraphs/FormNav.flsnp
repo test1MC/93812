@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="107" MadCap:lastWidth="1072">
+    <head>
+        <link href="../../Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p class="LIB_Bold">Navigation</p>
+        <p>Some fields are automatically filled with data from other sources.  If filled in fields are gray, you cannot edit the data.  If filled in fields are not gray, you can edit the data. Other fields may automatically fill in, open for editing, or appear based on how this form is completed. Only fields that have additional functionality or special data rules will be explained in detail below. Refer to <MadCap:xref href="../../../Libera Global Content/CH02 - Form Navigation/Form Navigation.htm">Form Navigation</MadCap:xref> for more information.</p>
+    </body>
+</html>

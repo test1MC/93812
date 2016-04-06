@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="title">
+        <Frame X="-22px" Y="-47px" Width="678px" Height="926px" Flow="body" Right="-32px" Bottom="-15px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="right">
+        <Frame X="0px" Y="-47px" Width="624px" Height="911px" Flow="body" Right="0px" Bottom="0px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-48px" Y="883px" Width="721px" Height="39px" Flow="footer" Right="-49px" Bottom="-58px" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="LIB_Footer"><MadCap:variable xhtml:name="System.Title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="LIB_Footer"><MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="left">
+        <Frame X="0px" Y="-47px" Width="624px" Height="911px" Flow="body" Right="0px" Bottom="0px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-43px" Y="882px" Width="721px" Height="40px" Flow="footer" Right="-54px" Bottom="-58px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="LIB_Footer"><MadCap:variable xhtml:name="System.Title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="LIB_Footer"><MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

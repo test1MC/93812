@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="302" MadCap:lastWidth="997">
+    <head>
+    </head>
+    <body>
+        <p>The <span class="LIB_Bold">Field</span> column displays the description of each field on the form. The description is the same text as the Tool Tip of the field as well as the text that screen readers read. In summary:</p>
+        <p><span class="LIB_Italic">Field column data = Visual Tool Tip = Screen Reader Speech</span>
+        </p>
+        <p>When a field is part of a multiple-section section, the Field column includes this information either before or after the field label. Users have the ability to change the order via the User Preference, <span class="LIB_Italic">Field Tooltip Display Mode</span>.</p>
+        <p>For example, you can choose to have the Tool Tip text displayed as follows:</p>
+        <blockquote>
+            <p>Address 1 - Street</p>
+            <p>or</p>
+            <p>Street - Address 1</p>
+            <p>&#160;</p>
+        </blockquote>
+    </body>
+</html>

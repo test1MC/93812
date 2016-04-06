@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="83" MadCap:lastWidth="1057">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Turn Account Off?</span> – The default option is <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>). The account is not available to use if the response is <span class="LIB_Italic">Yes</span> (meaning that the account is inactive). This field starts out locked and becomes editable after the Account Number is valid. If the upper level account is inactive the sub accounts below it will be inactive too.</p>
+    </body>
+</html>

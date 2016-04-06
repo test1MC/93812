@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="223" MadCap:lastWidth="1000">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Account Number for Payment</span> – When left blank, Authorizations will select an account via the normal account selection process. When an account is selected, Authorizations bypass the normal account selection process, in favor of using only the selected account.</p>
+        <p><span class="LIB_Bold">Account Number for Payment Criteria</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Account Number for Payment</span> must match all of the numbers except the fiscal year which is masked under asterisks. Fiscal year can be any year.</li>
+        </ul>
+        <ul>
+            <li>Account selected must be turned on and have an available <span class="LIB_Bold">Balance</span> (balance cannot be zero).</li>
+        </ul>
+        <ul>
+            <li>Same date rules apply regarding authorized or projected authorization of funds.</li>
+        </ul>
+        <ul>
+            <li>Account <span class="LIB_Bold">Avail Payment Balance</span> must be greater than zero.</li>
+        </ul>
+    </body>
+</html>

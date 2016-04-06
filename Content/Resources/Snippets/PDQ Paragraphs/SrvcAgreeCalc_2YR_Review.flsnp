@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="317" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">2 Year Coming Up</span>
+        </p>
+        <p><span class="LIB_Bold">PDQ Run Date</span> is between (Job Closing Date plus App.KEEM.2YearServiceAgreement.Review.ShowUp.Months <span class="LIB_Bold">Value</span>) and App.KEEM.2YearServiceAgreement.Overdue.ShowUpMonths <span class="LIB_Bold">Value</span>. See example below.</p>
+        <blockquote>
+            <p>Variables</p>
+            <ul>
+                <li>PDQ Run Date: 06/01/2015</li>
+                <li>Job Closing Date: 07/15/2013</li>
+                <li>App.KEEM.1YearServiceAgreement.Review.ShowUp.Months: 22</li>
+                <li>App.KEEM1.YearServiceAgreement.Overdue.ShowUpMonths: 24</li>
+            </ul>
+            <p>Calculation</p>
+            <ul>
+                <li>07/15/2013 + 22 months = 05/15/2015</li>
+                <li>07/15/2013 + 24 months = 07/15/2015</li>
+                <li>PDQ Run Date of 06/01/2015 = Service Agreement Status: 2 Year Coming Up </li>
+            </ul>
+        </blockquote>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.DotNet45" MadCap:lastBlockDepth="7" MadCap:lastHeight="2419" MadCap:lastWidth="1000">
+    <head>
+        <link href="../../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="The System 7 Log Viewer is used by System Administrators to retrieve log file data for system activity. It opens in the Sys. 7 Administration Console." />
+    </head>
+    <body>
+        <h1>System 7 Log Viewer<MadCap:concept term="Tool" /></h1>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Accessing Tools</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Sys7 4.5/AccessingTools.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/45/S7LogVwr.png" title="System 7 Log Viewer." alt="System 7 Log Viewer." />
+            <br /><span class="LIB_Caption">System 7 Log Viewer.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The <span class="LIB_Italic">System 7 Log Viewer</span> is used by System Administrators to retrieve log file data for system activity. It opens in the <MadCap:xref href="S7AdminConsole.htm">System 7 Administration Console</MadCap:xref>. This is especially helpful when troubleshooting.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Log Viewer Fields Defined</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Server</span> – Defaults to a Web Server option. Some agencies have multiple web and application servers. Open the drop down and select an application server. If there are multiple application servers you may have to work through each one to find anything useful. The App Server holds the app log and the SQL log. The Web Server holds the UI log.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Log File</span> – Defaults to Application Log which is what we commonly use, however you can also use the SQL Trace log – just know that it’s exponentially larger and takes longer to load. The Application Log shows what’s happening on the application side. The SQL Trace log shows what’s happening on the database side, for example it will show the SQL for a PDQ.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Start Date/Time</span> – Defaults to Today’s date. To reduce the number of log files returned (and speed up your search exponentially) enter the time immediately following the date. If you get an error window it may include a time stamp, go a minute before that time. The time stamp does include milliseconds, if you don’t have that information just fill in zeroes. The time stamp understands military and non-military time.<br /><img src="../../../LIB_Images/45/LVStrtDtTm.png" title="Time entered following the date." alt="Time entered following the date." /><br /><span class="LIB_Caption">Time entered following the date.</span></li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">End Date/Time</span> – Use if you’re looking within a specific time range before ‘now’. If you’re looking for something that just happened you can leave this field blank.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">View Log</span> – This button loads the log file data in the window below the fields.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Download Log</span> – This button downloads the log file data to a text file. Choose to "Save As" so you have the file name and location.  This file can be difficult to read, because the main users are developers. The log file can be extremely large. Tip - You can copy and paste text from the log into another text editor or word processor for viewing.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Clear Log</span> – This button literally clears the log. It's strongly recommended that you do not do this. If in doubt talk to your Supervisor.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Start Line</span> – Not really used, although you could guess at the start line number and enter it if you wanted. Seriously though, if you’re using the <span class="LIB_Bold">Start Date/Time</span> this field isn’t needed.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Number of Lines</span> – The number of lines returned has a max limit of something like 500 or 1000 lines. It’s conceivable that even for a short period of time, for example, a half hour, that the number of lines could exceed the max limit. Enter ‘-1’ to insure that *all* lines within your time span (either the <span class="LIB_Bold">Start Date/Time</span> to <span class="LIB_Bold">End Date/Time</span> or <span class="LIB_Bold">Start Date/Time</span> to <span class="LIB_Bold">Now</span>) are returned.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Email Log</span> – Opens the <span class="LIB_Italic">Send To</span> window that allows you to send the log file data outside of the system. Always keep in mind client confidentiality as the log file data (both application and SQL Trace) may include SSNs and other identifying information. This method is not secure. It’s OK for internal use from internal environments. If in doubt, check with your Supervisor. The email shows the log file data the same as it’s displayed in the log viewer window.</li>
+        </ul>
+        <ul>
+            <li><span class="LIB_Bold">Log Marker</span> – Use if you want to create a marker, think something like a bookmark within the log file data.</li>
+            <li><span class="LIB_Bold">Create Log Marker</span> – This button inserts the Log Marker you entered into the log file data, for example:</li>
+        </ul>
+        <blockquote>
+            <p>&lt;logevent datetime="2014/06/03 16:53:30.632" action="Log.CreateMarker" severity="Informational" eventid="e1e2b85c-9b9a-4a75-9b7f-4fcad927c14b" user="983" marker="MONICA" requesturl="http://localhost/Sys7WS-MO/AdminWS.asmx" remoteip="::1" requestid="e1e2b85c-9b9a-4a75-9b7f-4fcad927c14b" &gt;</p>
+            <p>&lt;message&gt;&lt;![CDATA[</p>
+            <p>Log Marker: MONICA</p>
+            <p>]]&gt;</p>
+            <p>&lt;/message&gt;</p>
+            <p>&lt;/logevent&gt;</p>
+            <p>&#160;</p>
+        </blockquote>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Tips.flsnp" />
+        <p>All tips below are optional. These apply to both the Application Log and the SQL Trace Log.</p>
+        <ul>
+            <li>It’s best if you can recreate the error then run the log viewer immediately. It keeps the number of lines returned to a low number.</li>
+        </ul>
+        <ul>
+            <li>Use the Find feature, CTRL+F, to search for the word ‘error’ or “error” (with the double quote), or the exception, client number/name, your name, form template ID, component ID #, etc.</li>
+        </ul>
+        <ul>
+            <li>It’s not uncommon for errors to be the longest logevents. Usually if you scroll through the lines returned you can find it.</li>
+        </ul>
+        <ul>
+            <li>	Copy the lines returned into word where you can format the text to draw attention to the data you want the Libera developers to see.</li>
+        </ul>
+        <ul>
+            <li>When copying make sure you copy from <span class="LIB_Bold">&lt;logevent datetime=”YYYY/MM/DD HH:MM:SS…&gt;</span> to <span class="LIB_Bold">&lt;/logevent&gt;</span> and to include all logevents with the same date/time stamp.</li>
+        </ul>
+    </body>
+</html>

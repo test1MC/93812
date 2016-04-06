@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.AdminMod" MadCap:lastBlockDepth="7" MadCap:lastHeight="1433" MadCap:lastWidth="1007">
+    <head>
+        <link href="../../Resources/Stylesheets/TableStyles/Table_TipsHeader.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <meta name="description" content="System Admins use Status Administration to view status flow for the system." />
+    </head>
+    <body>
+        <h1>Status Administration<MadCap:concept term="PDQ" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/StatusAdmin.png" title="Status Administration." alt="Status Administration." MadCap:conditions="General.DotNet35" />
+            <br />
+            <img src="../../LIB_Images/45/StatusAdmn.png" title="Status Administration." alt="Status Administration." MadCap:conditions="General.DotNet45" />
+            <br /><span class="LIB_Caption">Status Administration.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Edit Mode:</span> No editing</p>
+        <p><span class="LIB_Bold">Description:</span> The <span class="LIB_Bold">Status Administration</span> option allows Administrators to view the transition between the various statuses in each program. Allowable status movements are listed in a grid with the program number and a description of the new status. This defines various business rules as well as providing information for manual status changes. Though the initial status change rules should match the desired rules for the application, it may be necessary to modify these rules as agency procedures change. Such changes should be made carefully, as they may affect how users are able to perform their tasks. This table is managed directly by Libera. Please direct change requests to your Supervisor or Libera Client Support.</p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">ECF Columns</span>
+        </p>
+        <ul>
+            <li><span class="LIB_Bold">Current Status</span> - Current status of the case. A record appears in the grid for every <span class="LIB_Bold">Dest Status</span> for the <span class="LIB_Bold">Current Status</span>. For example, if you filter the grid by a <span class="LIB_Bold">Program</span> of your choice and <span class="LIB_Bold">Current Status</span> 02, you will see all possible statuses that a case in the selected <span class="LIB_Bold">Program</span> can go into from status 02.</li>
+            <li><span class="LIB_Bold">Program</span> - Program which the status is associated. <span class="LIB_Bold">Note:</span> Many programs may use the same status numbering system. When working with statuses make sure you have the correct <span class="LIB_Bold">Program </span>selected.</li>
+            <li><span class="LIB_Bold">Dest Status </span>- Destination status to which a case can move to from its <span class="LIB_Bold">Current Status</span>.</li>
+            <li><span class="LIB_Bold">Description</span> - This describes the <span class="LIB_Bold">Dest Status</span>.</li>
+            <li><span class="LIB_Bold">Allowed Manually</span> - When selected, users are allowed to move a case into this status via the <span class="LIB_Italic">Case Note</span> form.</li>
+            <li><span class="LIB_Bold">Manual Change ACL</span> - If a status move is <span class="LIB_Bold">Allowed Manuall</span>y, you will see which groups of users may manually complete the status move. This data is displayed as a comma separated list of User Role IDs. If no roles are specified, then all users may manually complete the status move.</li>
+            <li><span class="LIB_Bold">Default Description</span> - When a <span class="LIB_Bold">Dest Status</span> works with multiple <span class="LIB_Bold">Current Statuses</span>, this is the description that is used.</li>
+            <li><span class="LIB_Bold">Undo Fix Function</span> - This is related to <span class="LIB_Italic">Status History Editor</span> functionality and is maintained by Libera.</li>
+        </ul>
+        <p>&#160;</p>
+        <p class="LIB_Bold">PDQ Results</p>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFilterGroupAndSort.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFavoritesParagraph.flsnp" />
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/PDQ Paragraphs/PDQFavoritesNO.flsnp" />
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Tips.flsnp" />
+        <ul>
+            <li>You may find it easer to work with this grid if you first filter or group by program, then sort the <span class="LIB_Bold">Current Status</span> column A to Z.</li>
+        </ul>
+    </body>
+</html>

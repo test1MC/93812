@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="4182" MadCap:lastWidth="942" MadCap:conditions="CO-CICMS.CO-CICMS_Exclude">
+    <head><title>Vendor's Services Form</title>
+        <meta name="description" content="The Vendor's Service form is used to link services to vendors." />
+    </head>
+    <body>
+        <h1><MadCap:variable name="FormNames.401" /> Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/VendSrvc_top.png" title="Top section of the Vendor's Services form." alt="Top section of the Vendor's Services form." />
+            <br /><span class="LIB_Caption">Top section of the <MadCap:variable name="FormNames.401" /> form.</span>
+        </p>
+        <p>&#160;</p>
+        <p><span class="LIB_Bold">Overview</span>
+        </p>
+        <p>The <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form is used to link services to vendors. It shows details specific to the vendor service relationship. The information entered on this form serves as source data for numerous other forms related to the vendor.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Basic Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>The <span class="LIB_Bold">Name</span>, <span class="LIB_Bold">Street</span>, and <span class="LIB_Bold">Phone</span> fields at the top of the form come in from the <MadCap:xref href="VendInfo(400).htm" /> form.</li>
+                </ul>
+                <ul>
+                    <li>You may select the <span class="LIB_Bold">Complete?</span> field when all data entry on this form is completed. It's not required.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Supplied Service</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section shows information related to the <span class="LIB_Bold">Supplied Service</span>. For each <MadCap:variable name="FormNames.401" /> form, only one service is selected. The following conditions apply to the Supplied Service field:</p>
+                <ul>
+                    <li>If you change the <span class="LIB_Bold">Supplied Service</span>, all pre-existing events are deleted.</li>
+                </ul>
+                <ul>
+                    <li>If a pricing tier is associated with the selected supplied service, the <span class="LIB_Italic">Vendor Service Events</span> section populates with the existing rate information from the <MadCap:xref href="SrvcInfo(405).htm">Service Information</MadCap:xref> form.</li>
+                    <li>If certification(s) are required for the service selected and the valid certification(s) are not identified on the <MadCap:variable name="FormNames.400" class="LIB_Italic" /> form, a message appears stating that required certification(s) are invalid or missing: <span class="LIB_Italic">The service cannot be added due to the following reason(s): [Certification Name] Certification is missing</span>.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Supplied Service</span> – When a service is selected a brief description of the service appears in the bottom half of the <span class="LIB_Italic">Service Name</span> lookup list window.  Press CTRL+SHIFT+D to move cursor focus to the service description.  Press CTRL+SHIFT+D again to return to the option list.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold"><MadCap:variable name="Terminology.ServCode" class="LIB_Bold" /></span> – If filled in on the <MadCap:variable name="FormNames.405" class="LIB_Italic" /> form this field will automatically populate with selection of Supplied Service. If not, then type the appropriate service code. The ability to edit this field varies by agency.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Vendor Service Events</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Forms/VendSrvc_Events.png" title="Events section." alt="Events section." />
+                    <br /><span class="LIB_Caption">Events section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>The <span class="LIB_Italic">Vendor Service Events</span> sections is divided into multiple tabbed headings. The tabs vary on how the form is configured for your Agency. Regardless of the 'event' the tab functionality is the same. Please refer to <MadCap:xref href="VendSrvcEvents.htm">Vendor Service Events</MadCap:xref> for functional descriptions of each Tab.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Current Rates from Events</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section is read-only, and shows the current rates either from the selected record of the <span class="LIB_Italic">Current Rates</span> tab within the <span class="LIB_Italic">Vendor Service Events</span> section or from the <MadCap:xref href="SrvcInfo(405).htm">Service Information</MadCap:xref> form.</p>
+                <p><span class="LIB_Bold">To edit this data:</span>
+                </p>
+                <ul>
+                    <li>If it came from the <MadCap:variable name="FormNames.405" class="LIB_Italic" /> form, you must edit it on that form.</li>
+                </ul>
+                <ul>
+                    <li>If it came from the <span class="LIB_Italic">Current Rates</span> tab, that's where you edit it.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Italic">Progress Notes</span> select and use the <span class="LIB_Bold">Maximum Rate</span> for the <span class="LIB_Italic">Pricing Tier</span> or <span class="LIB_Italic">Current Rate</span> if a <span class="LIB_Bold">Normal Rate</span> is not specified. If the <span class="LIB_Italic">Current Rate</span> has neither a <span class="LIB_Bold">Normal</span> nor a <span class="LIB_Bold">Maximum Rate</span> specified, the user is allowed to enter a desired amount.</li>
+                </ul>
+                <ul>
+                    <li>Similarly, the number of hours provided per the <span class="LIB_Italic">Progress Note</span> checks and makes sure the number doesn't exceed the <span class="LIB_Bold">Maximum Unit</span> specified on the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form.</li>
+                </ul>
+                <ul>
+                    <li>Plans use the <span class="LIB_Italic">Current Rates from Events</span> data. If data appears in this section it appears in Authorization and Plan forms. It can be changed in these forms but cannot go over any stated <span class="LIB_Bold">Maximum Unit</span> or <span class="LIB_Bold">Rate</span>.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Italic">Current Rates from Events</span> data is only used if there are no <span class="LIB_Italic">Pricing Tiers</span> or <span class="LIB_Italic">Contracts</span> for this vendor/service combination.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Miscellaneous Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li><span class="LIB_Bold">When the Is this a similar / comparable benefit? </span>field is selected, if the <span class="LIB_Italic">Only show Similar benefit providers in the vendor lookup on authorizations</span>* application setting is set to True, the <span class="LIB_Italic">Inventory</span> form will only show services where this field is selected. *Libera manages this application setting.</li>
+                </ul>
+                <ul>
+                    <li>When you first create the <MadCap:variable name="FormNames.401" class="LIB_Italic" /> form, it pulls in the <span class="LIB_Bold">1099 Reportable</span> value from the <MadCap:xref href="VendInfo(400).htm" /> form.</li>
+                </ul>
+                <ul>
+                    <li>Selecting the <span class="LIB_Bold">Require Contract to Authorize?</span> field prevents users from entering a <span class="LIB_Bold">Service Begin Date</span> where no contract is active for the date entered. If it's not selected, users will be able to authorize the service as a non-contracted service after a contract has expired.</li>
+                </ul>
+                <ul>
+                    <li>Selecting the <span class="LIB_Bold">Require Payment via Progress Notes?</span> field prevents users from entering Payment Approvals manually for that vendor's service. Instead they will only be able to pay for services through progress reports and the invoice/payments generated when outcomes are approved.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Service Types</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Service Types come over from the <MadCap:xref href="SrvcInfo(405).htm">Service Information</MadCap:xref> form. They must match the <span class="LIB_Bold">Service Types</span> on the <MadCap:variable name="FormNames.405" class="LIB_Italic" /> form.</p>
+                <p>If you try to fill in a blank <span class="LIB_Bold">Service Type</span>, the following message appears: <span class="LIB_Italic">The Service Type cannot be filled in as the Service Type on the Service Information form is blank.</span></p>
+                <p>If you try to change a <span class="LIB_Bold">Service Type</span>, the following message appears: <span class="LIB_Italic">The Service Type can only be cleared or set to match the Service Type (8) on the Service Information form.</span></p>
+                <p><span class="LIB_Bold">Service Type</span> changes should be made on the <MadCap:variable name="FormNames.405" class="LIB_Italic" /> form.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Program Configuration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Note">Note: This section is optional. If this section is not filled in, the system will consider the service to be allowed in any status for all programs.</p>
+                <p class="LIB_Img">
+                    <img src="../../../LIB_Images/Core/SrvcInfo_ProgConfig.png" title="Program Configuration section." alt="Program Configuration section." />
+                    <br /><span class="LIB_Caption">Program Configuration section.</span>
+                </p>
+                <p>&#160;</p>
+                <p>Use the <span class="LIB_Italic">Program Configuration</span> section to configure the service for one or more programs. Refer to <MadCap:xref href="../../CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm">Multiple-Section Sections in Forms</MadCap:xref> for more information. </p>
+                <ul>
+                    <li>The <span class="LIB_Bold">Program</span> field links the other fields in the section to the selected program. You must select a program before you are allowed to fill in the other fields in the section.</li>
+                    <li><span class="LIB_Bold">Account Identifier / Take Money only from this Account Identifier</span> - Allows you to link this service to one account identifier which controls the budget account selected when authorizing this service. When the <span class="LIB_Bold">Take Money only from this Account Identifier?</span> field is selected, authorizations will ignore any accounts that do not have the selected <span class="LIB_Bold">Account Identifier</span>. When the field isn't selected, the system prioritizes accounts with that <span class="LIB_Bold">Account Identifier</span> first but, if none are available, account selection rolls over into other accounts.</li>
+                    <li><span class="LIB_Bold">Unplanned / Planned Statuses</span> - These fields allow you to control when this service can be authorized based on the case status as of the <span class="LIB_Bold">Date of Authorization</span>, on the <span class="LIB_Italic">Authorization</span> form, for the selected program.<ul><li><span class="LIB_Bold">Unplanned Statuses</span> - Controls when you can create a <span class="LIB_Italic">Diagnostic</span> or <span class="LIB_Italic">Pre-Plan Authorization</span> for this service. For example:<ul><li>If you leave this field blank, you can create a <span class="LIB_Italic">Diagnostic Authorization</span> in any status. Please note however, that <span class="LIB_Italic">Diagnostic Authorization</span> forms have minimum and maximum status requirements that will prevent access to the form unless the case status is within that range.</li><li>Entering any status into the field allows you to only create a <span class="LIB_Italic">Diagnostic Authorization</span> when the case is in the specified status.<ul><li>If you enter only "unplanned" statuses, then you can only create <span class="LIB_Italic">a Diagnostic Authorization </span>when the case is not in a planned status.</li><li>You can enter "planned" statuses to allow creation of a <span class="LIB_Italic">Diagnostic Authorization</span> when the case is in the specified planned status.</li></ul></li><li>You can write the word "none" to prevent the creation of <span class="LIB_Italic">Diagnostic Authorizations</span> for this service all together.</li></ul></li><li><span class="LIB_Bold">Planned Statuses</span> - Controls when you can create a <span class="LIB_Italic">Planned Authorization</span> for this service. For example:<ul><li>Leaving the field blank allows you to create <span class="LIB_Italic">Planned Authorizations</span> in any status. Please note however, that <span class="LIB_Italic">Planned Authorization</span> forms have minimum and maximum status requirements that will prevent access to the form until the case status is within that range.</li><li>Entering any status into the field allows you to only create a <span class="LIB_Italic">Planned Authorization</span> when the case is in the specified status.</li><li>You can write the word "none" to prevent the creation of <span class="LIB_Italic">Planned Authorizations</span> for this service all together.</li></ul></li></ul></li>
+                </ul>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span>
+                </p>
+                <ul>
+                    <li>The status rules only apply to the selected program. If no status rules are selected, then all statuses will be allowed by default.</li>
+                    <li>If this section is populated from the <span class="LIB_Italic">Service Information</span> form, you can edit it on the <span class="LIB_Italic">Vendor's Services</span> form. Your changes are specific to the <span class="LIB_Italic">Vendor's Services</span> form; they do not flow back to the <span class="LIB_Italic">Service Information</span> form.</li>
+                </ul>
+                <p MadCap:conditions="KEEM.KEEM-Exclude"><span class="LIB_Bold">Authorizations to Clients</span>
+                </p>
+                <p MadCap:conditions="KEEM.KEEM-Exclude">Authorizations to clients are treated a little differently because whether the <span class="LIB_Italic">Authorization to Client</span> should be considered a planned authorization or not is dependent upon the case status as of the <span class="LIB_Bold">Date of Authorization</span> on the <span class="LIB_Italic">Authorization</span> form. If the authorization is for an unplanned status, it treats it as an unplanned authorization, otherwise, it treats it as a planned authorization. For example for a VR case, it means an authorization written for status 10 would use Unplanned Statuses and one written for status 12 would use Planned Statuses.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Discounts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Enter information related to discounts into the fields in this section. This data doesn't affect Authorizations or Payments, it's for informational purposes only. You can add as many discount sections as necessary.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Service Settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can add as many Service Settings sections as necessary.</p>
+                <ul>
+                    <li>Selecting a <span class="LIB_Bold">Service Setting</span> automatically populates the <span class="LIB_Bold">Service Setting Description</span>.</li>
+                </ul>
+                <ul>
+                    <li>Once a <span class="LIB_Bold">Service Setting</span> is selected, you may select one or more <span class="LIB_Bold">Service Areas</span>.</li>
+                </ul>
+                <ul>
+                    <li>The system can be configured to restrict services by county based on the <span class="LIB_Bold">Service Area</span> selected. If this is true, then the service is only available on Authorizations if the county of the <MadCap:variable name="Terminology.client_lc" />'s main residence matches one of the counties in the <span class="LIB_Bold">Service Area</span>. Contact Libera Client Services for more information on this functionality.</li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Service Delivery Starts</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section shows details about the delivery of the service.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Additional Form(s) to Include</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section allows you to automatically launch additional forms when this service is selected. You can add as many additional form(s) to include sections as necessary. </p>
+                <ul>
+                    <li><span class="LIB_Bold">On Which Form</span> - Select a form that you want to apply an action to. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Action</span> - Select the action that you want to occur on the form chosen in the previous <span class="LIB_Bold">On Which Form</span> field. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Form to be included when this service is selected </span>- Select the form you wish to be added or launched when this vendor service combination is selected. Your selection will cause the <span class="LIB_Bold">Action Statement</span> to update.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">Program</span> - If a program is selected, the <span class="LIB_Bold">Action</span> for the form selected in the <span class="LIB_Bold">On Which Form</span> field will only happen if the form matches the program selected.</li>
+                </ul>
+                <ul>
+                    <li><span class="LIB_Bold">[Action Statement]</span> – Automatically populated with selection of <span class="LIB_Bold">Action</span> and<span class="LIB_Bold"> Form to be included when this service is selected</span>. </li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../Case Notes/Case Note Footer.htm">Case Note Footer</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="Connecting Services and Vendors.htm">Connecting Services and Vendors</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="SrvcInfo(405).htm">Service Information</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="VendInfo(400).htm" />
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

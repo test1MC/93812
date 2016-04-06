@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="66" MadCap:lastWidth="931">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Authorized </span>- This is the current amount authorized against this account. This is equivalent to the <MadCap:variable name="Terminology.Encumbered" class="LIB_Bold" /> amount minus the <MadCap:variable name="Terminology.Rtn_to_Budget" class="LIB_Bold" /> amount.</p>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="631" MadCap:lastWidth="929">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Vendor Signature</span> - This section allows you to attach an image of the vendor's physical signature to the form. If a signature is attached, it will be displayed here. Otherwise, it will simply read "No Attachment" and an <span class="LIB_Bold">Attach</span> button will be underneath the section.</p>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Forms/VendSig.png" title="Vendor Signature section." alt="Vendor Signature section." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">Vendor Signature section.</span>
+        </p>
+        <p>To attach a signature, press SPACEBAR to activate the <span class="LIB_Bold">Attach</span> button and open the Attach dialog.</p>
+        <p>From the dialog, you can select an image file of the signature by typing the path to the file and the name of the file you want to attach, if known. For example:</p>
+        <p style="text-indent: 0.5in;">C:\Documents and Settings\YourName\Desktop\Signatures\Vendorsig.pdf</p>
+        <p>You can also browse for the file if you don't know the file path:</p>
+        <p>Select the <span class="LIB_Bold">Browse…</span> button to open the <span class="LIB_Italic">Choose file</span> dialog.</p>
+        <ul>
+            <li>Press ALT+I (i) to change the <span class="LIB_Bold">Look in</span> folder.</li>
+            <li>To change the <span class="LIB_Bold">Look in</span> folder location, press ALT+DOWN ARROW.</li>
+            <li>Use ARROW keys to navigate the folder list, press ENTER to select.</li>
+            <li>TAB to view the list of files. Use ARROW keys to navigate the file list, press ENTER to select a file name. The <span class="LIB_Italic">Choose file</span> dialog closes, and returns you to the Attach dialog.</li>
+        </ul>
+        <p>Once an image is chosen, press SPACEBAR to activate the Upload button. The Attach dialog closes and returns you to the <MadCap:variable name="FormNames.400" class="LIB_Italic" /> form.</p>
+        <p>Once a signature is attached, the "Attach" button will be replaced by three different buttons described below:</p>
+        <ul>
+            <li><span class="LIB_Bold">Download</span> - downloads a copy of the signature's image.</li>
+            <li><span class="LIB_Bold">View Full Window</span> - opens a second window to display the signature.</li>
+            <li><span class="LIB_Bold">Remove</span> - gives you the option to remove the signature.</li>
+        </ul>
+        <p>You may have only one signature image uploaded to the form at a time.</p>
+    </body>
+</html>

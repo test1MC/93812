@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Administration Module User Guide"
+    Link="/Content/Print Only Topics/Sys7UserGuide_Cover Page.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright Page"
+    Link="/Content/Print Only Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Print Only Topics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="System Navigation"
+    Link="/Content/Libera Global Content/CH00 - System Overview/00 System Navigation.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Application Home Page"
+      Link="/Content/Libera Global Content/CH00 - System Overview/Application Home Page.htm" />
+    <TocEntry
+      Title="File Drawer"
+      Link="/Content/Libera Global Content/CH00 - System Overview/File Drawer.htm" />
+    <TocEntry
+      Title="Grid Status Bar Functionality"
+      Link="/Content/Libera Global Content/CH00 - System Overview/Grid Status Bar Functionality.htm" />
+    <TocEntry
+      Title="Navigation Menu Bar"
+      Link="/Content/Libera Global Content/CH00 - System Overview/Navigation Menu Bar.htm" />
+    <TocEntry
+      Title="System Help Content"
+      Link="/Content/Libera Global Content/CH00 - System Overview/System Help Content.htm" />
+    <TocEntry
+      Title="Troubleshooting"
+      Link="/Content/Libera Global Content/CH00 - System Overview/Troubleshooting.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Grid Functionality"
+    Link="/Content/Libera Global Content/CH01 - Grid Functionality/00 Grid Functionality.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Advanced Grid Filtering"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Advanced Grid Filtering.htm" />
+    <TocEntry
+      Title="Basic Grid Filtering"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Basic Grid Filtering.htm" />
+    <TocEntry
+      Title="Best Fit"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Best Fit.htm" />
+    <TocEntry
+      Title="Cell Context Menu"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Cell Context Menu.htm" />
+    <TocEntry
+      Title="Column Header Context Menu"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Column Header Context Menu.htm" />
+    <TocEntry
+      Title="Drag and Drop Columns to Group Data"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Drag and Drop Columns to Group Data.htm" />
+    <TocEntry
+      Title="Exporting Grids to Other Print Options"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Exporting Grids to Other Print Options.htm" />
+    <TocEntry
+      Title="Favorites Button Functionality"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Favorites Button Functionality.htm" />
+    <TocEntry
+      Title="Filter Options"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Filter Options.htm" />
+    <TocEntry
+      Title="Filtering is your Friend!"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Filtering is your Friend!.htm" />
+    <TocEntry
+      Title="Grouped Row Context Menu"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Grouped Row Context Menu.htm" />
+    <TocEntry
+      Title="Grouping Data"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Grouping Data.htm" />
+    <TocEntry
+      Title="Hiding and Restoring the Filter Row"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Hiding and Restoring the Filter Row.htm" />
+    <TocEntry
+      Title="Hiding and Restoring the Group By Box"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Hiding and Restoring the Group By Box.htm" />
+    <TocEntry
+      Title="Hiding or Showing Columns"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Hiding or Showing Columns.htm" />
+    <TocEntry
+      Title="Internet Explorer (IE) Context Menu"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Internet Explorer (IE) Context Menu.htm" />
+    <TocEntry
+      Title="Multiple Select Lookups and Grids"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Multiple Select Lookups and Grids.htm" />
+    <TocEntry
+      Title="My PDQs"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/My PDQs.htm" />
+    <TocEntry
+      Title="Printing Grids"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Printing Grids.htm" />
+    <TocEntry
+      Title="Sorting Data in Grids"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Sorting Data in Grids.htm" />
+    <TocEntry
+      Title="Type to Find"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Type to Find.htm" />
+    <TocEntry
+      Title="Using the Context Menu to Group Data"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Using the Context Menu to Group Data.htm" />
+    <TocEntry
+      Title="Working with Grouped Data"
+      Link="/Content/Libera Global Content/CH01 - Grid Functionality/Working with Grouped Data.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Form Functionality"
+    Link="/Content/Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Adding New Forms to the ECF"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Adding New Forms to the ECF.htm" />
+    <TocEntry
+      Title="Attaching Files to Forms"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Attaching Files to Forms.htm" />
+    <TocEntry
+      Title="Form Edit Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Edit Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form Fields Defined"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Fields Defined.htm" />
+    <TocEntry
+      Title="Form File Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form File Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form Format Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Format Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form Help Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Help Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form Insert Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Insert Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form Navigation"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Navigation.htm" />
+    <TocEntry
+      Title="Form Tools Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form Tools Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Form View Menu Options"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Form View Menu Options 3.5.htm" />
+    <TocEntry
+      Title="Menu Bar in Forms"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Menu Bar in Forms 3.5.htm" />
+    <TocEntry
+      Title="Multiple-Section Sections in Forms"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Multiple-Section Sections in Forms 3.5.htm" />
+    <TocEntry
+      Title="Options for Printing Forms"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Options for Printing Forms.htm" />
+    <TocEntry
+      Title="Printing Forms"
+      Link="/Content/Libera Global Content/CH02 - Form Navigation/Printing Forms 3.5.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Administration Module"
+    Link="/Content/AdminModule Chapters/Administration Module.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="System Administration Overview"
+      Link="/Content/AdminModule Chapters/00 Overview/00 System Administration Overview.htm">
+      <TocEntry
+        Title="Accessing System Administration"
+        Link="/Content/AdminModule Chapters/00 Overview/02 Accessing System Administration.htm" />
+      <TocEntry
+        Title="System Administration Menu"
+        Link="/Content/AdminModule Chapters/00 Overview/03 System Administration Menu.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="General"
+      Link="/Content/AdminModule Chapters/01 General/00 General.htm">
+      <TocEntry
+        Title="Application Settings Administration"
+        Link="/Content/AdminModule Chapters/01 General/01 Application Settings Administration.htm" />
+      <TocEntry
+        Title="Application Setting Form"
+        Link="/Content/AdminModule Chapters/01 General/02 Application Setting Form.htm" />
+      <TocEntry
+        Title="Dictionary Administration"
+        Link="/Content/AdminModule Chapters/01 General/03 Dictionary Administration.htm" />
+      <TocEntry
+        Title="Scheduled Tasks"
+        Link="/Content/AdminModule Chapters/01 General/04 Scheduled Tasks.htm" />
+      <TocEntry
+        Title="Scheduled Task Setup Form"
+        Link="/Content/AdminModule Chapters/01 General/05 Scheduled Task Setup Form.htm" />
+      <TocEntry
+        Title="System Notifications"
+        Link="/Content/AdminModule Chapters/01 General/06 System Notifications.htm" />
+      <TocEntry
+        Title="System Startup Messages"
+        Link="/Content/AdminModule Chapters/01 General/07 System Startup Messages.htm" />
+      <TocEntry
+        Title="System Message Administration Form"
+        Link="/Content/AdminModule Chapters/01 General/08 System Message Administration Form.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="PDQs"
+      Link="/Content/AdminModule Chapters/02 PDQs/00 PDQs.htm">
+      <TocEntry
+        Title="Default PDQ Setup"
+        Link="/Content/AdminModule Chapters/02 PDQs/01 Default PDQ Setup.htm" />
+      <TocEntry
+        Title="Default PDQ Setup PDQ"
+        Link="/Content/AdminModule Chapters/02 PDQs/02 Default PDQ Setup PDQ.htm" />
+      <TocEntry
+        Title="PDQ Administration"
+        Link="/Content/AdminModule Chapters/02 PDQs/03 PDQ Administration.htm" />
+      <TocEntry
+        Title="PDQ Administration Form"
+        Link="/Content/AdminModule Chapters/02 PDQs/04 PDQ Administration Form.htm" />
+      <TocEntry
+        Title="PDQ View Administration"
+        Link="/Content/AdminModule Chapters/02 PDQs/05 PDQ View Administration.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Security"
+      Link="/Content/AdminModule Chapters/03 Security/00 Security.htm">
+      <TocEntry
+        Title="Dictionary Table Access"
+        Link="/Content/AdminModule Chapters/03 Security/01 Dictionary Table Access.htm" />
+      <TocEntry
+        Title="Employee Administration"
+        Link="/Content/AdminModule Chapters/03 Security/02 Employee Administration.htm" />
+      <TocEntry
+        Title="Employee Information Form"
+        Link="/Content/AdminModule Chapters/03 Security/03 Employee Information Form.htm" />
+      <TocEntry
+        Title="Employee Role Assignments"
+        Link="/Content/AdminModule Chapters/03 Security/04 Employee Role Assignments.htm" />
+      <TocEntry
+        Title="Employees Per Role"
+        Link="/Content/AdminModule Chapters/03 Security/05 Employees Per Role.htm" />
+      <TocEntry
+        Title="Office Administration"
+        Link="/Content/AdminModule Chapters/03 Security/06 Office Administration.htm" />
+      <TocEntry
+        Title="Office Information Form"
+        Link="/Content/AdminModule Chapters/03 Security/07 Office Information Form.htm" />
+      <TocEntry
+        Title="Pre/Post Dating Administration with Order"
+        Link="/Content/AdminModule Chapters/03 Security/08 PrePost Dating Administration with Order.htm" />
+      <TocEntry
+        Title="Pre/Post Dating Administration Form"
+        Link="/Content/AdminModule Chapters/03 Security/09 PrePost Dating Administration Form.htm" />
+      <TocEntry
+        Title="Role Administration"
+        Link="/Content/AdminModule Chapters/03 Security/10 Role Administration.htm" />
+      <TocEntry
+        Title="Role Administration Form"
+        Link="/Content/AdminModule Chapters/03 Security/11 Role Administration Form.htm" />
+      <TocEntry
+        Title="Terminated Employees"
+        Link="/Content/AdminModule Chapters/03 Security/13 Terminated Employees.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="System 7"
+      Link="/Content/AdminModule Chapters/04 System 7/00 System 7.htm">
+      <TocEntry
+        Title="Form Administration Grid"
+        Link="/Content/AdminModule Chapters/04 System 7/01 Form Administration Grid.htm" />
+      <TocEntry
+        Title="Form Administration Form"
+        Link="/Content/AdminModule Chapters/04 System 7/02 Form Administration Form.htm" />
+      <TocEntry
+        Title="Link Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/03 Link Administration.htm" />
+      <TocEntry
+        Title="Menu Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/04 Menu Administration.htm" />
+      <TocEntry
+        Title="Menu Item Administration Form"
+        Link="/Content/AdminModule Chapters/04 System 7/05 Menu Item Administration Form.htm" />
+      <TocEntry
+        Title="Report Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/06 Report Administration.htm" />
+      <TocEntry
+        Title="Report Administration Form"
+        Link="/Content/AdminModule Chapters/04 System 7/07 Report Administration Form.htm" />
+      <TocEntry
+        Title="Report Category Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/08 Report Category Administration.htm" />
+      <TocEntry
+        Title="Status Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/09 Status Administration.htm" />
+      <TocEntry
+        Title="Status Edit Checks Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/10 Status Edit Checks Administration.htm" />
+      <TocEntry
+        Title="Status Form Launching Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/11 Status Form Launching Administration.htm" />
+      <TocEntry
+        Title="Status Form Launching Settings Form"
+        Link="/Content/AdminModule Chapters/04 System 7/12 Status Form Launching Settings Form.htm" />
+      <TocEntry
+        Title="Tool Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/13 Tool Administration.htm" />
+      <TocEntry
+        Title="Tool Administration Form"
+        Link="/Content/AdminModule Chapters/04 System 7/14 Tool Administration Form.htm" />
+      <TocEntry
+        Title="User Preference Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/15 User Preference Administration.htm" />
+      <TocEntry
+        Title="External User Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/16 External User Administration.htm" />
+      <TocEntry
+        Title="External User Administration Form"
+        Link="/Content/AdminModule Chapters/04 System 7/17 External User Administration Form.htm" />
+      <TocEntry
+        Title="Data Field Administration"
+        Link="/Content/AdminModule Chapters/04 System 7/18 Data Field Administration.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Working with User Roles"
+      Link="/Content/AdminModule Chapters/07 Working with User Roles/00 Working with User Roles.htm">
+      <TocEntry
+        Title="A La Carte Roles"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/A La Carte Roles.htm" />
+      <TocEntry
+        Title="Applying User Roles to Forms"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/Applying User Roles to Forms.htm" />
+      <TocEntry
+        Title="Example of ACL Effectiveness in Forms"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/Example of ACL Effectiveness in Forms.htm" />
+      <TocEntry
+        Title="Role Specifiers"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/Role Specifiers.htm" />
+      <TocEntry
+        Title="Role-Based Security"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/Role-Based Security.htm" />
+      <TocEntry
+        Title="Setting a Default PDQ for a New User Role"
+        Link="/Content/AdminModule Chapters/07 Working with User Roles/Setting a Default PDQ for a New User Role.htm" />
+      <TocEntry
+        Title="View System Roles"
+        Link="/Content/Libera Global Content/CH03 - PDQs/ViewSystemRoles.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Glossary"
+    Link="/Content/Print Only Topics/Glossary.htm" />
+</CatapultToc>

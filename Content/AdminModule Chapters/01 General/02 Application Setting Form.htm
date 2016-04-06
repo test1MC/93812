@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1809" MadCap:lastWidth="946" MadCap:conditions="General.AdminMod">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Use the Application Setting form to edit application settings." />
+    </head>
+    <body>
+        <h1>Application Setting Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/AppSettForm.png" title="Application Setting form." alt="Application Setting form." />
+            <br /><span class="LIB_Caption">Application Setting form.</span>
+        </p>
+        <p class="LIB_Bold">Overview</p>
+        <p>The <span class="LIB_Italic">Application Setting</span>  form is used when editing configurable application settings for your Agency.</p>
+        <p class="LIB_Bold">Prerequisites</p>
+        <p>Users must have System Administration rights to access this form.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p class="LIB_Bold">Form Fields</p>
+        <ul>
+            <li>The <span class="LIB_Bold">Value</span> field is related to the title and description of the setting. If the application setting mentions a "...listing of forms...", "...list of roles...", "Calculate the OOS always", "Show X", or "...number of days..." the value is the response. For example if the setting is "Number of days before an attachment becomes locked" and the value is 10. 10 is the number of days.</li>
+            <li>Settings can also have <span class="LIB_Italic">Extended Settings</span>. The use of <span class="LIB_Italic">Extended Settings</span> allows you to apply different settings to different components.</li>
+        </ul>
+        <p class="LIB_Bold">Extended Settings</p>
+        <ul>
+            <li>When extended settings are allowed for an application setting, you may add as many as necessary. </li>
+            <li>When a setting has extended settings do not assume the current value displayed in the grid applies to all components associated with the setting.</li>
+            <li>To use the extended settings you must have the component number on hand, there is not a lookup for this value at this time. You can get the component number from one of the following administration tables:<ul><li>In the <span class="LIB_Italic">Form Administration</span> table, the component number for the form is the <span class="LIB_Bold">Template ID #</span>.</li><li>In the<span class="LIB_Italic"> PDQ Administration</span> table, the component number for the PDQ is the <span class="LIB_Bold">PDQ XML ID</span>.</li><li>In the <span class="LIB_Italic">Status Edit Checks Administration</span> table, the component number for the edit check is the <span class="LIB_Bold">EditCheck ID</span>.</li></ul></li>
+            <li>The first row of fields are as follow:<ul><li><span class="LIB_Bold">Sequence Number</span> - If there are multiple extended settings they are processed in <span class="LIB_Bold">Sequence Number</span> order. Initially this field is blank, but when you enter a value into any other field in the section (any field within the yellow background) it automatically populates. If you move the sections up or down, the value in this field automatically updates.</li><li><span class="LIB_Bold">ACL (Roles)</span> - Use this field to specify settings based on user role. Leaving it blank means it applies to all user roles.</li><li><span class="LIB_Bold">Component Type</span> - Use when you're associating this extended setting with a specific component. Select the type that matches the component. For example, if it's a PDQ, select PDQ from the lookup.</li><li><span class="LIB_Bold">Component Number</span> - Use this field to specify settings based on component number. Leaving it blank means it applies to all components.</li></ul></li>
+            <li>Use the <span class="LIB_Bold">Effective Dates</span> fields to apply start and end dates to extended settings. Both date fields are optional and are not required to be used together. You can have a start date without an end date and vice versa.</li>
+            <li>The <span class="LIB_Bold">Custom Criteria</span> field is for Libera use only.</li>
+            <li>When an extended setting is in use, the <span class="LIB_Bold">Value</span> field within the <span class="LIB_Italic">Extended Settings</span> section is applied to the component or ACL within the section and overrides the global <span class="LIB_Bold">Value</span> setting at the top of the form for that specific component or ACL. The global value still applies to all other components or ACLs.</li>
+        </ul>
+        <p class="LIB_Bold">Test Settings</p>
+        <p>The <span class="LIB_Italic">Test Settings</span> section can be used to see how the settings in the form are applied by component and/or User.</p>
+        <ul>
+            <li>Selecting a <span class="LIB_Bold">Component Type/Component Number</span> is optional. If left blank, the test is run against the user roles of the selected User instead.</li>
+            <li>If you don't select a <span class="LIB_Bold">User</span> other than yourself, it tests the setting against the user roles associated with your logon compared to the user roles, if any, associated with the setting.</li>
+            <li>When testing, the <span class="LIB_Bold">Reference Date</span> is compared against the <span class="LIB_Bold">Effective Dates</span> in the <span class="LIB_Italic">Extended Settings</span> section.</li>
+            <li>Use the <span class="LIB_Bold">Get Value</span> button to show the <span class="LIB_Bold">Value</span> as its applied to the component and/or user selected.</li>
+        </ul>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="01 Application Settings Administration.htm">Application Settings</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

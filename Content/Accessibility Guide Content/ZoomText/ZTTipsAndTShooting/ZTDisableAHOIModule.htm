@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="565" MadCap:lastWidth="624">
+    <head>
+    </head>
+    <body>
+        <h1>Disabling the AHOI Module</h1>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> The AHOI Module is already disabled in ZoomText version 10, so the following solution is for versions previous to 10.</p>
+        <p>ZoomText fails to track and speak items in the Case Management screens; there are also issues with other ZoomText features such as Mouse Echo.</p>
+        <p><span class="LIB_Italic">Current Solution:</span>
+        </p>
+        <p>To disable ZoomText's AHOI processing for a specific Web site:</p>
+        <ol>
+            <li>On the Windows Desktop, right-click  on the ZoomText program icon or use the hot key SHIFT+F10.</li>
+            <li>In the pop-up application menu select <span class="LIB_Bold">Properties</span>. The ZoomText 9.1 Properties dialog opens.</li>
+            <li>Select the <span class="LIB_Bold">Find Target </span>button. (Windows 7 users select the <span class="LIB_Bold">Open File Location</span> button. Windows Explorer opens ZoomText’s program folder.</li>
+            <li>Locate and open the file: <span class="LIB_Bold">AHOI\ah_ie_punt_url.txt</span>. This opens the file in a text editor such as Windows Notepad.</li>
+            <li>Add the domain (URL) for the System 7™ web site as a new line in the file. For example, "https://application.libera.com/..." The inclusion of the forward slash and three periods at the end of the URL tells ZoomText to disable the AHOI module for all pages nested within the directories of the defined URL as well as specialized processing throughout the Web site.</li>
+            <li>In the <span class="LIB_Italic">File</span> menu, select the <span class="LIB_Bold">Save</span> option.</li>
+            <li>Exit the text editor application.</li>
+            <li>Exit and restart ZoomText and Internet Explorer.</li>
+        </ol>
+        <p class="LIB_Note"><span class="LIB_Bold">Note:</span> For more information, visit the Web site of AISquared, makers of ZoomText: <a href="http://www.aisquared.com/Support/" title="http://www.aisquared.com/Support/" alt="http://www.aisquared.com/Support/">http://www.aisquared.com/Support/</a>.</p>
+    </body>
+</html>

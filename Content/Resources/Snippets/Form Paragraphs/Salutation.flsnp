@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="131" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <p><span class="LIB_Bold">Salutation </span>– If applicable, type the appropriate salutation used with letters in the system. When this field is left blank, the salutation on the letter will use the <MadCap:variable name="Terminology.client_lc" />'s first and last name, and title if one is included on this form.</p>
+        <p>For example, if the <MadCap:variable name="Terminology.client_lc" />'s name is Robert Smith and you leave the salutation field blank, letters will start with "Dear Robert Smith," or, if a title is available, "Dear Mr. Robert Smith".</p>
+        <p>If a salutation is added, for example Bob for Robert, letters will start with "Dear Bob," instead.</p>
+    </body>
+</html>

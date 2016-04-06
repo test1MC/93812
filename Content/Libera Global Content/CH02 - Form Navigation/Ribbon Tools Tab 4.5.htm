@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1617" MadCap:lastWidth="994" MadCap:conditions="General.DotNet45">
+    <head>
+        <meta name="description" content="Ribbon: Tools Tab - General Grouping, Audit Grouping." />
+    </head>
+    <body>
+        <h1>Ribbon: Tools Tab</h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/Core/45_TABTools.png" title="Tools Tab." alt="Tools Tab." />
+            <br /><span class="LIB_Caption">Tools Tab.</span>
+        </p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Sys7 4.5/RibbonTabGroupingsOptionsDisclaimer.flsnp" />
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>General Grouping</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li><span class="LIB_Bold">Check Spelling</span> - Opens <span class="LIB_Italic">Spell Check</span> window. Hotkey: F7.</li>
+                </ul>
+                <blockquote>
+                    <p><span class="LIB_Bold">Spell Check Window</span>
+                    </p>
+                    <p>
+                        <img src="../../LIB_Images/Core/SpellCheckDialogWindow.png" title="Spelll Check Window." alt="Spelll Check Window." />
+                        <br /><span class="LIB_Caption">Spelll Check Window.</span>
+                    </p>
+                    <ul>
+                        <li><span class="LIB_Bold">Word Not in Dictionary</span> - Displays misspelled/unidentified word in red.</li>
+                        <li><span class="LIB_Bold">Change To</span> - Displays selected suggestion. Alternatively you may type the correct spelling.</li>
+                        <li><span class="LIB_Bold">Suggestions</span> - List of suggested correctly spelled words.</li>
+                    </ul>
+                    <p>&#160;</p>
+                    <p>Press SPACEBAR or click to activate the following buttons.</p>
+                    <ul>
+                        <li><span class="LIB_Bold">Ignore</span> - Ignores misspelled word. Hotkey: ALT+I (i).</li>
+                        <li><span class="LIB_Bold">Ignore All</span> - Ignores all instances of misspelled word. Hotkey: ALT+A.</li>
+                        <li><span class="LIB_Bold">Add</span> - Adds word to spell check dictionary. Hotkey: ALT+A.</li>
+                        <li><span class="LIB_Bold">Replace</span> - Replaces misspelled word with <span class="LIB_Bold">Change To</span> word. Hotkey: ALT+R.</li>
+                        <li><span class="LIB_Bold">Replace All</span> - Replaces all instances of misspelled word with <span class="LIB_Bold">Change To</span> word. Hotkey: ALT+E.</li>
+                        <li><span class="LIB_Bold">Cancel</span> - Closes Spell Check dialog window. Hotkey: ALT+C.</li>
+                    </ul>
+                </blockquote>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Audit Grouping</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li><span class="LIB_Bold">Form Change History</span> - Opens the Data Audit Change History Tool in a new window. Please note that not all users will have access to this option. Access to these tools is controlled by your System Administrator. This window will display a PDQ containing the following information:<ul><li><span class="LIB_Bold">Date/Time</span> - Just like the Data Watch Audit Log, actions are listed with the most recent at the top. Dates and times are displayed in the form MM/DD/YYYY HH:MM:SS AM/PM.</li><li><span class="LIB_Bold">Table and Column</span> - These list the data table and the column within it changed by the action. If the action was editing a field, then the Column may likely be similar to the field name.</li><li><span class="LIB_Bold">Old Value and Value</span> - These are the values in the data table (and, in some cases, the form field) before and after the action was taken. The <span class="LIB_Bold">Old Value</span> column is most useful for restoring lost data.</li><li><span class="LIB_Bold">Action</span> - Like Flags in the Data Watch Audit Log, this is a simple description of the action taken. Possible values are "Updated" for changing the data in a field and "User Activity" for loading and viewing forms.</li><li><span class="LIB_Bold">Primary Key and Primary Key#</span> - A primary key can be a number or a string of text. Whichever type of primary key is used for this action, it will be recorded in the appropriate column.</li><li>Sometimes the <span class="LIB_Bold">Primary Key</span> may not be always be the same as the primary key of the data table, but some other useful information, such as the user name used to log on.</li><li><span class="LIB_Bold">User Name</span> - This is the name of the user that performed the action.</li></ul></li>
+                </ul>
+                <p>&#160;</p>
+                <ul>
+                    <li><span class="LIB_Bold">Field Change History</span> - Opens a PDQ in a new window. Please note that not all users will have access to this option. Access to these tools is controlled by your System Administrator. This one will only list information about actions performed on whichever field that the cursor focus is currently in. If it is selected without the cursor focus in any field, then nothing will happen. Field Change History is not available for all fields in a form. If not available for the field you have selected, a message will appear recommending that users utilize the Form Change History option. The information displayed includes:<ul><li><span class="LIB_Bold">Date/Time</span> - Just like the Data Watch Audit Log, actions are listed with the most recent at the top. Dates and times are displayed in the form MM/DD/YYYY HH:MM:SS AM/PM.</li><li><span class="LIB_Bold">Old Value and Value</span> - These are the values in the data table (and, in some cases, the form field) before and after the action was taken. The <span class="LIB_Bold">Old Value</span> column is most useful for restoring lost data.</li><li><span class="LIB_Bold">Action</span> - Like Flags in the Data Watch Audit Log, this is a simple description of the action taken.</li><li><span class="LIB_Bold">Form</span> - This lists the name of the form the field is in followed by the date that this particular instance of the form was created.</li><li><span class="LIB_Bold">User Name</span> - This is the name of the user that performed the action.</li></ul></li>
+                </ul>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="209" MadCap:lastWidth="1072">
+    <head>
+    </head>
+    <body>
+        <h4>Fields within the Body</h4>
+        <p class="LIB_Img">
+            <img src="../../../LIB_Images/Letters/LTRS_FieldsInBody.png" title="Example of fields in the body of a letter." alt="Example of fields in the body of a letter." />
+        </p>
+        <p class="LIB_Img"><span class="LIB_Caption">Example of fields in the body of a letter.</span>
+        </p>
+        <p>Some letters have fields within the body of the letter. They should be filled out prior to printing or viewing the letter in print preview.</p>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="CO-CICMS_Include"
+    BackgroundColor="#00bfff" />
+  <ConditionTag
+    Comment=""
+    Name="CO-CICMS_Exclude"
+    BackgroundColor="#a0522d" />
+</CatapultConditionTagSet>

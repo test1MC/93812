@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4366" MadCap:lastWidth="994" MadCap:conditions="General.AdminMod,SADOPS.SADOPS_Include">
+    <head><title>Employee Information Form</title>
+        <link href="../../Resources/Stylesheets/LiberaGlobalStyleSheet.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="The Employee Information form is used to add employees/users to the system. Use this form to maintain employee data, caseload and team assignments, and user rights within the system." />
+    </head>
+    <body>
+        <h1>Employee Information Form<MadCap:concept term="Form" /></h1>
+        <p class="LIB_Img">
+            <img src="../../LIB_Images/AdminModule/EmpInfoForm.png" title="Employee Information form." alt="Employee Information form." />
+            <br /><span class="LIB_Caption">Top portion of the Employee Information form.</span>
+        </p>
+        <p>&#160;</p>
+        <p>The <span class="LIB_Italic">Employee Information</span> form is used to add employees/users to the system. Use this form to maintain employee data, caseload and team assignments, and user rights within the system.</p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Form Paragraphs/FormNav.flsnp" />
+        <p class="LIB_Bold">&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Employee Data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Much of data in this section pulls into other forms in the system or affects what data the employee may see.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Worker ID</span> - This is a unique identification "number" that appears in the client's <span class="LIB_Italic">Electronic Case Folder</span> (ECF) and depending on your Agency's application settings in <span class="LIB_Italic">Case Notes</span>. You may enter up to three alpha or numerical characters. This data is required when assigning employees to caseloads and teams.</li>
+                    <li><span class="LIB_Bold">Employee Name</span> and <span class="LIB_Bold">Title</span> - This information is often pulled into many different forms in the application. The employee's title does not designate their user role in the application.</li>
+                    <li><span class="LIB_Bold">Termination Date</span> - When an employee is terminated enter the date terminated here. You don't want to delete them from the application because their name and ID numbers are needed for historic reference.</li>
+                    <li><span class="LIB_Bold">Office </span>- This field is required. It links the employee to the office they work in which gives them access to the appropriate budget accounts and client data. Also associates them with a district/region. When the employee changes offices, update this field with the new office.</li>
+                    <li><span class="LIB_Bold">Supervisor</span> - Required. There is built in functionality within the system that calls to this information. For example a form that the employee opens and fills out may require a supervisor signature. The supervisor's name comes from this field. When an employee gets a new supervisor, update this field accordingly.</li>
+                    <li><span class="LIB_Bold">Phone, Fax, Cell, TTY, Email</span> - Depending on your Agency's settings some or all of this information may flow into form headers, form letters, and in signature sections of various forms.</li>
+                    <li><span class="LIB_Bold">Team to assign when adding a new client (If empty, employee will be assigned)</span> - Optional. When clients are added to the system, the employee who adds them automatically appears as a worker assignment in the case assignment section of the <span class="LIB_Italic">Demographic Information</span> form. Selecting a team from the lookup/picklist for this field, overrides the automatic worker assignment. Instead, the selected team automatically appears in the case assignment section of the <span class="LIB_Italic">Demographic Information</span> form.</li>
+                </ul>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Authorization Settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoAuthSection.png" title="Authorization setting section of the Employee Information form." alt="Authorization setting section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">Authorization setting section of the Employee Information form.</span>
+                </p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Completing this section is optional.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Authorization Level</span> - This applies to the employee who writes the authorization. When used, it limits the maximum dollar amount the employee can authorize per authorization. To use this field, type up to eight numeric characters to represent a whole dollar amount. When you tab out of the field the dollar sign, commas, and decimal point appear automatically. Should the authorization amount be over the employee's limit, an additional signature line for the employee's supervisor is added to the authorization form.</li>
+                    <li><span class="LIB_Bold">Increase Authorizations</span> - This applies to the employee who writes the authorization. After the authorization is approved...<br /><br />... A <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>) response means that employee cannot go over the original approved amount.<br /><br />... A <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) or if the field is left blank, response means that they can go over by the percentage specified in the <span class="LIB_Bold">% Authorization Increase</span> field.</li>
+                    <li><span class="LIB_Bold">Require original signator to approve changes</span> - When marked <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) and the employee makes changes to an authorization after it is approved and those changes would cause an additional signature line to be added, this setting causes an additional signature line for the user who originally signed the authorization instead of the supervisor of the user that made the change.</li>
+                    <li><span class="LIB_Bold">Program</span> - Allows you to set authorization limits by program for the employee. All of the fields in the <span class="LIB_Italic">Authorization Limits</span> section are related to the program selected. If a program is not selected, the other fields are applied to all programs. <span class="LIB_Bold">Note:</span> You may set authorization limits for multiple programs and <span class="LIB_Bold">Account Identifiers</span>.</li>
+                    <li><span class="LIB_Bold">Account Identifier</span> - Field opens for editing once a <span class="LIB_Bold">Program</span> is selected. Allows you to specify an Account Identifier for the selected program. This affects the account selection process on <span class="LIB_Italic">Authorization</span> forms.</li>
+                    <li><span class="LIB_Bold">% Authorization Increase</span> - This applies to the employee who writes the authorization. Use this in conjunction with the <span class="LIB_Bold">Increase Authorizations</span> field. <span class="LIB_Bold">Note:</span> if the response to Increase Authorizations is No, entering a value into this field will not change anything. Type a numeric value between .01 and 1000 for the percent.<br /><br />After the authorization is approved and the employee is allowed to increase the authorization amount, the employee may increase the amount of the authorization by the percent entered.<br /><br />For example, if the original approved amount of the authorization was $1,000.00, and the employee's increase authorization percentage is 10%, the maximum amount the authorization could be increased to is $1,100.00.</li>
+                    <li><span class="LIB_Bold">Amount Authorization Increase</span> - You may allow authorization increases by percentage <span class="LIB_Bold">OR</span> specific amount, not both. When you limit by amount, the employee may only increase authorizations up to the amount entered and only if the response to <span class="LIB_Bold">Increase Authorizations?</span> is <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>).</li>
+                    <li><span class="LIB_Bold">Required Role</span> - When filled in, an additional signature line appears on authorization forms for users with this role instead of the employee's direct supervisor when the employee reaches his/her authorization limits.</li>
+                    <li><span class="LIB_Bold">Yearly Authorization Limit</span> - This applies to the employee requesting the authorization. When used, it limits the maximum dollar amount the employee can authorize per year. To use this field, type up to eight numeric characters to represent a whole dollar amount. When you tab out of the field the dollar sign, commas, and decimal point appear automatically. Employees will not be able to write any authorizations when their yearly authorization limit is met.</li>
+                </ul>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>User Rates</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoUserRates.png" title="User Rates section of the Employee Information form." alt="User Rates section of the Employee Information form." />
+                    <br /><span class="LIB_Italic">User Rates section of the Employee Information form.</span>
+                </p>
+                <p>&#160;</p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Completing this section is optional.</p>
+                <p>User Rates are specifically tied to fiscal progress notes of any progress report form for any program. If the note is written by a vendor, then the pricing tiers are open to select from in the progress report form. If the note is written by an employee, that is not a vendor providing that service, the rates pull from the user rates entered.</p>
+                <p>You may add as many user rate sections as needed. Enter user rates if this employee provides services for the agency. The fields in this section allow you to specify the rate and the account the funds should come out of based on the values entered for program, account identifier, and special project.</p>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>System Notifications</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoSysNotifications.png" title="System Notifications section of the Employee Information form." alt="System Notifications section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">System Notifications section of the Employee Information form.</span>
+                </p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Completing this section is optional.</p>
+                <p>The <span class="LIB_Italic">Available System Notifications</span> section varies depending on which system notifications used by your agency. This is controlled within the <span class="LIB_Bold">System Notifications</span> option in the <span class="LIB_Italic">System Administration</span> module. Only active notifications appear in the <span class="LIB_Italic">Employee Information</span> form.</p>
+                <p>You can sign an employee up to receive any of the available notifications by responding <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) to the <span class="LIB_Bold">Subscribe?</span> field for notification. This causes their email address to automatically populate the <span class="LIB_Bold">Send To</span> field. To stop sending a notification, change the response to <span class="LIB_Bold">N</span> (<span class="LIB_Italic">No</span>) and clear the <span class="LIB_Bold">Send To</span> field.</p>
+                <p>Notifications send a system generated email to the employee any time the criteria of a notification is met.</p>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>User Authentication Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoUserAuthInfo.png" title="User Authentication Information section of the Employee Information form." alt="User Authentication Information section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">User Authentication Information section of the Employee Information form.</span>
+                </p>
+                <p>This is where you give employees log on credentials to the system.</p>
+                <p>If your Agency uses Windows Authentication or an External Authentication mechanism, so employees don't have to enter a user name and password every time they use the system, make the Username equal to their network log on. There is no need to create a password for employees in this instance. Optionally, if you allow employees to use the system remotely, outside of a VPN, you may enter a password. This would be used when using the system outside of your internal network.</p>
+                <p>If your Agency doesn't use Windows Authentication or an External Authentication mechanism, you must create a <span class="LIB_Bold">Username</span> and <span class="LIB_Bold">Password</span> for employees. They will use this Username and Password every time they want to use the system.</p>
+                <p>You may set rules for passwords with <span class="LIB_Italic">Application Settings</span> within the <span class="LIB_Italic">System Administration</span> module. When applied, you won't be allowed to enter passwords that don't meet the criteria you set.</p>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Employee Roles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoEmpRoles.png" title="Employee Roles section of the Employee Information form." alt="Employee Roles section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">Employee Roles section of the Employee Information form.</span>
+                </p>
+                <p><span class="LIB_Bold">Employee Roles</span> are what gives employees access to various forms, PDQs, reports, tools, and other functionality within the system. You may add as many roles as necessary to employees.</p>
+                <p><span class="LIB_Bold">Primary Role?</span> determines which <span class="LIB_Italic">Default PDQs</span> load when the employee selects a module from the <span class="LIB_Italic">Application Home Page</span>.</p>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Team Administration</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoTeamAdmin.png" title="Team Administration section of the Employee Information form." alt="Team Administration section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">Team Administration section of the Employee Information form.</span>
+                </p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Completing this section is optional if your Agency won't be using <span class="LIB_Bold">Caseload</span> or <span class="LIB_Bold">Team Assignments</span>. Otherwise, it should be completed.</p>
+                <p>This section shows the <span class="LIB_Bold">Team</span> and <span class="LIB_Bold">Caseload Assignments</span> for the employee. They have the same fields and work the same way.</p>
+                <ul>
+                    <li><span class="LIB_Bold">Caseload/Team</span> – The lookup options are grouped first by the office, then by caseload/team. Expand the grouped rows to see the employees assigned to the caseload/team. Selecting an employee selects the caseload/team. This action closes the lookup and populates the <span class="LIB_Bold">Caseload/Team</span> field with your selection.</li>
+                    <li><span class="LIB_Bold">Start Date</span> – This is the date the assignment started or will start. Clearing the <span class="LIB_Bold">Start Date</span> clears the <span class="LIB_Bold">Primary</span> flag (if selected).</li>
+                    <li><span class="LIB_Bold">End Date</span> – This is the date that the assignment ended or will end. <ul><li>If you specify an <span class="LIB_Bold">End Date</span> that is before today, the <span class="LIB_Bold">Primary</span> option is locked after an amount of time set by your Agency.</li><li>If blank, this field remains open for editing after the other fields lock. It will lock after a date is entered.</li></ul></li>
+                    <li><span class="LIB_Bold">Primary?</span> – Press SPACEBAR to select the assignment as the primary assignment. A <span class="LIB_Bold">Y</span> (<span class="LIB_Italic">Yes</span>) indicates that it is selected.<ul><li>If a caseload/team does not have a primary counselor designated, you may not select it as the <span class="LIB_Bold">Primary</span> caseload for a client.</li><li>Changing the <span class="LIB_Bold">Primary</span> selection on historic assignments will not affect current assignments.</li></ul></li>
+                </ul>
+                <p class="LIB_Bold">&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Delegate Information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="LIB_Img">
+                    <img src="../../LIB_Images/AdminModule/EmpInfoDelegateInfo.png" title="Delegate Information section of the Employee Information form." alt="Delegate Information section of the Employee Information form." />
+                    <br /><span class="LIB_Caption">Delegate Information section of the Employee Information form.</span>
+                </p>
+                <p class="LIB_Note"><span class="LIB_Bold">Note:</span> Completing this section is optional.</p>
+                <p>Delegates are employees that can fill in for another employee should that employee be unavailable for an extended period of time. Usually, delegates will have the same or greater rights within the system. You may add as many delegates as necessary.  You may add and remove delegates as necessary.</p>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:snippetBlock src="../../Resources/Snippets/RelatedTopics.flsnp" />
+        <ul>
+            <li>
+                <MadCap:xref href="../../Libera Global Content/CH02 - Form Navigation/00 Form Functionality.htm">Form Functionality</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="02 Employee Administration.htm">Employee Administration</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="../06 Application Settings/Show the Electronic Signature section on the Employee Frm.htm">Show the Electronic Signature section on the Employee Form</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>
